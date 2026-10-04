@@ -1,0 +1,5546 @@
+{
+   "Pompey Pirates Disk 1": {
+      "Games": "NEW ZEALAND STORY",
+      "File": "PP_001.MSA"
+   },
+   "Pompey Pirates Disk 1v2": {
+      "Games": "GRIDRUNNER, HEAD OVER HEELS, NEW ZEALAND STORY, RICK DANGEROUS, STACK UP",
+      "File": "PP_001V2.MSA"
+   },
+   "Pompey Pirates Disk 2": {
+      "Games": "SILKWORM, AMMOTRACK, MYTH, ELITE",
+      "File": "PP_002.MSA"
+   },
+   "Pompey Pirates Disk 3": {
+      "Games": "AFRICAN RAIDERS, MANIAX",
+      "File": "PP_003.MSA"
+   },
+   "Pompey Pirates Disk 4": {
+      "Games": "SLEEPING GODS LIE",
+      "File": "PP_004.MSA"
+   },
+   "Pompey Pirates Disk 5": {
+      "Games": "TV SPORTS FOOTBALL, LOMBARD RAC RALLY",
+      "File": "PP_005.MSA"
+   },
+   "Pompey Pirates Disk 6": {
+      "Games": "F16-COMBAT PILOT, F-16 EDITOR, MIDI MAZE",
+      "File": "PP_006.MSA"
+   },
+   "Pompey Pirates Disk 7": {
+      "Games": "XENON II: MEGABLAST",
+      "File": "PP_007.MSA"
+   },
+   "Pompey Pirates Disk 7v2": {
+      "Games": "XENON II: MEGABLAST",
+      "File": "PP_007.MSA"
+   },
+   "Pompey Pirates Disk 8": {
+      "Games": "DREAM ZONE, PASSING SHOT",
+      "File": "PP_008.MSA"
+   },
+   "Pompey Pirates Disk 9": {
+      "Games": "SLAYER (1 MEG), MR. HELI, 5TH GEAR",
+      "File": "PP_009.MSA"
+   },
+   "Pompey Pirates Disk 10": {
+      "Games": "POPULOUS - THE PROMISED LANDS, FUSION",
+      "File": "PP_010.MSA"
+   },
+   "Pompey Pirates Disk 11 ": {
+      "Games": "DYNAMITE DUX, PAPERBOY",
+      "File": "PP_011.MSA"
+   },
+   "Pompey Pirates Disk 12": {
+      "Games": "OIL IMPERIUM",
+      "File": "PP_012.MSA"
+   },
+   "Pompey Pirates Disk 13(I)": {
+      "Games": "BANGKOK KNIGHTS, FAST LANE",
+      "File": "PP_013.MSA"
+   },
+   "Pompey Pirates Disk 13(II)": {
+      "Games": "BATMAN, LASER SQUAD",
+      "File": "PP_013_2.MSA"
+   },
+   "Pompey Pirates Disk 13(III)": {
+      "Games": "S.E.U.C.K., KID GLOVES",
+      "File": "PP_013_3.MSA"
+   },
+   "Pompey Pirates Disk 13(IV)": {
+      "Games": "AWESOME, STe FIX FOR PP53, POMPEY COLLECTION FILE CHECKER (PP1-75)",
+      "File": "PP_013_4A.MSA"
+   },
+   "Pompey Pirates Disk 13(V)": {
+      "Games": "MOONSHINE RACERS, SUPERCARS II, 3D CONSTRUCTION SET",
+      "File": "PP_013_5A.MSA"
+   },
+   "Pompey Pirates Disk 14": {
+      "Games": "OOZE, RECOIL",
+      "File": "PP_014.MSA"
+   },
+   "Pompey Pirates Disk 15": {
+      "Games": "STAR WARS , H.A.T.E., R-TYPE",
+      "File": "PP_015.MSA"
+   },
+   "Pompey Pirates Disk 16": {
+      "Games": "ALTERED BEAST, TERRY'S BIG ADVENTURE",
+      "File": "PP_016.MSA"
+   },
+   "Pompey Pirates Disk 17": {
+      "Games": "STRIDER, STUNT CAR RACER",
+      "File": "PP_017.MSA"
+   },
+   "Pompey Pirates Disk 18v2": {
+      "Games": "BATMAN (1 MEG), SNOOPY, INVADERS",
+      "File": "PP_018.MSA"
+   },
+   "Pompey Pirates Disk 18": {
+      "Games": "BATMAN (1 MEG), SNOOPY, TOOBIN'",
+      "File": "PP_018V2.MSA"
+   },
+   "Pompey Pirates Disk 19": {
+      "Games": "COMMANDO, LANCASTER, D.A.S.H.",
+      "File": "PP_019.MSA"
+   },
+   "Pompey Pirates Disk 20": {
+      "Games": "INTERPHASE, HARD DRIVIN', SUPER SCRAMBLE SIMULATOR",
+      "File": "PP_020.MSA"
+   },
+   "Pompey Pirates Disk 21": {
+      "Games": "GHOULS 'N' GHOSTS, KICK OFF - EXTRA TIME, DISKTOOL",
+      "File": "PP_021.MSA"
+   },
+   "Pompey Pirates Disk 22": {
+      "Games": "FIGHTER BOMBER",
+      "File": "PP_022.MSA"
+   },
+   "Pompey Pirates Disk 23": {
+      "Games": "FALCON, FALCON MISSION DISK 1, FALCON EDITOR, BELLUM",
+      "File": "PP_023.MSA"
+   },
+   "Pompey Pirates Disk 23v2": {
+      "Games": "FALCON, FALCON MISSION DISK 1, BELLUM",
+      "File": "PP_023V2.MSA"
+   },
+   "Pompey Pirates Disk 24": {
+      "Games": "SWITCHBLADE, AXEL'S MAGIC HAMMER, SKATE TRIBE, AUTOMATION PACKER v2.31",
+      "File": "PP_024.MSA"
+   },
+   "Pompey Pirates Disk 25": {
+      "Games": "PLAYER MANAGER, ULTIMATE DARTS, CONQUEROR, SPY VS SPY II, FASTCOPY III, UIS III",
+      "File": "PP_025.MSA"
+   },
+   "Pompey Pirates Disk 26": {
+      "Games": "BUBBLE BOBBLE, RAINBOW ISLANDS, MUSIC PROGS",
+      "File": "PP_026.MSA"
+   },
+   "Pompey Pirates Disk 26v2": {
+      "Games": "BUBBLE BOBBLE, RAINBOW ISLANDS",
+      "File": "PP_026V2.MSA"
+   },
+   "Pompey Pirates Disk 27": {
+      "Games": "SUPER CARS, X-OUT",
+      "File": "PP_027.MSA"
+   },
+   "Pompey Pirates Disk 28": {
+      "Games": "MIDWINTER, FIX FOR PP20",
+      "File": "PP_028.MSA"
+   },
+   "Pompey Pirates Disk 29": {
+      "Games": "INFESTATION (GAME), INFESTATION (INTRO), LODE RUNNER, TURBO ST",
+      "File": "PP_029.MSA"
+   },
+   "Pompey Pirates Disk 30": {
+      "Games": "E-MOTION, CANVAS, ART ST",
+      "File": "PP_030.MSA"
+   },
+   "Pompey Pirates Disk 31": {
+      "Games": "CROSSBOW, HOTROD (1 MEG), FIX FOR PP12, AUTOMATION PACKER v2.4",
+      "File": "PP_031.MSA"
+   },
+   "Pompey Pirates Disk 31v2": {
+      "Games": "CROSSBOW, HOTROD, FIX FOR PP12, AUTOMATION PACKER v2.4",
+      "File": "PP_031V2.MSA"
+   },
+   "Pompey Pirates Disk 32": {
+      "Games": "WARHEAD, CLOUD KINGDOMS, THE CARTOGRAPHER (512k)",
+      "File": "PP_032.MSA"
+   },
+   "Pompey Pirates Disk 33": {
+      "Games": "IMPOSSAMOLE, DAN DARE III",
+      "File": "PP_033.MSA"
+   },
+   "Pompey Pirates Disk 34": {
+      "Games": "ESCAPE FROM THE PLANET OF THE ROBOT MONSTERS, ATOMIX, AQUANAUT",
+      "File": "PP_034.MSA"
+   },
+   "Pompey Pirates Disk 35": {
+      "Games": "ITALY 1990, CASTLE MASTER, CASTLE MASTER II: THE CRYPT, DEFSEL, CLOUD KINGDOMS TRAINER, FIX FOR NEW ORDER #12",
+      "File": "PP_035.MSA"
+   },
+   "Pompey Pirates Disk 36": {
+      "Games": "DRAGON'S BREATH",
+      "File": "PP_036.MSA"
+   },
+   "Pompey Pirates Disk 37": {
+      "Games": "THE RINGS OF MEDUSA, BLOCKOUT",
+      "File": "PP_037.MSA"
+   },
+   "Pompey Pirates Disk 37v2": {
+      "Games": "RINGS OF MEDUSA, BLOCK OUT",
+      "File": "PP_037V2.MSA"
+   },
+   "Pompey Pirates Disk 38": {
+      "Games": "F-29 RETALIATOR",
+      "File": "PP_038.MSA"
+   },
+   "Pompey Pirates Disk 39": {
+      "Games": "A-DEBUG, KLAX, PACK-ICE v1.13, RESOLUTION 101",
+      "File": "PP_039.MSA"
+   },
+   "Pompey Pirates Disk 40": {
+      "Games": "COLORADO",
+      "File": "PP_040.MSA"
+   },
+   "Pompey Pirates Disk 41": {
+      "Games": "DAMOCLES, DYNASTY WARS, DEVPAC 2.20, FASTLZH",
+      "File": "PP_041.MSA"
+   },
+   "Pompey Pirates Disk 42": {
+      "Games": "LAST NINJA II, NOVA",
+      "File": "PP_042.MSA"
+   },
+   "Pompey Pirates Disk 42v2": {
+      "Games": "LAST NINJA II, NOVA, DAMOCLES MISSION DISK 1, TURBO ST v1.84",
+      "File": "PP_042V2.MSA"
+   },
+   "Pompey Pirates Disk 43": {
+      "Games": "FLOOD, BLUE ANGELS, PACK ICE 2.11, POMPEY PACKER 1.5",
+      "File": "PP_043.MSA"
+   },
+   "Pompey Pirates Disk 44": {
+      "Games": "ROTOX",
+      "File": "PP_044.MSA"
+   },
+   "Pompey Pirates Disk 45": {
+      "Games": "F-19 STEALTH FIGHTER",
+      "File": "PP_045.MSA"
+   },
+   "Pompey Pirates Disk 46": {
+      "Games": "VENUS THE FLYTRAP, YOLANDA",
+      "File": "PP_046.MSA"
+   },
+   "Pompey Pirates Disk 47": {
+      "Games": "ELITE EDITOR, MIDNIGHT RESISTANCE, PINHEAD, ROBOTZ",
+      "File": "PP_047.MSA"
+   },
+   "Pompey Pirates Disk 48": {
+      "Games": "SHERMAN M4 (ENGLISH), POWERBOAT",
+      "File": "PP_048.MSA"
+   },
+   "Pompey Pirates Disk 49": {
+      "Games": "GOLD RUNNER II, TURN IT",
+      "File": "PP_049.MSA"
+   },
+   "Pompey Pirates Disk 50": {
+      "Games": "FIGHTER BOMBER ADVANCED MISSION DISK",
+      "File": "PP_050.MSA"
+   },
+   "Pompey Pirates Disk 51": {
+      "Games": "FALCON MISSION DISK II, FALCON COCKPIT GUIDE, FALCON MAPS, SLY SPY - SECRET AGENT",
+      "File": "PP_051.MSA"
+   },
+   "Pompey Pirates Disk 52": {
+      "Games": "THEIR FINEST HOUR: THE BATTLE OF BRITAIN, MISSION BUILDER, F-19 TRAINER + FIX, FIGHTER BOMBER TRAINER, FIX FOR PP51",
+      "File": "PP_052.MSA"
+   },
+   "Pompey Pirates Disk 53": {
+      "Games": "TURRICAN",
+      "File": "PP_053.MSA"
+   },
+   "Pompey Pirates Disk 54": {
+      "Games": "TIME MACHINE",
+      "File": "PP_054.MSA"
+   },
+   "Pompey Pirates Disk 55": {
+      "Games": "CHAMPIONSHIP WRESTLING, CHAMPIONSHIP BASEBALL, CHAMPIONSHIP FOOTBALL",
+      "File": "PP_055.MSA"
+   },
+   "Pompey Pirates Disk 56": {
+      "Games": "MONTY PYTHON'S FLYING CIRCUS, FLIMBO'S QUEST",
+      "File": "PP_056.MSA"
+   },
+   "Pompey Pirates Disk 57": {
+      "Games": "TV SPORTS FOOTBALL (US VERSION), HARDBALL, RICK DANGEROUS II, DOCS FOR PP55, PP56 & PP57",
+      "File": "PP_057.MSA"
+   },
+   "Pompey Pirates Disk 58": {
+      "Games": "PROFLIGHT, MURDER, THE SPY WHO LOVED ME, SHORTCUT EDITOR",
+      "File": "PP_058.MSA"
+   },
+   "Pompey Pirates Disk 59": {
+      "Games": "CHUCK YEAGER'S ADVANCED FLIGHT TRAINER 2.0, PROFLIGHT FULL DOCS",
+      "File": "PP_059.MSA"
+   },
+   "Pompey Pirates Disk 60": {
+      "Games": "M-1 TANK PLATOON, LOTUS ESPRIT TURBO CHALLENGE",
+      "File": "PP_060.MSA"
+   },
+   "Pompey Pirates Disk 61": {
+      "Games": "ATF II, NITRO, PINHEAD 1.8",
+      "File": "PP_061.MSA"
+   },
+   "Pompey Pirates Disk 62": {
+      "Games": "STRIDER II, ROBOCOP II",
+      "File": "PP_062.MSA"
+   },
+   "Pompey Pirates Disk 63": {
+      "Games": "OPERATION HARRIER, SIMULCRA",
+      "File": "PP_063.MSA"
+   },
+   "Pompey Pirates Disk 64": {
+      "Games": "GOLDEN AXE, FIGHTER BOMBER EDITOR",
+      "File": "PP_064.MSA"
+   },
+   "Pompey Pirates Disk 65": {
+      "Games": "PANG, PUZZNIC, WELLTRIS",
+      "File": "PP_065.MSA"
+   },
+   "Pompey Pirates Disk 66": {
+      "Games": "CHASE HQ II, LOOPZ, EDD THE DUCK",
+      "File": "PP_066.MSA"
+   },
+   "Pompey Pirates Disk 67": {
+      "Games": "BATTLE COMMAND, BOTICS",
+      "File": "PP_067.MSA"
+   },
+   "Pompey Pirates Disk 68": {
+      "Games": "DEFENDER II, TOTAL RECALL, FIX FOR PP67",
+      "File": "PP_068.MSA"
+   },
+   "Pompey Pirates Disk 69": {
+      "Games": "BADLANDS, WORLD CHAMPIONSHIP SOCCER, GAZZA II, F29 TRAINER, F16 TRAINER",
+      "File": "PP_069.MSA"
+   },
+   "Pompey Pirates Disk 70": {
+      "Games": "CARVUP, JUDGE DREDD, FIX FOR PP66",
+      "File": "PP_070.MSA"
+   },
+   "Pompey Pirates Disk 71": {
+      "Games": "MIGHTY BOMBJACK, HACMAN II (1MB)",
+      "File": "PP_071.MSA"
+   },
+   "Pompey Pirates Disk 72": {
+      "Games": "MIG-29 FULCRUM, PROFLIGHT 1.2",
+      "File": "PP_072.MSA"
+   },
+   "Pompey Pirates Disk 73": {
+      "Games": "NARC, HARD DRIVIN' II",
+      "File": "PP_073.MSA"
+   },
+   "Pompey Pirates Disk 74": {
+      "Games": "TEAM SUZUKI, INSECTS IN SPACE, HORROR ZOMBIES FROM THE CRYPT",
+      "File": "PP_074.MSA"
+   },
+   "Pompey Pirates Disk 75": {
+      "Games": "TURRICAN II",
+      "File": "PP_075.MSA"
+   },
+   "Pompey Pirates Disk 76": {
+      "Games": "THE FINAL BATTLE, CHIPS CHALLENGE",
+      "File": "PP_076.MSA"
+   },
+   "Pompey Pirates Disk 77": {
+      "Games": "ADVANCED DESTROYER SIMULATOR, WARLOCK, QUICK ST 2.21",
+      "File": "PP_077.MSA"
+   },
+   "Pompey Pirates Disk 78": {
+      "Games": "THE KILLING GAMESHOW, FIX FOR PP77",
+      "File": "PP_078.MSA"
+   },
+   "Pompey Pirates Disk 79": {
+      "Games": "LEMMINGS, STe FIXES, UIS 3.3, AUTOSORT",
+      "File": "PP_079.MSA"
+   },
+   "Pompey Pirates Disk 80": {
+      "Games": "NAVY SEALS, SUPER MONACO GRAND PRIX, FIX FOR PP49",
+      "File": "PP_080.MSA"
+   },
+   "Pompey Pirates Disk 81": {
+      "Games": "THE FINAL WHISTLE, MULTI PLAYER SOCCER MANAGER, FIX FOR PP79 / PP 57",
+      "File": "PP_081.MSA"
+   },
+   "Pompey Pirates Disk 82": {
+      "Games": "Z-OUT, POMPEY PACKER 1.9a, JAM PACKER 3, STe FIX FOR PP13/5",
+      "File": "PP_082.MSA"
+   },
+   "Pompey Pirates Disk 83": {
+      "Games": "SHADOW DANCER, ON THE PULL",
+      "File": "PP_083.MSA"
+   },
+   "Pompey Pirates Disk 84": {
+      "Games": "HEROQUEST, LLAMATRON (1Mb)",
+      "File": "PP_084.MSA"
+   },
+   "Pompey Pirates Disk 85": {
+      "Games": "PRO TENNIS TOUR II, LLAMATRON (512k)",
+      "File": "PP_085.MSA"
+   },
+   "Pompey Pirates Disk 86": {
+      "Games": "RESOLUTION 101 , ARMOUR-GEDDON, ARMOUR-GEDDON COCKPIT GUIDE, FALCON v1.2, FVK 2.0, WARZONE",
+      "File": "PP_086.MSA"
+   },
+   "Pompey Pirates Disk 87": {
+      "Games": "METAL MASTERS, QUIK & SILVA",
+      "File": "PP_087.MSA"
+   },
+   "Pompey Pirates Disk 88": {
+      "Games": "MERCS, FASTCOPY PRO (BETA), GENST 2.25, MONST 2.23, AMONST 2.11",
+      "File": "PP_088.MSA"
+   },
+   "Pompey Pirates Disk 89": {
+      "Games": "F-15 STRIKE EAGLE II, F-15 COCKPIT GUIDE, MAXIFILE II, POPIMENU 1.0",
+      "File": "PP_089.MSA"
+   },
+   "Pompey Pirates Disk 90": {
+      "Games": "PLAY F.O.T.I., INSTALL F.O.T.I.",
+      "File": "PP_090.MSA"
+   },
+   "Pompey Pirates Disk 91": {
+      "Games": "JIMMY WHITE'S WHIRLWIND SNOOKER, AUDIO SCULPTURE (COLOUR), POWER MONGER, SYSTEM 4",
+      "File": "PP_091.MSA"
+   },
+   "Pompey Pirates Disk 92": {
+      "Games": "RODLAND, CJ'S ELEPHANT ANTICS, GRAV, AUDIO SCULPTURE (MONO), FVK 3.8",
+      "File": "PP_092.MSA"
+   },
+   "Pompey Pirates Disk 93": {
+      "Games": "ROLLING RONNY, WACKY RACES",
+      "File": "PP_093.MSA"
+   },
+   "Pompey Pirates Disk 94": {
+      "Games": "MEGALOMANIA, FCOPY PRO (FINAL)",
+      "File": "PP_094.MSA"
+   },
+   "Pompey Pirates Disk 95": {
+      "Games": "HUNTER, LOTUS TURBO CHALLENGE 2, HEAD OVER HEELS",
+      "File": "PP_095.MSA"
+   },
+   "Pompey Pirates Disk 96": {
+      "Games": "MIG 29-M SUPER FULCRUM, MIG 29-M COCKPIT GUIDE, CISCO HEAT",
+      "File": "PP_096.MSA"
+   },
+   "Pompey Pirates Disk 97": {
+      "Games": "HUDSON HAWK, OH NO! MORE LEMMINGS",
+      "File": "PP_097.MSA"
+   },
+   "Pompey Pirates Disk 98": {
+      "Games": "THUNDERHAWK, SPECTRUM EMULATOR (1Mb)",
+      "File": "PP_098.MSA"
+   },
+   "Pompey Pirates Disk 99": {
+      "Games": "WOLFCHILD, THE BLUES BROTHERS",
+      "File": "PP_099.MSA"
+   },
+   "Pompey Pirates Disk 100": {
+      "Games": "DEUTEROS",
+      "File": "PP_100.MSA"
+   },
+   "Pompey Pirates Disk 101": {
+      "Games": "KNIGHTS OF THE SKY",
+      "File": "PP_101.MSA"
+   },
+   "Pompey Pirates Disk 102": {
+      "Games": "POPULOUS II (512k)",
+      "File": "PP_102.MSA"
+   },
+   "Pompey Pirates Disk 103": {
+      "Games": "POPULOUS II (1Mb), KID GLOVES II, SPECCY GAMES",
+      "File": "PP_103.MSA"
+   },
+   "Pompey Pirates Disk 104": {
+      "Games": "PACIFIC ISLANDS",
+      "File": "PP_104.MSA"
+   },
+   "Pompey Pirates Disk 105": {
+      "Games": "PARASOL STARS, BUBBLE DIZZY, DIZZY PANIC",
+      "File": "PP_105.MSA"
+   },
+   "Pompey Pirates Disk 106": {
+      "Games": "POWER MONGER: WORLD WAR 1 EDITION, TEAM YANKEE, FIXES FOR PP60 & PP91, TOXIC MONST 2.13",
+      "File": "PP_106.MSA"
+   },
+   "Pompey Pirates Disk 107": {
+      "Games": "EPIC",
+      "File": "PP_107A.MSA"
+   },
+   "Pompey Pirates Disk 108": {
+      "Games": "ROBOCOP III",
+      "File": "PP_108A.MSA"
+   },
+   "Pompey Pirates Disk 109": {
+      "Games": "POTSWORTH & CO., MON ST 2.24c, AUDIO SCULPTURE SOURCE",
+      "File": "PP_109.MSA"
+   },
+   "Pompey Pirates Disk 110": {
+      "Games": "PUSHOVER",
+      "File": "PP_110.MSA"
+   },
+   "Pompey Pirates Disk 111": {
+      "Games": "STEG, ERIK, CJ IN THE USA, POPIMENU 1.1",
+      "File": "PP_111.MSA"
+   },
+   "Pompey Pirates Disk 112": {
+      "Games": "INTERNATIONAL SPORTS CHALLENGE, LZH 2.01k (ENGLISH), FCOMPARE 2.2, PICKFILE 1.0, PP NUKE IRAQ! BOOTSECTOR",
+      "File": "PP_112A.MSA"
+   },
+   "Pompey Pirates Disk 113": {
+      "Games": "SPACE CRUSADE, HERO QUEST EXPANSION: COURT OF THE WITCHLORD",
+      "File": "PP_113.MSA"
+   },
+   "Pompey Pirates Disk 114": {
+      "Games": "LOTUS TURBO CHALLENGE III, DEVPAC 3, PICKFILE 1.1, PP113 FIX",
+      "File": "PP_114.MSA"
+   },
+   "Medway Boys 1": {
+      "Games": "FIRE ZONE, MUNSTER, TRACKSUIT MANAGER",
+      "File": "MED_001.MSA"
+   },
+   "Medway Boys 2": {
+      "Games": "SORCERER LORD, TEENAGE QUEEN",
+      "File": "MED_002.MSA"
+   },
+   "Medway Boys 3": {
+      "Games": "ULTIMA III, ULTIMA IV",
+      "File": "MED_003.MSA"
+   },
+   "Medway Boys 4": {
+      "Games": "ADVANCED RUGBY SIMULATOR, BILLIARDS SIMULATOR, CAPTAIN FIZZ, COMPUTER DIARY, GAME CRACKER, VIRUS DEMON II",
+      "File": "MED_004.MSA"
+   },
+   "Medway Boys 5": {
+      "Games": "ANDES ATTACK, BATMAN PART I, BATMAN PART II, THUNDER WING",
+      "File": "MED_005.MSA"
+   },
+   "Medway Boys 6": {
+      "Games": "CUSTODIAN, FOFT, I LUDICRUS, POOL, SKULL DIGGERY",
+      "File": "MED_006.MSA"
+   },
+   "Medway Boys 7": {
+      "Games": "CHUCKIE EGG II, RAFFLES, ROADBLASTERS, TITAN",
+      "File": "MED_007.MSA"
+   },
+   "Medway Boys 8": {
+      "Games": "ACTION FIGHTER, STRIKE, ULTIMATE ARKANOID",
+      "File": "MED_008.MSA"
+   },
+   "Medway Boys 9": {
+      "Games": "CYBERNOID II, GRIDRUNNER, OPERATION HORMUZ, ROBOCOP, TOTAL ECLIPSE",
+      "File": "MED_009.MSA"
+   },
+   "Medway Boys 10": {
+      "Games": "3D POOL, DARKSIDE, RVF HONDA, SAVAGE, SULLDIGGERY +",
+      "File": "MED_010.MSA"
+   },
+   "Medway Boys 11": {
+      "Games": "POOL, RED HEAT, STUNTTEAM",
+      "File": "MED_011.MSA"
+   },
+   "Medway Boys 12": {
+      "Games": "LAST TROOPER, NAVY MOVES, STAR TREK",
+      "File": "MED_012.MSA"
+   },
+   "Medway Boys 13(A)": {
+      "Games": "DUGGER, HELL RAISERS",
+      "File": "MED_013A.MSA"
+   },
+   "Medway Boys 13(B)": {
+      "Games": "HAWKEYE, LICENCE TO KILL, WICKED",
+      "File": "MED_013B.MSA"
+   },
+   "Medway Boys 14": {
+      "Games": "JAWS, PHOBIA",
+      "File": "MED_014.MSA"
+   },
+   "Medway Boys 15": {
+      "Games": "BETTER DEAD THAN ALIEN, MURDERS IN VENICE",
+      "File": "MED_015.MSA"
+   },
+   "Medway Boys 16": {
+      "Games": "MEGAROIDS, MYTH, PLUTOS, TIME SCANNER",
+      "File": "MED_016.MSA"
+   },
+   "Medway Boys 17": {
+      "Games": "CHESSMASTER 2000, THUNDERCATS, VULCAN",
+      "File": "MED_017.MSA"
+   },
+   "Medway Boys 18": {
+      "Games": "CASTLE WARRIOR, DRILLER, MANDELBROT - DEMO",
+      "File": "MED_018.MSA"
+   },
+   "Medway Boys 19": {
+      "Games": "DUNGEON MASTER - HELP, HAWKEYE, WICKED",
+      "File": "MED_019.MSA"
+   },
+   "Medway Boys 20": {
+      "Games": "BATTLE FOR THE THORNE, WEIRD DREAMS",
+      "File": "MED_020.MSA"
+   },
+   "Medway Boys 21": {
+      "Games": "FOOTBALL DIRECTOR, KENNY DAGLISHE'S FOOTBALL MANAGER, LICENCE TO KILL, RIPCORD",
+      "File": "MED_021.MSA"
+   },
+   "Medway Boys 22": {
+      "Games": "LEVIATHAN, SPHERICAL",
+      "File": "MED_022.MSA"
+   },
+   "Medway Boys 23": {
+      "Games": "20.000 LEAGUES UNDER THE SEA, GILBERT - ESCAPE FROM DRILL, PANTOMINOES",
+      "File": "MED_023.MSA"
+   },
+   "Medway Boys 24": {
+      "Games": "MONEY SPINNER, PALADIN, QEST",
+      "File": "MED_024.MSA"
+   },
+   "Medway Boys 25": {
+      "Games": "FALCON EXTRA MISSIONS VOL. 1",
+      "File": "MED_025.MSA"
+   },
+   "Medway Boys 26": {
+      "Games": "EMPIRE, RED LIGHTNING",
+      "File": "MED_026.MSA"
+   },
+   "Medway Boys 27": {
+      "Games": "ASTAROTH, SPACE INVADERS",
+      "File": "MED_027.MSA"
+   },
+   "Medway Boys 28": {
+      "Games": "RICK DANGEROUS, RODEO GAMES ( I & II)",
+      "File": "MED_028.MSA"
+   },
+   "Medway Boys 29": {
+      "Games": "GILBERT - ESCAPE FROM DRILL, RODEO GAMES ( III )",
+      "File": "MED_029.MSA"
+   },
+   "Medway Boys 30": {
+      "Games": "BALANCE OF POWER 1990, INDIANA JONES, RICK DANGEROUS",
+      "File": "MED_030.MSA"
+   },
+   "Medway Boys 31": {
+      "Games": "LEGEND OF DJELL",
+      "File": "MED_031.MSA"
+   },
+   "Medway Boys 32": {
+      "Games": "MONOPOLY, POPULOUS, TANK ATTACK",
+      "File": "MED_032.MSA"
+   },
+   "Medway Boys 33": {
+      "Games": "AARGH!",
+      "File": "MED_033.MSA"
+   },
+   "Medway Boys 34": {
+      "Games": "ARMAGEDDON MAN, XENON",
+      "File": "MED_034.MSA"
+   },
+   "Medway Boys 35": {
+      "Games": "BATTLETECH, WATERLOO",
+      "File": "MED_035.MSA"
+   },
+   "Medway Boys 36": {
+      "Games": "F16 COMBAT PILOT",
+      "File": "MED_036.MSA"
+   },
+   "Medway Boys 37": {
+      "Games": "PIRATES !",
+      "File": "MED_037.MSA"
+   },
+   "Medway Boys 38": {
+      "Games": "BLOOD WYCH, GAME CRACKER III, INDIANA JONES ( OLD FROM US GOLD ), MACADAM BUMBER, POSTMAN PAT",
+      "File": "MED_038.MSA"
+   },
+   "Medway Boys 39": {
+      "Games": "CONFLICT EUROPE",
+      "File": "MED_039.MSA"
+   },
+   "Medway Boys 40": {
+      "Games": "XENON II - MEGABLAST WITH MEGA TRAINER",
+      "File": "MED_040.MSA"
+   },
+   "Medway Boys 41(A)": {
+      "Games": "OIL IMPERIUM",
+      "File": "MED_041.MSA"
+   },
+   "Medway Boys 41(B)": {
+      "Games": "DYNAMITE DUX, FAST LANE",
+      "File": "MED_041B.MSA"
+   },
+   "Medway Boys 42": {
+      "Games": "ALTERED BEAST",
+      "File": "MED_042.MSA"
+   },
+   "Medway Boys 43": {
+      "Games": "ANNALS OF ROME, FAST LANE, SAINT & CREAVSIE, STUNTCAR RACER",
+      "File": "MED_043.MSA"
+   },
+   "Medway Boys 44": {
+      "Games": "KNIFE ST, VERMINATOR",
+      "File": "MED_044.MSA"
+   },
+   "Medway Boys 45": {
+      "Games": "CHESS GAME 2150, GAME CRACKER III, GENESIS, GRANDPRIX MASTER, SUPER LEAGUE SOCCER",
+      "File": "MED_045.MSA"
+   },
+   "Medway Boys 46": {
+      "Games": "FERRARI FORMULA I",
+      "File": "MED_046.MSA"
+   },
+   "Medway Boys 47": {
+      "Games": "SUPER WONDERBOY",
+      "File": "MED_047.MSA"
+   },
+   "Medway Boys 48": {
+      "Games": "GRID IRON, QUARTZ, ROOKIE",
+      "File": "MED_048.MSA"
+   },
+   "Medway Boys 49": {
+      "Games": "KELLY X, KINGS' QUEST IV HINTS, PICTIONARY, TOOBIN' +",
+      "File": "MED_049.MSA"
+   },
+   "Medway Boys 50": {
+      "Games": "DMON, HARD DRIVIN', KENNY DAGLISH - SOCCER PLAYER, PIPE DREAM, TERRYS BIG ADVENTURE",
+      "File": "MED_050.MSA"
+   },
+   "Medway Boys 51": {
+      "Games": "FIGHTING SOCCER (1 MEG), INTERPHASE, PRINCE",
+      "File": "MED_051.MSA"
+   },
+   "Medway Boys 52": {
+      "Games": "ONSLAUGHT, ROCK 'N' ROLL",
+      "File": "MED_052.MSA"
+   },
+   "Medway Boys 53": {
+      "Games": "ASTERIX, MINDBENDER",
+      "File": "MED_053.MSA"
+   },
+   "Medway Boys 54": {
+      "Games": "AUSTERLITZ, GLADIATORS",
+      "File": "MED_054.MSA"
+   },
+   "Medway Boys 55": {
+      "Games": "BLOODWYCH DATA DISK I, FOOTBALLER OF THE YEAR II, OUTRUN U.S.A., TREASURE ISLAND",
+      "File": "MED_055.MSA"
+   },
+   "Medway Boys 56": {
+      "Games": "BELLUM, DAY OF THE VIPER, F-16 EDITOR, SOL NEGRO, TEMPEST",
+      "File": "MED_056.MSA"
+   },
+   "Medway Boys 57": {
+      "Games": "CHASE HQ, SIDEWINDER II, SLUMLORD",
+      "File": "MED_057.MSA"
+   },
+   "Medway Boys 58": {
+      "Games": "ARCHIPELAGOS, FAST COPY V.3.0, MOUTH TRAP, TROPHY SOCCER",
+      "File": "MED_058.MSA"
+   },
+   "Medway Boys 59": {
+      "Games": "HELLRAIDER, SPY VS. SPY II, X-OUT, - EXTRA - ANTIVIRUS II",
+      "File": "MED_059.MSA"
+   },
+   "Medway Boys 60": {
+      "Games": "CLOWN 'O' MANIA, CONQUEROR, SHANGHAI, TRITON III",
+      "File": "MED_060.MSA"
+   },
+   "Medway Boys 61": {
+      "Games": "RUN THE GAUNTLET",
+      "File": "MED_061.MSA"
+   },
+   "Medway Boys 62": {
+      "Games": "NEW ZELAND STORY (1 MEG), ITALY 1990 (1 MEG)",
+      "File": "MED_062.MSA"
+   },
+   "Medway Boys 63": {
+      "Games": "WAYNE GRETZKY'S ICE HOCKEY, TEN PIN BOWLING, VIRUS PROTECTOR",
+      "File": "MED_063.MSA"
+   },
+   "Medway Boys 64": {
+      "Games": "MIDWINTER",
+      "File": "MED_064.MSA"
+   },
+   "Medway Boys 65": {
+      "Games": "ROCKSTAR ATE MY HAMSTER, CROSSBOW, SAS COMBAT",
+      "File": "MED_065.MSA"
+   },
+   "Medway Boys 66": {
+      "Games": "SPY VS. SPY III, WARHEAD",
+      "File": "MED_066.MSA"
+   },
+   "Medway Boys 67": {
+      "Games": "GRAVITY",
+      "File": "MED_067.MSA"
+   },
+   "Medway Boys 68": {
+      "Games": "SOLDIER 2000, A PROTEC DEMO, C64 EMULATOR, SPACE INVADERS",
+      "File": "MED_068.MSA"
+   },
+   "Medway Boys 69": {
+      "Games": "ULTIMATE GOLF, IMPOSSAMOLE, ANIMAL KINGDOM",
+      "File": "MED_069.MSA"
+   },
+   "Medway Boys 70": {
+      "Games": "CYBERBALL, CASTLE MASTER II",
+      "File": "MED_070.MSA"
+   },
+   "Medway Boys 71": {
+      "Games": "ITALY '90, COUNT DUCULA, ATOMIX",
+      "File": "MED_071.MSA"
+   },
+   "Medway Boys 72": {
+      "Games": "BLOCKOUT, FOOTBALL MANAGER WORLD CUP EDITION, KLAX, PIECE, PUB TRIVIA QUIZ, SIM CITY",
+      "File": "MED_072.MSA"
+   },
+   "Medway Boys 73": {
+      "Games": "DAMOCLES, EMLYN HUGES, TREBLE CHAMPIONS",
+      "File": "MED_073.MSA"
+   },
+   "Medway Boys 74": {
+      "Games": "RESOLUTION 101, GRIMBLOOD + DOC, PRO TENNIS, LOCKSMITH III, SAMPLE CONVERTER",
+      "File": "MED_074.MSA"
+   },
+   "Medway Boys 75": {
+      "Games": "DYNASTY WARS, KICK OFF II",
+      "File": "MED_075.MSA"
+   },
+   "Medway Boys 76": {
+      "Games": "FLOOD, GAZZAS SOCCER, MUSIC FILES",
+      "File": "MED_076.MSA"
+   },
+   "Medway Boys 77": {
+      "Games": "RORKES DRIFT, TUSKER",
+      "File": "MED_077.MSA"
+   },
+   "Medway Boys 78": {
+      "Games": "STARBLADE, THUNDERSTRIKE",
+      "File": "MED_078.MSA"
+   },
+   "Medway Boys 79": {
+      "Games": "COMBO RACER, THE PUNISHER",
+      "File": "MED_079.MSA"
+   },
+   "Medway Boys 80": {
+      "Games": "IRON LORD",
+      "File": "MED_080.MSA"
+   },
+   "Medway Boys 81": {
+      "Games": "MAGIC LINES, PYRAMAX, WEB OF TERROR",
+      "File": "MED_081.MSA"
+   },
+   "Medway Boys 82": {
+      "Games": "PRO POWERBOAT SIMULATOR, PRISON, MONST 2.05",
+      "File": "MED_082.MSA"
+   },
+   "Medway Boys 83": {
+      "Games": "DO! RUN RUN, NITRO BOOST CHALLENGE, YOGI BEAR, GET DEXTER II, ROGOT II, THE ULTIMATE GAME CRACKER",
+      "File": "MED_083.MSA"
+   },
+   "Medway Boys 84": {
+      "Games": "BACK TO THE FUTURE PART II, MAD PROFESSOR MARIARTI, GAME CRACKER IV",
+      "File": "MED_084.MSA"
+   },
+   "Medway Boys 85": {
+      "Games": "WORLD SOCCER, SCARY SCHOOL, GUARDIAN ANGEL, NEOCHROME 2.00",
+      "File": "MED_085.MSA"
+   },
+   "Medway Boys 86": {
+      "Games": "RUPE & REDDY, SUBBUTEO, PLOTTING, TURN IT",
+      "File": "MED_086.MSA"
+   },
+   "Medway Boys 87": {
+      "Games": "SHADOW OF THE BEAST",
+      "File": "MED_087.MSA"
+   },
+   "Medway Boys 88(A)": {
+      "Games": "CADAVER (BOOT), MAGIC FLY, HELTER SKELTER",
+      "File": "MED_088A.MSA"
+   },
+   "Medway Boys 88(B)": {
+      "Games": "CADAVER (DATA)",
+      "File": "MED_088B.MSA"
+   },
+   "Medway Boys 89": {
+      "Games": "BLINKY, FLIP IT & MAGNOSE, GAME CRACKER V.4.2",
+      "File": "MED_089.MSA"
+   },
+   "Medway Boys 90": {
+      "Games": "TURRICAN, BLITZKRIEG",
+      "File": "MED_090.MSA"
+   },
+   "Medway Boys 91": {
+      "Games": "FRUIT MACHINE SIMULATOR, PARADROID '90",
+      "File": "MED_091.MSA"
+   },
+   "Medway Boys 92": {
+      "Games": "FALCON MISSION DISK II, MAY 1940, TAKE TWO",
+      "File": "MED_092.MSA"
+   },
+   "Medway Boys 93": {
+      "Games": "MICROPROSE SOCCER II, RICK DANGEROUS II, VIRUS PROTECTOR III",
+      "File": "MED_093.MSA"
+   },
+   "Medway Boys 94": {
+      "Games": "MONTY PYTHON, CONFLICT, SNOWSTRIKE, NOISETRACKER, GAMECRACKER V.4.2, VIRUSKILLER III",
+      "File": "MED_094.MSA"
+   },
+   "Medway Boys 95": {
+      "Games": "TORWAK THE WARRIOR",
+      "File": "MED_095.MSA"
+   },
+   "Medway Boys 96": {
+      "Games": "TEAM YANKEE, CURSE OF RA",
+      "File": "MED_096.MSA"
+   },
+   "Medway Boys 97": {
+      "Games": "CAPTIVE",
+      "File": "MED_097.MSA"
+   },
+   "Medway Boys 98": {
+      "Games": "LOTUS TURBO ESPRIT, JAMES POND",
+      "File": "MED_098.MSA"
+   },
+   "Medway Boys 99(A)": {
+      "Games": "MEAN STREETS + DOC, MURDER",
+      "File": "MED_099A.MSA"
+   },
+   "Medway Boys 99(B)": {
+      "Games": "MEAN STREETS (DATA)",
+      "File": "MED_099B.MSA"
+   },
+   "Medway Boys 100": {
+      "Games": "SUPER OFF-ROAD RACER, CABAL, PRO SOCCER 2000",
+      "File": "MED_100.MSA"
+   },
+   "Medway Boys 101": {
+      "Games": "ADVANCED TACTICAL FIGHTER II, FINAL CONFLICT, VAXINE",
+      "File": "MED_101.MSA"
+   },
+   "Medway Boys 102": {
+      "Games": "BADLANDS, STRIDER II",
+      "File": "MED_102.MSA"
+   },
+   "Medway Boys 103": {
+      "Games": "PUZZNIC, TOURNAMENT GOLF (ELITE)",
+      "File": "MED_103.MSA"
+   },
+   "Medway Boys 104": {
+      "Games": "BATTLE COMMAND, FAST FOOD",
+      "File": "MED_104.MSA"
+   },
+   "Medway Boys 105": {
+      "Games": "MULTIPLAYER FOOTBALL MANAGER, XIPHOS",
+      "File": "MED_105.MSA"
+   },
+   "Medway Boys 106(A)": {
+      "Games": "CRIME WAVE, EUROPEAN SOCCER CHALLENGE",
+      "File": "MED_106A.MSA"
+   },
+   "Medway Boys 106(B)": {
+      "Games": "CRIME WAVE (DATA)",
+      "File": "MED_106B.MSA"
+   },
+   "Medway Boys 107": {
+      "Games": "CHIPS CHALLENGE, KAMIKAZE, TURN 'N' BURN",
+      "File": "MED_107.MSA"
+   },
+   "Medway Boys 108": {
+      "Games": "INTERNATIONAL ICE HOCKEY, LITTLE PUFF, REVELATION, WARLOCK (THE AVENGER)",
+      "File": "MED_108.MSA"
+   },
+   "Medway Boys 109": {
+      "Games": "KICK OFF - THE FINAL WHISTLE, THE FAMOUS FIVE, YOGI BEAR",
+      "File": "MED_109.MSA"
+   },
+   "Medway Boys 110": {
+      "Games": "EMLYN HUGHES ARCADE QUIZ, SUPER MONACO GP",
+      "File": "MED_110.MSA"
+   },
+   "Medway Boys 111": {
+      "Games": "NAVY SEALS, SKULLS & CROSSBONES",
+      "File": "MED_111.MSA"
+   },
+   "Medway Boys 112": {
+      "Games": "ARMALYTE, CJ'S ELEPHANT ANTICS",
+      "File": "MED_112.MSA"
+   },
+   "Flame of Finland Disk 1": {
+      "Games": "ESKIMO GAMES, SCRAMBLE SPIRITS",
+      "File": "FOF_001.MSA"
+   },
+   "Flame of Finland Disk 2": {
+      "Games": "LANCASTER, MIKE READ'S POP QUIZ",
+      "File": "FOF_002.MSA"
+   },
+   "Flame of Finland Disk 3": {
+      "Games": "BLACK TIGER, SPACE HARRIER II",
+      "File": "FOF_003.MSA"
+   },
+   "Flame of Finland Disk 4": {
+      "Games": "CASTLE MASTER, INFESTATION, KID GLOVES TRAINED",
+      "File": "FOF_004.MSA"
+   },
+   "Flame of Finland Disk 5": {
+      "Games": "EMPIRE OF THE MINES, PINBALL MAGIC, TOYOTTES",
+      "File": "FOF_005.MSA"
+   },
+   "Flame of Finland Disk 6": {
+      "Games": "BUBBLE GHOST +, LEAVING TERAMIS ",
+      "File": "FOF_006.MSA"
+   },
+   "Flame of Finland Disk 7": {
+      "Games": "ROCKSTAR ATE MY HAMSTER, WARHEAD",
+      "File": "FOF_007.MSA"
+   },
+   "Flame of Finland Disk 8": {
+      "Games": "ATOMIX, FRED",
+      "File": "FOF_008.MSA"
+   },
+   "Flame of Finland Disk 9(A)": {
+      "Games": "OPERATION TUNDERBOLT (DISK I)",
+      "File": "FOF_009A.MSA"
+   },
+   "Flame of Finland Disk 9(B)": {
+      "Games": "MIDWINTER, OPERATION THUNDERBOLT (DISK II)",
+      "File": "FOF_009B.MSA"
+   },
+   "Flame of Finland Disk 10": {
+      "Games": "LODE RUNNER, NINJA SPIRIT, SPITTING IMAGES",
+      "File": "FOF_010.MSA"
+   },
+   "Flame of Finland Disk 11": {
+      "Games": "CRACK DOWN, PIECE",
+      "File": "FOF_011.MSA"
+   },
+   "Flame of Finland Disk 12": {
+      "Games": "MANCHESTER UNITED, THE PERSIAN GULF INFERNO",
+      "File": "FOF_012.MSA"
+   },
+   "Flame of Finland Disk 13": {
+      "Games": "GHOSTS 'N' GOBLINS, TENNIS CUP",
+      "File": "FOF_013.MSA"
+   },
+   "Flame of Finland Disk 14": {
+      "Games": "ESCAPE FROM THE PLANET OF THE ROBOT MONSTERS, CHASE HQ",
+      "File": "FOF_014.MSA"
+   },
+   "Flame of Finland Disk 15": {
+      "Games": "CYBERBALL, DAN DARE III, MENU 10 FIX",
+      "File": "FOF_015.MSA"
+   },
+   "Flame of Finland Disk 16": {
+      "Games": "CLOUD KINGDOMS, TIME SOLDIER",
+      "File": "FOF_016.MSA"
+   },
+   "Flame of Finland Disk 17": {
+      "Games": "CHARTS OF APRIL 1990, HAMMERFIST, TIE BREAK",
+      "File": "FOF_017.MSA"
+   },
+   "Flame of Finland Disk 18(A)": {
+      "Games": "CHRONO QUEST II (DISK I)",
+      "File": "FOF_018A.MSA"
+   },
+   "Flame of Finland Disk 18(B)": {
+      "Games": "CHRONO QUEST II (DISK II)",
+      "File": "FOF_018B.MSA"
+   },
+   "Flame of Finland Disk 19": {
+      "Games": "HARRICANA, ESPIONAGE",
+      "File": "FOF_019.MSA"
+   },
+   "Flame of Finland Disk 20": {
+      "Games": "RENAISSANCE 1, RINGS OF MEDUSA",
+      "File": "FOF_020.MSA"
+   },
+   "Flame of Finland Disk 21": {
+      "Games": "A.P.B., STARBLADE",
+      "File": "FOF_021.MSA"
+   },
+   "Flame of Finland Disk 22": {
+      "Games": "ITALY '90, THEME PARK MYSTERY",
+      "File": "FOF_022.MSA"
+   },
+   "Flame of Finland Disk 23": {
+      "Games": "FIRE AND BRIMSTONE, HYPERFORCE",
+      "File": "FOF_023.MSA"
+   },
+   "Flame of Finland Disk 24": {
+      "Games": "DYTER 07, EYE OF HORUS",
+      "File": "FOF_024.MSA"
+   },
+   "Flame of Finland Disk 25": {
+      "Games": "A.M.C., DEFENDERS OF THE EARTH",
+      "File": "FOF_025.MSA"
+   },
+   "Flame of Finland Disk 26": {
+      "Games": "HEAVY METAL, HIGH STEEL, RESOLUTION 101",
+      "File": "FOF_026.MSA"
+   },
+   "Flame of Finland Disk 27": {
+      "Games": "COLORADO, EMLYN HUGES INTERNATIONAL SOCCER",
+      "File": "FOF_027.MSA"
+   },
+   "Flame of Finland Disk 28": {
+      "Games": "BLOCK OUT, DOMINATOR, DYNASTY WARS",
+      "File": "FOF_028.MSA"
+   },
+   "Flame of Finland Disk 29": {
+      "Games": "PYRAMAX, RORKES DRIFT, THE LAST NINJA II",
+      "File": "FOF_029.MSA"
+   },
+   "Flame of Finland Disk 30": {
+      "Games": "BLUE ANGEL, DOMINATION, ROTOX",
+      "File": "FOF_030.MSA"
+   },
+   "Flame of Finland Disk 31": {
+      "Games": "MIDNIGHT RESISTANCE, SATAN",
+      "File": "FOF_031.MSA"
+   },
+   "Flame of Finland Disk 32": {
+      "Games": "QUATBOL, VENUS THE FLYTRAP",
+      "File": "FOF_032.MSA"
+   },
+   "Flame of Finland Disk 33": {
+      "Games": "HARLEY DAVIDSON, SHAOLIN CHARACTER CREATOR, UNIVERSAL PICTURES",
+      "File": "FOF_033.MSA"
+   },
+   "Flame of Finland Disk 34": {
+      "Games": "F-19 STEALTH FIGHTER, F-19 DOCS",
+      "File": "FOF_034.MSA"
+   },
+   "Flame of Finland Disk 35": {
+      "Games": "FIRE & FORGET II, ORIENTAL GAMES",
+      "File": "FOF_035.MSA"
+   },
+   "Flame of Finland Disk 36(A)": {
+      "Games": "BACK TO THE FUTURE PART II, DAYS OF THUNDER, SHADOW OF THE BEAST (BOOT)",
+      "File": "FOF_036A.MSA"
+   },
+   "Flame of Finland Disk 36(B)": {
+      "Games": "HADOW OF THE BEAST (DATA)",
+      "File": "FOF_036B.MSA"
+   },
+   "Flame of Finland Disk 37": {
+      "Games": "ARTIFICAL DREAMS, MAD PROFESSOR MARIARTI, TIME MACHINE",
+      "File": "FOF_037.MSA"
+   },
+   "Flame of Finland Disk 38": {
+      "Games": "HOYLE'S BOOK OF GAMES VOL. I, MAGIC FLY",
+      "File": "FOF_038.MSA"
+   },
+   "Flame of Finland Disk 39(A)": {
+      "Games": "GOLD OF THE AZTECS (BOOT), PLOTTING",
+      "File": "FOF_039A.MSA"
+   },
+   "Flame of Finland Disk 39(B)": {
+      "Games": "HOYLE'S BOOK OF GAMES VOL. II, GOLD OF THE AZTECS (DATA)",
+      "File": "FOF_039B.MSA"
+   },
+   "Flame of Finland Disk 40": {
+      "Games": "SLY SPY - SECRET AGENT, SPY WHO LOVED ME",
+      "File": "FOF_040.MSA"
+   },
+   "Flame of Finland Disk 41": {
+      "Games": "TURRICAN, TURN IT",
+      "File": "FOF_041.MSA"
+   },
+   "Flame of Finland Disk 42": {
+      "Games": "ATOMIC ROBOKID, SUBBUTEO",
+      "File": "FOF_042.MSA"
+   },
+   "Flame of Finland Disk 43": {
+      "Games": "CABAL, GREMLINS II",
+      "File": "FOF_043.MSA"
+   },
+   "Flame of Finland Disk 44": {
+      "Games": "FLIMBO'S QUEST , ADVANCED TACTICAL FIGHTER II",
+      "File": "FOF_044.MSA"
+   },
+   "Flame of Finland Disk 45": {
+      "Games": "FUTURE BASKETBALL, NITRO",
+      "File": "FOF_045.MSA"
+   },
+   "Flame of Finland Disk 46": {
+      "Games": "DRAGON BREED, SPINDIZZY WORLDS",
+      "File": "FOF_046.MSA"
+   },
+   "Flame of Finland Disk 47": {
+      "Games": "BUNDESLIGA MANAGER, ROGUE TROOPER",
+      "File": "FOF_047.MSA"
+   },
+   "Flame of Finland Disk 48": {
+      "Games": "BADLANDS, PANG",
+      "File": "FOF_048.MSA"
+   },
+   "Flame of Finland Disk 49": {
+      "Games": "TEENAGE MUTANT NINJA HEROES, RICK DANGEROUS II",
+      "File": "FOF_049.MSA"
+   },
+   "Flame of Finland Disk 50": {
+      "Games": "ESWAT",
+      "File": "FOF_050.MSA"
+   },
+   "Flame of Finland Disk 51": {
+      "Games": "ONSLAUGHT, VOODOO NIGHTMARE",
+      "File": "FOF_051.MSA"
+   },
+   "Flame of Finland Disk 52": {
+      "Games": "DICK TRACY, THE AMAZING SPIDERMAN",
+      "File": "FOF_052.MSA"
+   },
+   "Flame of Finland Disk 53": {
+      "Games": "NARCO POLICE, S.T.U.N. RUNNER",
+      "File": "FOF_053.MSA"
+   },
+   "Flame of Finland Disk 54": {
+      "Games": "ROBOCOP II, U.S.S. JOHN YOUNG",
+      "File": "FOF_054.MSA"
+   },
+   "Superior Disk 55": {
+      "Games": "ENCHANTED LAND, SYNTH DREAM",
+      "File": "SUP_055.MSA"
+   },
+   "Superior Disk 56": {
+      "Games": "HUNT FOR THE RED OCTOBER, SARAKON, TEAM SUZUKI",
+      "File": "SUP_056.MSA"
+   },
+   "Superior Disk 57": {
+      "Games": "TURRICAN II",
+      "File": "SUP_057.MSA"
+   },
+   "Superior Disk 58(A)": {
+      "Games": "WRATH OF DEMON (BOOT) RED DISK",
+      "File": "SUP_058A.MSA"
+   },
+   "Superior Disk 58(B)": {
+      "Games": "WRATH OF DEMON (DATA) YELLOW DISK",
+      "File": "SUP_058B.MSA"
+   },
+   "Superior Disk 58(C)": {
+      "Games": "CHIPS CHALLENGE, WRATH OF DEMON (DATA) GREEN DISK",
+      "File": "SUP_058C.MSA"
+   },
+   "Superior Disk 59": {
+      "Games": "HORROR ZOMBIES FROM THE CRYPT, MIGHTY BOMBJACK",
+      "File": "SUP_059.MSA"
+   },
+   "Superior Disk 60": {
+      "Games": "WINGS OF DEATH",
+      "File": "SUP_060.MSA"
+   },
+   "Superior Disk 61": {
+      "Games": "DISC, WORLD CHAMPIONSHIP SOCCER",
+      "File": "SUP_061.MSA"
+   },
+   "Superior Disk 62": {
+      "Games": "CROWN, PREHISTORIC TALE",
+      "File": "SUP_062.MSA"
+   },
+   "Superior Disk 63(A)": {
+      "Games": "KILLING GAME SHOW (BOOT)",
+      "File": "SUP_063A.MSA"
+   },
+   "Superior Disk 63(B)": {
+      "Games": "CHAMBERS OF SHAOLIN, KILLING GAME SHOW (DATA)",
+      "File": "SUP_063B.MSA"
+   },
+   "Superior Disk 64": {
+      "Games": "BACK TO THE FUTURE : part III",
+      "File": "SUP_064.MSA"
+   },
+   "Superior Disk 65": {
+      "Games": "BLOOD MONEY, SUPER MONACO GP",
+      "File": "SUP_065.MSA"
+   },
+   "Superior Disk 66": {
+      "Games": "GREAT COURTS II, QUADREL",
+      "File": "SUP_066.MSA"
+   },
+   "Superior Disk 67": {
+      "Games": "HILL'S STREET BLUES, J.U.G., NAVY SEALS",
+      "File": "SUP_067.MSA"
+   },
+   "Superior Disk 68(A)": {
+      "Games": "AWESOME (BOOT)",
+      "File": "SUP_068A.MSA"
+   },
+   "Superior Disk 68(B)": {
+      "Games": "AWESOME (DATA)",
+      "File": "SUP_068B.MSA"
+   },
+   "Superior Disk 69(A)": {
+      "Games": "MOONSHINE RACERS (BOOT), HYDRA",
+      "File": "SUP_069A.MSA"
+   },
+   "Superior Disk 69(B)": {
+      "Games": "MOONSHINE RACERS (DATA)",
+      "File": "SUP_069B.MSA"
+   },
+   "Superior Disk 70(A)": {
+      "Games": "PREDATOR II, PREDATOR II (INTRO)",
+      "File": "SUP_070A.MSA"
+   },
+   "Superior Disk 70(B)": {
+      "Games": "Z-OUT, PREDATOR II (INTRO DATA)",
+      "File": "SUP_070B.MSA"
+   },
+   "Superior Disk 71": {
+      "Games": "THE RUNNING MAN",
+      "File": "SUP_071.MSA"
+   },
+   "Superior Disk 72": {
+      "Games": "JAHANGIR KHAN'S SQUASH, HERO QUEST",
+      "File": "SUP_072.MSA"
+   },
+   "Superior Disk 73": {
+      "Games": "CALIFORNIA GAMES, PROJECTYLE",
+      "File": "SUP_073.MSA"
+   },
+   "Superior Disk 74(A)": {
+      "Games": "GODS (BOOT), TREASURE TRAP",
+      "File": "SUP_074A.MSA"
+   },
+   "Superior Disk 74(B)": {
+      "Games": "GODS (DATA)",
+      "File": "SUP_074B.MSA"
+   },
+   "Superior Disk 75": {
+      "Games": "F-29 RETALIATOR, THE BALL GAME",
+      "File": "SUP_075.MSA"
+   },
+   "Superior Disk 76": {
+      "Games": "BIG BUSINESS, STORMBALL",
+      "File": "SUP_076.MSA"
+   },
+   "Superior Disk 77": {
+      "Games": "DARK CENTURY#, TOKI",
+      "File": "SUP_077.MSA"
+   },
+   "Superior Disk 78": {
+      "Games": "MERCS, VIOLATOR",
+      "File": "SUP_078.MSA"
+   },
+   "Superior Disk 79": {
+      "Games": "SWITCHBLADE II, WARZONE",
+      "File": "SUP_079.MSA"
+   },
+   "Superior Disk 80": {
+      "Games": "FRENETIC, R.B.I. 2 BASEBALL",
+      "File": "SUP_080.MSA"
+   },
+   "Superior Disk 81": {
+      "Games": "F-15 STRIKE EAGLE II, WRECKERS",
+      "File": "SUP_081.MSA"
+   },
+   "Superior Disk 82(A)": {
+      "Games": "CJ'S ELEPHANT ANTICS, ELF (BOOT), ZONE WARRIOR",
+      "File": "SUP_082A.MSA"
+   },
+   "Superior Disk 82(B)": {
+      "Games": "ELF (DATA)",
+      "File": "SUP_082B.MSA"
+   },
+   "Superior Disk 82(C)": {
+      "Games": "ARMALYTE, ELF (DATA)",
+      "File": "SUP_082C.MSA"
+   },
+   "Superior Disk 83(A)": {
+      "Games": "DARKMAN, HUNTER, JIMMY WHITE'S WHIRLWIND SNOOKER, THUNDER HAWK (FRENCH)(BOOT)",
+      "File": "SUP_083A.MSA"
+   },
+   "Superior Disk 83(B)": {
+      "Games": "THUNDER HAWK (DATA)",
+      "File": "SUP_083B.MSA"
+   },
+   "Superior Disk 84(A)": {
+      "Games": "MAGIC POCKETS, TERMINATOR II (BOOT)",
+      "File": "SUP_084A.MSA"
+   },
+   "Superior Disk 84(B)": {
+      "Games": "TERMINATOR II (DATA)",
+      "File": "SUP_084B.MSA"
+   },
+   "Superior Disk 85": {
+      "Games": "BOSTON BOMB CLUB, DEATHBRINGER (DEMO), RODLAND",
+      "File": "SUP_085.MSA"
+   },
+   "Superior Disk 86": {
+      "Games": "R-TYPE II, ROLLING RONNY",
+      "File": "SUP_086.MSA"
+   },
+   "Superior Disk 87(A)": {
+      "Games": "OUTRUN EUROPA (BOOT), TITANIC BLINKY, WACKY RACES",
+      "File": "SUP_087A.MSA"
+   },
+   "Superior Disk 87(B)": {
+      "Games": "OUTRUN EUROPA (DATA)",
+      "File": "SUP_087B.MSA"
+   },
+   "Superior Disk 88": {
+      "Games": "KICK OFF II - RETURN TO EUROPE (HD-VERSION), MIG-29 SUPER FULCRUM",
+      "File": "SUP_088.MSA"
+   },
+   "Superior Disk 89(A)": {
+      "Games": "UTOPIA (BOOT), WILD WHEELS",
+      "File": "SUP_089A.MSA"
+   },
+   "Superior Disk 89(B)": {
+      "Games": "UTOPIA (DATA-RAW)",
+      "File": "SUP_089B.MSA"
+   },
+   "Superior Disk 90(A)": {
+      "Games": "DEATH TRAP, STREET HOCKEY (BOOT)",
+      "File": "SUP_090A.MSA"
+   },
+   "Superior Disk 90(B)": {
+      "Games": "ROBIN HOOD, STREET HOCKEY (DATA)",
+      "File": "SUP_090B.MSA"
+   },
+   "Superior Disk 91(A)": {
+      "Games": "FACE OFF (BOOT), MEGA-lO-MANIA, THUNDERJAWS (BOOT)",
+      "File": "SUP_091A.MSA"
+   },
+   "Superior Disk 91(B)": {
+      "Games": "FACE OFF (DATA), THUNDERJAWS (DATA)",
+      "File": "SUP_091B.MSA"
+   },
+   "Superior Disk 92(A)": {
+      "Games": "BEAST BUSTERS (BOOT), SUPER SPACE INVADERS (BOOT), WORLD CLASS RUGBY",
+      "File": "SUP_092A.MSA"
+   },
+   "Superior Disk 92(B)": {
+      "Games": "SUPER SPACE INVADERS (DATA)",
+      "File": "SUP_092B.MSA"
+   },
+   "Superior Disk 92(C)": {
+      "Games": "BEAST BUSTERS (DATA)",
+      "File": "SUP_092C.MSA"
+   },
+   "Superior Disk 93(A)": {
+      "Games": "ALIEN STORM, SHADOW OF THE BEAST II (BOOT)",
+      "File": "SUP_093A.MSA"
+   },
+   "Superior Disk 93(B)": {
+      "Games": "SHADOW OF THE BEAST II (DATA)",
+      "File": "SUP_093B.MSA"
+   },
+   "Superior Disk 94": {
+      "Games": "DEUTEROS, FIGHTER COMMAND",
+      "File": "SUP_094.MSA"
+   },
+   "Superior Disk 95(A)": {
+      "Games": "HUDSON HAWK, MOONFALL, SMASH TV (BOOT)",
+      "File": "SUP_095A.MSA"
+   },
+   "Superior Disk 95(B)": {
+      "Games": "SHADOW SORCERER, SMASH TV (DATA)",
+      "File": "SUP_095B.MSA"
+   },
+   "Superior Disk 96(A)": {
+      "Games": "HEAVY METAL HEROES, MEGATWINS (DATA), OH NO! MORE LEMMINGS",
+      "File": "SUP_096A.MSA"
+   },
+   "Superior Disk 96(B)": {
+      "Games": "MEGATWINS (BOOT)",
+      "File": "SUP_096B.MSA"
+   },
+   "Superior Disk 97(A)": {
+      "Games": "BLACK HORNET, JAMES POND II, WWF WRESTLEMANIA (BOOT)",
+      "File": "SUP_097A.MSA"
+   },
+   "Superior Disk 97(B)": {
+      "Games": "WWF WRESTLEMANIA (DATA)",
+      "File": "SUP_097B.MSA"
+   },
+   "Superior Disk 98": {
+      "Games": "FIRST SAMURAI",
+      "File": "SUP_098.MSA"
+   },
+   "Superior Disk 99(A)": {
+      "Games": "STEVE McQUEEN - WESTPHASER (BOOT), TIP OFF",
+      "File": "SUP_099A.MSA"
+   },
+   "Superior Disk 99(B)": {
+      "Games": "STEVE McQUEEN - WESTPHASER (DATA)",
+      "File": "SUP_099B.MSA"
+   },
+   "Superior Disk 100(A)": {
+      "Games": "DEVIOUS DESIGNS (BOOT), FINAL BLOW, OBITUS (BOOT)",
+      "File": "SUP_100A.MSA"
+   },
+   "Superior Disk 100(B)": {
+      "Games": "DEVIOUS DESIGNS (DATA) ",
+      "File": "SUP_100B.MSA"
+   },
+   "Superior Disk 100(C)": {
+      "Games": "OBITUS (DATA)",
+      "File": "SUP_100C.MSA"
+   },
+   "Superior Disk 101": {
+      "Games": "EXILE, POPULOUS II",
+      "File": "SUP_101.MSA"
+   },
+   "Superior Disk 102(A)": {
+      "Games": "GODFATHER (BOOT)",
+      "File": "SUP_102A.MSA"
+   },
+   "Superior Disk 102(B)": {
+      "Games": "GODFATHER (DATA)",
+      "File": "SUP_102B.MSA"
+   },
+   "Superior Disk 102(C)": {
+      "Games": "GODFATHER (DATA)",
+      "File": "SUP_102C.MSA"
+   },
+   "Superior Disk 103": {
+      "Games": "SUPER SKI II",
+      "File": "SUP_103.MSA"
+   },
+   "Superior Disk 104(A)": {
+      "Games": "POPULOUS II (1 MEG VERSION), RUBICON (BOOT)",
+      "File": "SUP_104A.MSA"
+   },
+   "Superior Disk 104(B)": {
+      "Games": "RUBICON (DATA)",
+      "File": "SUP_104B.MSA"
+   },
+   "Superior Disk 105(A)": {
+      "Games": "KNIGHTS OF THE SKY (1 MEG ONLY), SPACE GUN (BOOT), + POPULOUS II DOC + DEUTEROS FIX",
+      "File": "SUP_105A.MSA"
+   },
+   "Superior Disk 105(B)": {
+      "Games": "SPACE GUN (DATA)",
+      "File": "SUP_105B.MSA"
+   },
+   "Superior Disk 106(A)": {
+      "Games": "ROBOCOP III (BOOT), SUPER SOCCER",
+      "File": "SUP_106A.MSA"
+   },
+   "Superior Disk 106(B)": {
+      "Games": "ROBOCOP III (DATA)",
+      "File": "SUP_106B.MSA"
+   },
+   "Superior Disk 107": {
+      "Games": "ELVIRA - THE ARCADE GAME",
+      "File": "SUP_107.MSA"
+   },
+   "Superior Disk 108": {
+      "Games": "NO BUDDIES LAND, SPOT",
+      "File": "SUP_108.MSA"
+   },
+   "Superior Disk 109(A)": {
+      "Games": "BIG RUN, SPECIAL FORCES (BOOT), WORLD WAR I - POWER MONGER",
+      "File": "SUP_109A.MSA"
+   },
+   "Superior Disk 109(B)": {
+      "Games": "SPECIAL FORCES (DATA)",
+      "File": "SUP_109B.MSA"
+   },
+   "Superior Disk 110(A)": {
+      "Games": "FORMULA 1 GRAND PRIX (BOOT)(RAW-DATA!)",
+      "File": "SUP_110A.MSA"
+   },
+   "Superior Disk 110(B)": {
+      "Games": "FORMULA 1 GRAND PRIX (DATA)(RAW-DATA!)",
+      "File": "SUP_110B.MSA"
+   },
+   "Superior Disk 111": {
+      "Games": "FFLS HARD-DISK DRIVER, HARLEQUIN",
+      "File": "SUP_111.MSA"
+   },
+   "Superior Disk 112": {
+      "Games": "F1 TORNADO, VIDEO KID",
+      "File": "SUP_112.MSA"
+   },
+   "Superior Disk 113": {
+      "Games": "BUBBLE DIZZY, DIZZY PANIC, KWIKSNAX, PRINCE OF THE YOLKFOLK, SPELLBOUND DIZZY",
+      "File": "SUP_113.MSA"
+   },
+   "Superior Disk 114": {
+      "Games": "INDY HEAT, PARASOL STARS",
+      "File": "SUP_114.MSA"
+   },
+   "Superior Disk 115": {
+      "Games": "RACE DRIVIN' (GAME+INTRO)",
+      "File": "SUP_115.MSA"
+   },
+   "Superior Disk 116": {
+      "Games": "BRIDES OF DRACULA, DIE HARD II",
+      "File": "SUP_116.MSA"
+   },
+   "Superior Disk 117(A)": {
+      "Games": "DELIVERANCE (BOOT)(1 MEG), EUROPEAN CHAMPIONSHIP 1992, JOHN BARNES SOCCER (1 MEG), SPACE CRUSADE",
+      "File": "SUP_117A.MSA"
+   },
+   "Superior Disk 117(B)": {
+      "Games": "DELIVERANCE (DATA I)",
+      "File": "SUP_117B.MSA"
+   },
+   "Superior Disk 117(C)": {
+      "Games": "DELIVERANCE (DATA II)",
+      "File": "SUP_117C.MSA"
+   },
+   "Superior Disk 118": {
+      "Games": "ADDAMS FAMILY, BONANZA BROTHERS",
+      "File": "SUP_118.MSA"
+   },
+   "Superior Disk 119": {
+      "Games": "GRAHAM TAYLORS SOCCER CHALLENGE, SENSIBLE SOCCER, STRIKER",
+      "File": "SUP_119.MSA"
+   },
+   "Superior Disk 120": {
+      "Games": "CHAMPIONSHIP MANAGER",
+      "File": "SUP_120.MSA"
+   },
+   "Superior Disk 121": {
+      "Games": "CALIFORNIA GAMES II",
+      "File": "SUP_121.MSA"
+   },
+   "Superior Disk 122": {
+      "Games": "LOTUS III - THE ULTIMATE CHALLENGE, WIZKID - WIZBALL II",
+      "File": "SUP_122.MSA"
+   },
+   "Superior Disk 123": {
+      "Games": "TENNIS CUP II",
+      "File": "SUP_123.MSA"
+   },
+   "Superior Disk 124(A)": {
+      "Games": "JIM POWER IN MUTANT PLANET (BOOT), TINY SKWEEKS",
+      "File": "SUP_124A.MSA"
+   },
+   "Superior Disk 124(B)": {
+      "Games": "FAST COPY PRO V.1.1a + GERMAN DOCS, JIM POWER IN MUTANT PLANET (DATA)",
+      "File": "SUP_124B.MSA"
+   },
+   "Superior Disk 125": {
+      "Games": "DUCKULA II, SABRE TEAM (1 MEG)",
+      "File": "SUP_125.MSA"
+   },
+   "Superior Disk 126": {
+      "Games": "BUNNY BRICKS, SUPER SEYMOUR",
+      "File": "SUP_126.MSA"
+   },
+   "Superior Disk 127(A)": {
+      "Games": "ISHAR (BOOT), MATCH OT THE DAY",
+      "File": "SUP_127A.MSA"
+   },
+   "Superior Disk 127(B)": {
+      "Games": "ISHAR (DATA)",
+      "File": "SUP_127B.MSA"
+   },
+   "Superior Disk 128": {
+      "Games": "COLUMS, CYBERNETICS, M™T™RHEAD",
+      "File": "SUP_128.MSA"
+   },
+   "Superior Disk 129": {
+      "Games": "LIVERPOOL F.C. (GAME+INTRO)",
+      "File": "SUP_129.MSA"
+   },
+   "Superior Disk 130": {
+      "Games": "LEATHAL WEAPON, SENSIBLE SOCCER V.1.1, NEW HARD-DISK DRIVER",
+      "File": "SUP_130.MSA"
+   },
+   "Superior Disk 131(A)": {
+      "Games": "ARCHER MCLEAN POOL, COOL WORLD (BOOT+DATA I), VROOM DATA-DISK",
+      "File": "SUP_131A.MSA"
+   },
+   "Superior Disk 131(B)": {
+      "Games": "COOL WORLD (DATA II)",
+      "File": "SUP_131B.MSA"
+   },
+   "Superior Disk 132(A)": {
+      "Games": "STREET FIGHTER II (BOOT+DATA I)",
+      "File": "SUP_132A.MSA"
+   },
+   "Superior Disk 132(B)": {
+      "Games": "C.J. IN THE U.S.A., STREET FIGHTER II (DATA II)",
+      "File": "SUP_132B.MSA"
+   },
+   "Superior Disk 132(C)": {
+      "Games": "DYNABLASTERS, STREET FIGHTER II (DATA III)",
+      "File": "SUP_132C.MSA"
+   },
+   "Superior Disk 133": {
+      "Games": "NO SECOND PRIZE, PREMIER LEAGUE MANAGER",
+      "File": "SUP_133.MSA"
+   },
+   "Superior Disk 134(A)": {
+      "Games": "SLEEPWALKER (BOOT+DATA I)(STe ONLY)",
+      "File": "SUP_134A.MSA"
+   },
+   "Superior Disk 134(B)": {
+      "Games": "SLEEPWALKER (DATA II)(STe ONLY)",
+      "File": "SUP_134B.MSA"
+   },
+   "Superior Disk 134(C)": {
+      "Games": "SLEEPWALKER (DATA III)(STe ONLY)",
+      "File": "SUP_134C.MSA"
+   },
+   "Superior Disk 135": {
+      "Games": "BIG NOSE, NIGEL MANSELL'S WORLD CHAMPIONSHIPS",
+      "File": "SUP_135.MSA"
+   },
+   "Superior Disk 136": {
+      "Games": "CRYSTAL KINGDOM DIZZY, ROBIN HOOD",
+      "File": "SUP_136.MSA"
+   },
+   "Superior Disk 137": {
+      "Games": "WORLD WRESTLING FEDERATION II - EUROPEAN TOUR",
+      "File": "SUP_137.MSA"
+   },
+   "Superior Disk 138": {
+      "Games": "MAGICLAND DIZZY, VROOM MULTIPLAYER",
+      "File": "SUP_138.MSA"
+   },
+   "Superior Disk 139(A)": {
+      "Games": "GRAHAM GOOCH CRICKET (BOOT), MCDONALD LAND (BOOT), WEEN (BOOT + DATA I)",
+      "File": "SUP_139A.MSA"
+   },
+   "Superior Disk 139(B)": {
+      "Games": "GRAHAM GOOCH CRICKET (DATA), WEEN (DATA II)",
+      "File": "SUP_139B.MSA"
+   },
+   "Superior Disk 139(C)": {
+      "Games": "MCDONALD LAND (DATA), WEEN (DATA III)",
+      "File": "SUP_139C.MSA"
+   },
+   "Superior Disk 140(A)": {
+      "Games": "BARGON ATTACK (BOOT + DATA I)",
+      "File": "SUP_140A.MSA"
+   },
+   "Superior Disk 140(B)": {
+      "Games": "BARGON ATTACK (DATA II), KID KONG, LEMMINGS II (BOOT)",
+      "File": "SUP_140B.MSA"
+   },
+   "Superior Disk 140(C)": {
+      "Games": "BARGON ATTACK (DATA III)",
+      "File": "SUP_140C.MSA"
+   },
+   "Superior Disk 140D": {
+      "Games": "LEMMINGS II (DATA)",
+      "File": "SUP_140D.MSA"
+   },
+   "Superior Disk 141(A)": {
+      "Games": "B17 FLYING FORTRESS (BOOT + DATA I), CHAOS ENGINE (BOOT)",
+      "File": "SUP_141A.MSA"
+   },
+   "Superior Disk 141(B)": {
+      "Games": "B17 FLYING FORTRESS (DATA II), CENTIPEDE",
+      "File": "SUP_141B.MSA"
+   },
+   "Superior Disk 141(C)": {
+      "Games": "B17 FLYING FORTRESS (DOCS), CHAOS ENGINE (DATA+DOCS)",
+      "File": "SUP_141C.MSA"
+   },
+   "Superior Disk 142(A)": {
+      "Games": "CARLS LEWIS, DALEK ATTACK (BOOT)",
+      "File": "SUP_142A.MSA"
+   },
+   "Superior Disk 142(B)": {
+      "Games": "DALEK ATTACK (DATA)",
+      "File": "SUP_142B.MSA"
+   },
+   "Superior Disk 143(A)": {
+      "Games": "AV8B HARRIER ASSAULT, FASCINATION (BOOT + DATA I)",
+      "File": "SUP_143A.MSA"
+   },
+   "Superior Disk 143(B)": {
+      "Games": "FASCINATION (DATA II), WAR IN THE GULF (BOOT)",
+      "File": "SUP_143B.MSA"
+   },
+   "Superior Disk 143(C)": {
+      "Games": "FASCINATION (DATA III), TRANS ARCTICA (BOOT + DATA I), WAR IN THE GULF (DATA)",
+      "File": "SUP_143C.MSA"
+   },
+   "Superior Disk 143D": {
+      "Games": "TRANS ARCTICA (DATA II)",
+      "File": "SUP_143D.MSA"
+   },
+   "Superior Disk 144(A)": {
+      "Games": "FIRE FORCE, LURE OF THE TEMPTRESS (BOOT)",
+      "File": "SUP_144A.MSA"
+   },
+   "Superior Disk 144(B)": {
+      "Games": "LURE OF THE TEMPTRESS (DATA I)",
+      "File": "SUP_144B.MSA"
+   },
+   "Superior Disk 144(C)": {
+      "Games": "LURE OF THE TEMPTRESS (DATA II + DOCS)",
+      "File": "SUP_144C.MSA"
+   },
+   "Superior Disk 145": {
+      "Games": "UTOPOS (PREVIEW STe ONLY), ZOOL (ST+STe)",
+      "File": "SUP_145.MSA"
+   },
+   "Superior Disk 146(A)": {
+      "Games": "LEGENDS OF VALOUR (BOOT + DATA I), NICKY BOOM 2, SAINT DRAGON",
+      "File": "SUP_146A.MSA"
+   },
+   "Superior Disk 146(B)": {
+      "Games": "LEGENDS OF VALOUR (DATA II)",
+      "File": "SUP_146B.MSA"
+   },
+   "Superior Disk 146(C)": {
+      "Games": "LEGENDS OF VALOUR (DATA III)",
+      "File": "SUP_146C.MSA"
+   },
+   "Superior Disk 147(A)": {
+      "Games": "ISHAR II (BOOT + DATA I), SVIW",
+      "File": "SUP_147A.MSA"
+   },
+   "Superior Disk 147(B)": {
+      "Games": "ISHAR II (DATA II)",
+      "File": "SUP_147B.MSA"
+   },
+   "Superior Disk 147(C)": {
+      "Games": "ISHAR II (DATA III)",
+      "File": "SUP_147C.MSA"
+   },
+   "Superior Disk 148(A)": {
+      "Games": "KNIGHT MARE (BOOT + DATA I), SHADOWORLDS",
+      "File": "SUP_148A.MSA"
+   },
+   "Superior Disk 148(B)": {
+      "Games": "KNIGHT MARE (DATA II), REACH FOR THE SKIES (BOOT)",
+      "File": "SUP_148B.MSA"
+   },
+   "Superior Disk 148(C)": {
+      "Games": "KNIGHT MARE (SAVE-GAME DISK CREATOR), REACH FOR THE SKIES (DATA)",
+      "File": "SUP_148C.MSA"
+   },
+   "Superior Disk 149": {
+      "Games": "CAPTAIN PLANET, PARADROID 90",
+      "File": "SUP_149.MSA"
+   },
+   "Superior Disk 150(A)": {
+      "Games": "ONE STEP BEYOND, WORLD CLASS RUGBY - 5 NATIONS EDITION (BOOT)",
+      "File": "SUP_150A.MSA"
+   },
+   "Superior Disk 150(B)": {
+      "Games": "HUCKLEBERRY HOUND IN HOLLYWOOD CAPERS, TRUCK RACING, WORLD CLASS RUGBY - 5 NATIONS EDITION",
+      "File": "SUP_150B.MSA"
+   },
+   "Superior Disk 151(A)": {
+      "Games": "GUY SPY (BOOT+DATA 1)",
+      "File": "SUP_151A.MSA"
+   },
+   "Superior Disk 151(B)": {
+      "Games": "GUY SPY (BOOT+DATA 2), REVENGE DOC DISPLAYER V.3.00",
+      "File": "SUP_151B.MSA"
+   },
+   "Superior Disk 151(C)": {
+      "Games": "GUY SPY (BOOT+DATA 3), EOS",
+      "File": "SUP_151C.MSA"
+   },
+   "Superior Disk 152(A)": {
+      "Games": "DOGFIGHT (BOOT+DATA 2)",
+      "File": "SUP_152A.MSA"
+   },
+   "Superior Disk 152(B)": {
+      "Games": "DOGFIGHT (DATA 1), SPACE SHUTTLE (BOOT+DATA 1)",
+      "File": "SUP_152B.MSA"
+   },
+   "Superior Disk 152(C)": {
+      "Games": "SPACE SHUTTLE (DATA 2), WIND SURF WILLY",
+      "File": "SUP_152C.MSA"
+   },
+   "Superior Disk 153": {
+      "Games": "SHUFFLE PUCK CAFE, WORKS TEAM RACING, ST-LOCK",
+      "File": "SUP_153.MSA"
+   },
+   "Superior Disk 154": {
+      "Games": "FIRE & ICE",
+      "File": "SUP_154.MSA"
+   },
+   "Superior Disk 155(A)": {
+      "Games": "CAPTIVE (BOOT) + SAVED, CHAMPIONSHIP MANAGER 93 (DATA)",
+      "File": "SUP_155A.MSA"
+   },
+   "Superior Disk 155(B)": {
+      "Games": "CAPTIVE (DATA), CHAMPIONSHIP MANAGER 93 (BOOT)",
+      "File": "SUP_155B.MSA"
+   },
+   "Superior Disk 156(A)": {
+      "Games": "ELITE II - FRONTIER, LEANDER (BOOT+DATA 1), UNREAL (BOOT+DATA 1)",
+      "File": "SUP_156A.MSA"
+   },
+   "Superior Disk 156(B)": {
+      "Games": "LEANDER (DATA 2)",
+      "File": "SUP_156B.MSA"
+   },
+   "Superior Disk 156(C)": {
+      "Games": "UNREAL (DATA 2)",
+      "File": "SUP_156C.MSA"
+   },
+   "Superior Disk 157": {
+      "Games": "CHAMPIONSHIP MANAGER 94",
+      "File": "SUP_157.MSA"
+   },
+   "Superior Disk 158(A)": {
+      "Games": "BART SIMPSON VS. THE WORLD, BEAST LORD (BOOT+DATA 2)",
+      "File": "SUP_158A.MSA"
+   },
+   "Superior Disk 158(B)": {
+      "Games": "BEAST LORD (DATA 1)",
+      "File": "SUP_158B.MSA"
+   },
+   "Superior Disk 159(A)": {
+      "Games": "GOBLIINS (BOOT), GOBLIINS II (BOOT+DATA 2)",
+      "File": "SUP_159A.MSA"
+   },
+   "Superior Disk 159(B)": {
+      "Games": "GOBLIINS (DATA 2), GOBLIINS II (DATA 1)",
+      "File": "SUP_159B.MSA"
+   },
+   "Superior Disk 159(C)": {
+      "Games": "GOBLIINS (DATA 0), GOBLIINS II (DATA 3)",
+      "File": "SUP_159C.MSA"
+   },
+   "Superior Disk 159(D)": {
+      "Games": "GOBLIINS (DATA 1+DATA 4), MAGIC BOY (BOOT), PIXIE'N'DIXIE (BOOT)",
+      "File": "SUP_159D.MSA"
+   },
+   "Superior Disk 159(E)": {
+      "Games": "GOBLIINS (DATA 3), MAGIC BOY (DATA), PIXIE'N'DIXIE (DATA)",
+      "File": "SUP_159E.MSA"
+   },
+   "Superior Disk 160(A)": {
+      "Games": "CANNON FODDER (BOOT+DATA 2), EUROPEAN CHAMPIONS",
+      "File": "SUP_160A.MSA"
+   },
+   "Superior Disk 160(B)": {
+      "Games": "CANNON FODDER (DATA 1)",
+      "File": "SUP_160B.MSA"
+   },
+   "Superior Disk 161": {
+      "Games": "SENSIBLE SOCCER V.1.20, STARBALL",
+      "File": "SUP_161.MSA"
+   },
+   "Superior Disk 162(A)": {
+      "Games": "CARLOS (BOOT+DATA I), F1-DOMARK (BOOT), ROCK'N'ROLL CLAMS (BOOT), TREX WARRIOR",
+      "File": "SUP_162A.MSA"
+   },
+   "Superior Disk 162(B)": {
+      "Games": "CARLOS (DATA II), ROCK'N'ROLL CLAMS (DATA I)",
+      "File": "SUP_162B.MSA"
+   },
+   "Superior Disk 162(C)": {
+      "Games": "F1-DOMARK (DATA), ROCK'N'ROLL CLAMS (DATA II)",
+      "File": "SUP_162C.MSA"
+   },
+   "Superior Disk 163": {
+      "Games": "PREMIER MANAGER II",
+      "File": "SUP_163.MSA"
+   },
+   "Superior Disk 164(A)": {
+      "Games": "ISHAR III (BOOT+DATA I)",
+      "File": "SUP_164A.MSA"
+   },
+   "Superior Disk 164(B)": {
+      "Games": "ISHAR III (DATA II)",
+      "File": "SUP_164B.MSA"
+   },
+   "Superior Disk 164(C)": {
+      "Games": "ISHAR III (DATA III)",
+      "File": "SUP_164C.MSA"
+   },
+   "Superior Disk 164(D)": {
+      "Games": "ISHAR III (DATA IV)",
+      "File": "SUP_164D.MSA"
+   },
+   "Superior Disk 165(A)": {
+      "Games": "ROBINSON'S REQUIEM (BOOT+DATA I)",
+      "File": "SUP_165A.MSA"
+   },
+   "Superior Disk 165(B)": {
+      "Games": "ROBINSON'S REQUIEM (DATA II)",
+      "File": "SUP_165B.MSA"
+   },
+   "Superior Disk 166(A)": {
+      "Games": "KILLING CLOUD (BOOT+DATA I), OBSESSION (PREV.), STARDUST (PREV.)",
+      "File": "SUP_166A.MSA"
+   },
+   "Superior Disk 166(B)": {
+      "Games": "KILLING CLOUD (DATA II)",
+      "File": "SUP_166B.MSA"
+   },
+   "DBug Disk 01(A)": {
+      "Games": "TERMINATOR II (A), PRO BOXING SIMULATOR",
+      "File": "dbug001a.msa"
+   },
+   "DBug Disk 01(B)": {
+      "Games": "TERMINATOR II (B)",
+      "File": "dbug001b.msa"
+   },
+   "DBug Disk 2": {
+      "Games": "DARKMAN, CJ'S ELEPHANT ANTICS, JIMMY WHITE'S WHIRLWIND SNOOKER, MEAN MACHINE",
+      "File": "dbug002.msa"
+   },
+   "DBug Disk 3": {
+      "Games": "ROLLING RONNY, WACKY DARTS",
+      "File": "dbug003.msa"
+   },
+   "DBug Disk 4": {
+      "Games": "GUARDIAN, WOLFPACK",
+      "File": "dbug004.msa"
+   },
+   "DBug Disk 5": {
+      "Games": "FINAL FIGHT",
+      "File": "dbug005.msa"
+   },
+   "DBug Disk 6": {
+      "Games": "FLIGHT OF THE INTRUDER, SUPERNOVA",
+      "File": "dbug006.msa"
+   },
+   "DBug Disk 7": {
+      "Games": "MAGIC POCKETS, STACKUP",
+      "File": "dbug007.msa"
+   },
+   "DBug Disk 08(A)": {
+      "Games": "MIDWINTER II (A)",
+      "File": "dbug008a.msa"
+   },
+   "DBug Disk 08(B)": {
+      "Games": "MIDWINTER II (B), PRO TENNIS TOUR II",
+      "File": "dbug008b.msa"
+   },
+   "DBug Disk 09(A)": {
+      "Games": "SMASH TV, STRIKER MANAGER, WORLD WRESTLING FEDERATION (A)",
+      "File": "dbug009a.msa"
+   },
+   "DBug Disk 09(B)": {
+      "Games": "WORLD WRESTLING FEDERATION (B)",
+      "File": "dbug009b.msa"
+   },
+   "DBug Disk 10(A)": {
+      "Games": "PITFIGHTER, DOUBLE DRAGON III (A)",
+      "File": "dbug010a.msa"
+   },
+   "DBug Disk 10(B)": {
+      "Games": "DOUBLE DRAGON III (B)",
+      "File": "dbug010b.msa"
+   },
+   "DBug Disk 11(A)": {
+      "Games": "SHADOW OF THE BEAST II (A), WACKY RACES",
+      "File": "dbug011a.msa"
+   },
+   "DBug Disk 11(B)": {
+      "Games": "SHADOW OF THE BEAST II (B)",
+      "File": "dbug011b.msa"
+   },
+   "DBug Disk 12(A)": {
+      "Games": "ROBOZONE (INTRO), FIGHTER COMMAND",
+      "File": "dbug012a.msa"
+   },
+   "DBug Disk 12(B)": {
+      "Games": "ROBOZONE (GAME), R-TYPE II",
+      "File": "dbug012b.msa"
+   },
+   "DBug Disk 13": {
+      "Games": "HUNTER, CYBERCON III",
+      "File": "dbug013.msa"
+   },
+   "DBug Disk 14": {
+      "Games": "SILENT SERVICE II (MEG), FRUIT MACHINE",
+      "File": "dbug014.msa"
+   },
+   "DBug Disk 15(A)": {
+      "Games": "JAMES POND II: ROBOCOD, DEVIOUS DESIGNS (A)",
+      "File": "dbug015a.msa"
+   },
+   "DBug Disk 15(B)": {
+      "Games": "DEVIOUS DESIGNS (B)",
+      "File": "dbug015b.msa"
+   },
+   "DBug Disk 16": {
+      "Games": "WILD WHEELS, QUIK & SILVA",
+      "File": "dbug016.msa"
+   },
+   "DBug Disk 17(A)": {
+      "Games": "THUNDERHAWK (INTRO), SUSPICIOUS CARGO (A)",
+      "File": "dbug017a.msa"
+   },
+   "DBug Disk 17(B)": {
+      "Games": "THUNDERHAWK (GAME)",
+      "File": "dbug017b.msa"
+   },
+   "DBug Disk 17(C)": {
+      "Games": "SUSPICIOUS CARGO (B)",
+      "File": "dbug017c.msa"
+   },
+   "DBug Disk 18": {
+      "Games": "CISCO HEAT, RODLANDS",
+      "File": "dbug018.msa"
+   },
+   "DBug Disk 19": {
+      "Games": "RAILROAD TYCOON (MEG), CHARGE OF THE LIGHT BRIGADE",
+      "File": "dbug019.msa"
+   },
+   "DBug Disk 20": {
+      "Games": "SHADOW SORCEROR",
+      "File": "dbug020.msa"
+   },
+   "DBug Disk 21": {
+      "Games": "WARZONE, ALIEN STORM",
+      "File": "dbug021.msa"
+   },
+   "DBug Disk 22(A)": {
+      "Games": "MEGA TWINS (A)",
+      "File": "dbug022a.msa"
+   },
+   "DBug Disk 22(B)": {
+      "Games": "MEGA TWINS (B), UTOPIA, ATOMIK PACKER V 3.3",
+      "File": "dbug022b.msa"
+   },
+   "DBug Disk 23(A)": {
+      "Games": "BARBARIAN II (A) (PSYGNOSIS)",
+      "File": "dbug023a.msa"
+   },
+   "DBug Disk 23(B)": {
+      "Games": "BARBARIAN II (B) (PSYGNOSIS)",
+      "File": "dbug023b.msa"
+   },
+   "DBug Disk 24(A)": {
+      "Games": "KNIGHTMARE (A)",
+      "File": "dbug024a.msa"
+   },
+   "DBug Disk 24(B)": {
+      "Games": "KNIGHTMARE (B)",
+      "File": "dbug024b.msa"
+   },
+   "DBug Disk 25(A)": {
+      "Games": "ARMAGEDDON (A)",
+      "File": "dbug025a.msa"
+   },
+   "DBug Disk 25(B)": {
+      "Games": "SUPER SKWEEK (A)",
+      "File": "dbug025b.msa"
+   },
+   "DBug Disk 25(C)": {
+      "Games": "SUPER SKWEEK (B), ARMAGEDDON (B) (MISSIONS)",
+      "File": "dbug025c.msa"
+   },
+   "DBug Disk 26": {
+      "Games": "WORLD CLASS RUGBY, TURBO LOTUS ESPRIT II",
+      "File": "dbug026.msa"
+   },
+   "DBug Disk 27": {
+      "Games": "FOOTBALL DIRECTOR II, GRAEME SOUNESS VECTOR SOCCER, FINAL BLOW",
+      "File": "dbug027.msa"
+   },
+   "DBug Disk 28": {
+      "Games": "THE ADVENTURES OF ROBIN HOOD, REVENGE OF THE MUTANT CAMELS, HOT WHEELS / EDITOR",
+      "File": "dbug028.msa"
+   },
+   "DBug Disk 29": {
+      "Games": "OH NO! MORE LEMMINGS, THE SIMPSONS",
+      "File": "dbug029.msa"
+   },
+   "DBug Disk 30(A)": {
+      "Games": "ANOTHER WORLD (A), ANOTHER WORLD CODE FILE, JUNGLE BOY",
+      "File": "dbug030a.msa"
+   },
+   "DBug Disk 30(B)": {
+      "Games": "ANOTHER WORLD (B), GRAV",
+      "File": "dbug030b.msa"
+   },
+   "DBug Disk 31(A)": {
+      "Games": "SUPER SPACE INVADERS (A), DUNGEONZ",
+      "File": "dbug031a.msa"
+   },
+   "DBug Disk 31(B)": {
+      "Games": "SUPER SPACE INVADERS (B), 1ST DIVISION MANAGER",
+      "File": "dbug031b.msa"
+   },
+   "DBug Disk 32": {
+      "Games": "SWITCHBLADE II, BLACKJACK PLUS III",
+      "File": "dbug032.msa"
+   },
+   "DBug Disk 33": {
+      "Games": "LEMMINGS, MATCH IT!",
+      "File": "dbug033.msa"
+   },
+   "DBug Disk 34": {
+      "Games": "GERM CRAZY, ENTOMBED, ANCIENT GAMES",
+      "File": "dbug034.msa"
+   },
+   "DBug Disk 35": {
+      "Games": "DEATHBRINGER, ROCKFALL, SERENDIPITY",
+      "File": "dbug035.msa"
+   },
+   "DBug Disk 36": {
+      "Games": "TOP BANANA, CRUSH!",
+      "File": "dbug036.msa"
+   },
+   "DBug Disk 37": {
+      "Games": "FIRST SAMURAI!, INFILTRATION",
+      "File": "dbug037.msa"
+   },
+   "DBug Disk 38": {
+      "Games": "WORLD CRICKET, TIP OFF",
+      "File": "dbug038.msa"
+   },
+   "DBug Disk 39": {
+      "Games": "HARLEQUIN",
+      "File": "dbug039.msa"
+   },
+   "DBug Disk 40": {
+      "Games": "KNIGHTS OF THE SKY",
+      "File": "dbug040.msa"
+   },
+   "DBug Disk 41(A)": {
+      "Games": "MICROPROSE GOLF LOADER/GAME, MICROPROSE GOLF COURSE DISK 2",
+      "File": "dbug041a.msa"
+   },
+   "DBug Disk 41(B)": {
+      "Games": "MICROPROSE GOLF COURSE DISK 1, PRINCE OF THE YOLKFOLK, SPELLBOUND DIZZY",
+      "File": "dbug041b.msa"
+   },
+   "DBug Disk 42": {
+      "Games": "KICK OFF: RETURN TO EUROPE, PANIC DIZZY, FLIPPED",
+      "File": "dbug042.msa"
+   },
+   "DBug Disk 43(A)": {
+      "Games": "ROBOCOP III (A)",
+      "File": "dbug043a.msa"
+   },
+   "DBug Disk 43(B)": {
+      "Games": "ROBOCOP III (B), KLATRIX, QUIK SNAX",
+      "File": "dbug043b.msa"
+   },
+   "DBug Disk 44": {
+      "Games": "HUDSON HAWK, BUBBLE DIZZY",
+      "File": "dbug044.msa"
+   },
+   "DBug Disk 45(A)": {
+      "Games": "RUBICON (A), TITUS THE FOX",
+      "File": "dbug045a.msa"
+   },
+   "DBug Disk 45(B)": {
+      "Games": "RUBICON (B)",
+      "File": "dbug045b.msa"
+   },
+   "DBug Disk 46(A)": {
+      "Games": "STEEL EMPIRE (A), SPACE 1889 (A), STOS CRICKET",
+      "File": "dbug046a.msa"
+   },
+   "DBug Disk 46(B)": {
+      "Games": "STEEL EMPIRE (B)",
+      "File": "dbug046b.msa"
+   },
+   "DBug Disk 46(C)": {
+      "Games": "SPACE 1889 (B)",
+      "File": "dbug046c.msa"
+   },
+   "DBug Disk 47": {
+      "Games": "HOVER SPRINT",
+      "File": "dbug047.msa"
+   },
+   "DBug Disk 48(A)": {
+      "Games": "LEANDER (A)",
+      "File": "dbug048a.msa"
+   },
+   "DBug Disk 48(B)": {
+      "Games": "LEANDER (B), ARMALYTE",
+      "File": "dbug048b.msa"
+   },
+   "DBug Disk 49(A)": {
+      "Games": "ELF (A), SPACE GUN (A), ATOMIK PACKER 3.5",
+      "File": "dbug049a.msa"
+   },
+   "DBug Disk 49(B)": {
+      "Games": "ELF (B)",
+      "File": "dbug049b.msa"
+   },
+   "DBug Disk 49(C)": {
+      "Games": "SPACE GUN (B)",
+      "File": "dbug049c.msa"
+   },
+   "DBug Disk 50": {
+      "Games": "PARASOL STARS, ERIK, DISK LIST 1-50",
+      "File": "dbug050.msa"
+   },
+   "DBug Disk 51": {
+      "Games": "SPACE CRUSADE, JOHN BARNES SOCCER",
+      "File": "dbug051.msa"
+   },
+   "DBug Disk 52": {
+      "Games": "SHADOWLANDS, ASTEROIDS, MASTERBREAK, BLASTER + DOCS, DIGI-COMPOSER, MULTI-DEPACKER + DOCS",
+      "File": "dbug052.msa"
+   },
+   "DBug Disk 53": {
+      "Games": "CRIME CITY + DOCS, HEAD COACH",
+      "File": "dbug053.msa"
+   },
+   "DBug Disk 54(A)": {
+      "Games": "LEGEND, AIR TO AIR + DOCS, ST TETRIS, TAIPAN II + DOCS",
+      "File": "dbug054a.msa"
+   },
+   "DBug Disk 54(B)": {
+      "Games": "LEGEND DATA, TURRETS",
+      "File": "dbug054b.msa"
+   },
+   "DBug Disk 55(A)": {
+      "Games": "PUSHOVER, ESCAPADE + DOCS",
+      "File": "dbug055a.msa"
+   },
+   "DBug Disk 55(B)": {
+      "Games": "PUSHOVER DATA, SLUG",
+      "File": "dbug055b.msa"
+   },
+   "DBug Disk 56": {
+      "Games": "ADAMS FAMILY, HEROQUEST EXPANSION DISK",
+      "File": "dbug056.msa"
+   },
+   "DBug Disk 57": {
+      "Games": "FOOTBALL MASTER, ASTERIX IN OPERATION GETAFIX",
+      "File": "dbug057.msa"
+   },
+   "DBug Disk 58(A)": {
+      "Games": "ULTIMA 6 CREATOR DISK, TOXIC II",
+      "File": "dbug058a.msa"
+   },
+   "DBug Disk 58(B)": {
+      "Games": "ULTIMA 6 DISK DATA",
+      "File": "dbug058b.msa"
+   },
+   "DBug Disk 59(A)": {
+      "Games": "PACIFIC ISLANDS, INDY HEAT, CJ IN THE USA, SPIDER SPELL, X-COPY",
+      "File": "dbug059a.msa"
+   },
+   "DBug Disk 59(B)": {
+      "Games": "PACIFIC ISLANDS DATA",
+      "File": "dbug059b.msa"
+   },
+   "DBug Disk 60(A)": {
+      "Games": "GOBLINS, DROID + DOC, MAZE + DOC, HAPPY WORM, BACKGAMMON, BANG + DOC, MR DICE + DOC",
+      "File": "dbug060a.msa"
+   },
+   "DBug Disk 60(B)": {
+      "Games": "GOBLINS DATA",
+      "File": "dbug060b.msa"
+   },
+   "DBug Disk 60(C)": {
+      "Games": "GOBLINS DATA",
+      "File": "dbug060c.msa"
+   },
+   "DBug Disk 61": {
+      "Games": "GRAHAM TAYLOR SOCCER + DOCS, DOCS FOR ADAMS FAMILY, SHADOWLANDS, JOHN BARNES SOCCER, RSI BASEBALL II",
+      "File": "dbug061.msa"
+   },
+   "DBug Disk 62(A)": {
+      "Games": "EUROPEAN CHAMPIONSHIPS 92, ROBOCOP III MAPS, FIRE AND ICE MAPS, FAST COPY PRO",
+      "File": "dbug062a.msa"
+   },
+   "DBug Disk 62(B)": {
+      "Games": "EUROPEAN CHAMPIONSHIPS 92 DATA",
+      "File": "dbug062b.msa"
+   },
+   "DBug Disk 63": {
+      "Games": "AIR BUCKS, BOING, CHAIN REACTION + DOCS",
+      "File": "dbug063.msa"
+   },
+   "DBug Disk 64": {
+      "Games": "POPULOUS II (512K) + CODES, PURE LOGIC + DOCS, ZAP, PLAX ATAX, DUCKDASH + DOCS",
+      "File": "dbug064.msa"
+   },
+   "DBug Disk 65": {
+      "Games": "PROJECTYLE, RENAISSANCE 1, ISLAND HOPPING",
+      "File": "dbug065.msa"
+   },
+   "DBug Disk 66": {
+      "Games": "DICK TRACY, OZONE, DOCS FOR LEGEND, HARLEQUIN, MIDWINTER II SOLTN, PUSHOVER CODES, HOVERSPRINT, INDY HEAT, PANIC DIZZY, BUBBLE DIZZY, SPELLBOUND DIZZY, PRINCE OF THE YOLKFOLK, PARASOL STARS, PRINCE YOLKFOLK SOLTN",
+      "File": "dbug066.msa"
+   },
+   "DBug Disk 67": {
+      "Games": "DISCOVERY, QUIZ CONSTRUCTION KIT, FOOTBALL + DOC, COLOSSAL CAVE + DOC, HORSE RACING SIMULATOR",
+      "File": "dbug067.msa"
+   },
+   "DBug Disk 68(A)": {
+      "Games": "HEIMDALL DISK 0 (MEG ONLY), SAVE GAME CONVERTER, HEIMDALL MAPS, HEIMDALL SAVE FILES",
+      "File": "dbug068a.msa"
+   },
+   "DBug Disk 68(B)": {
+      "Games": "HEIMDALL DISK 1, ALIEN BLOCKADE",
+      "File": "dbug068b.msa"
+   },
+   "DBug Disk 68(C)": {
+      "Games": "HEIMDALL DISK 2",
+      "File": "dbug068c.msa"
+   },
+   "DBug Disk 68(D)": {
+      "Games": "HEIMDALL DISK 3, BALLZONE",
+      "File": "dbug068d.msa"
+   },
+   "DBug Disk 68(E)": {
+      "Games": "HEIMDALL DISK 4, INVASION OF MUTANT CATERPILLARS, HEIMDALL HINTS",
+      "File": "dbug068e.msa"
+   },
+   "DBug Disk 69(A)": {
+      "Games": "HOOK (MEG ONLY) + DOCS + SOLTN, DEEPLAIR + DOCS, SEYMOUR GOES TO HOLLYWOOD, EUROPEAN FOOTBALL CHAMPS, DOCS FOR TURRETS, HUNTER SOLUTION, SPACE CRUSADE, DOUBLE DRAGON III, TITUS THE FOX, CJ IN THE USA, GOBLINS CODES, DISCOVERY, STEEL EMPIRE",
+      "File": "dbug069a.msa"
+   },
+   "DBug Disk 69(B)": {
+      "Games": "HOOK DATA",
+      "File": "dbug069b.msa"
+   },
+   "DBug Disk 70": {
+      "Games": "ADVANTAGE TENNIS, SMASH HIT + DOC, DOCS FOR HEIMDALL, WOLFCHILD, SHADOW OF THE BEAST II, SMASH TV, FOOTBALL DIRECTOR II, ANCIENT GAMES, STRIKER MANAGER, DARKMAN, MAVERICKS CHEATS",
+      "File": "dbug070.msa"
+   },
+   "DBug Disk 71(A)": {
+      "Games": "INTERNATIONAL SPORTS CHALLENGE, TESERAE",
+      "File": "dbug071a.msa"
+   },
+   "DBug Disk 71(B)": {
+      "Games": "INT. SPORTS CHALLENGE DATA, POWAQQATSI + DOC, PUZMANIA, TESERAE DOC",
+      "File": "dbug071b.msa"
+   },
+   "DBug Disk 72(A)": {
+      "Games": "CARL LEWIS CHALLENGE",
+      "File": "dbug072a.msa"
+   },
+   "DBug Disk 72(B)": {
+      "Games": "CARL LEWIS DATA, OCEANS SUMMER GAMES, CYBER SNAKE, STEG THE SLUG, DOCS FOR CARL LEWIS CHALLENGE, STEG THE SLUG, STEG THE SLUG CODES",
+      "File": "dbug072b.msa"
+   },
+   "DBug Disk 73(A)": {
+      "Games": "ISHAR + DOCS, DOCS FOR UTOPIA, HUNTER, FLIGHT OF THE INTRUDER, ADVENTURES OF ROBIN HOOD, UNNKULIAN UNDERWORLD",
+      "File": "dbug073a.msa"
+   },
+   "DBug Disk 73(B)": {
+      "Games": "ISHAR, LOADS OF CHEATS",
+      "File": "dbug073b.msa"
+   },
+   "DBug Disk 74": {
+      "Games": "DYNAMO, FINAL COMMAND",
+      "File": "dbug074.msa"
+   },
+   "DBug Disk 75(A)": {
+      "Games": "REALMS",
+      "File": "dbug075a.msa"
+   },
+   "DBug Disk 75(B)": {
+      "Games": "REALMS",
+      "File": "dbug075b.msa"
+   },
+   "DBug Disk 76(A)": {
+      "Games": "LURE OF THE TEMPTRESS(MEG ONLY)",
+      "File": "dbug076a.msa"
+   },
+   "DBug Disk 76(B)": {
+      "Games": "LURE OF THE TEMPTRESS",
+      "File": "dbug076b.msa"
+   },
+   "DBug Disk 76(C)": {
+      "Games": "LURE OF THE TEMPTRESS",
+      "File": "dbug076c.msa"
+   },
+   "DBug Disk 77": {
+      "Games": "VIDEO KID, SPIKEY IN TRANSYLVANIA",
+      "File": "dbug077.msa"
+   },
+   "DBug Disk 78": {
+      "Games": "POPULOUS II MEG VERSION, HOTSHOT CHEQUERS, SQUAREOFF",
+      "File": "dbug078.msa"
+   },
+   "DBug Disk 79(A)": {
+      "Games": "FASCINATION, STRIKER",
+      "File": "dbug079a.msa"
+   },
+   "DBug Disk 79(B)": {
+      "Games": "FASCINATION DATA, ADVENTURES OF SNATCH & CRUNCH, DOCS FOR SNATCH AND CRUNCH, BLOX, STRIKER, VIDEO KID, SPIKEY IN TRANSYLVANIA, LURE OF THE TEMPTRESS, LURE OF TEMPTRESS SOLTN",
+      "File": "dbug079b.msa"
+   },
+   "DBug Disk 80": {
+      "Games": "WIZKID, BLOX",
+      "File": "dbug080.msa"
+   },
+   "DBug Disk 81(A)": {
+      "Games": "SPELLBOUND, HOT RUBBER, BALLS, FRYING FRIENDS, PACK ICE 2.4",
+      "File": "dbug081a.msa"
+   },
+   "DBug Disk 81(B)": {
+      "Games": "HOT RUBBER DATA, SLEUTH",
+      "File": "dbug081b.msa"
+   },
+   "DBug Disk 82": {
+      "Games": "G-LOC + DOC, AARON + DOC, MYSTIC WELL + DOC, DOCS FOR SOLITAIRE, BALLS, HOT RUBBER, MIDWINTER II, PROFLIGHT SIMLATOR, CHAMPIONSHIP MANAGER, SHADOW OF BEAST II SOLTN",
+      "File": "dbug082.msa"
+   },
+   "DBug Disk 83(A)": {
+      "Games": "CHAMPIONSHIP MANAGER (MEG ONLY) HOT KNIFE, TETERI, UNNKULIAN UNDERWORLD",
+      "File": "dbug083a.msa"
+   },
+   "DBug Disk 83(B)": {
+      "Games": "CHAMPIONSHIP MANAGER DATA, SOLITAIRE, CYBERNETIX",
+      "File": "dbug083b.msa"
+   },
+   "DBug Disk 84": {
+      "Games": "DISC",
+      "File": "dbug084.msa"
+   },
+   "DBug Disk 85": {
+      "Games": "LOTUS ESPRIT TURBO CHALLENGE 3, MAGIC LAND DIZZY, SPACE CRUSADE MAPS, DOCS FOR RETURN TO EUROPE, FINAL FIGHT, ROBOCOP III, RODLAND, HARLEQUIN, SUPER SPACE INVADERS, TERMINATOR II, PRO BOXING SIMULATOR, FLIGHT INTRUDER KEY GUIDE",
+      "File": "dbug085.msa"
+   },
+   "DBug Disk 86(A)": {
+      "Games": "ESPANIA GAMES 92, DOCS FOR POWERMONGER CLUEBOOK, SPACE CRUSADE HINTS, MAGIC LAND DIZZY HINTS, PRINCE YOLKFOLK HINTS",
+      "File": "dbug086a.msa"
+   },
+   "DBug Disk 86(B)": {
+      "Games": "ESPANIA GAMES 92 DATA, DOCS FOR DRILLER, GALDREGONS DOMAIN",
+      "File": "dbug086b.msa"
+   },
+   "DBug Disk 86(C)": {
+      "Games": "ESPANIA GAMES 92 DATA, DOCS FOR ESPANIA 92 GAMES, SILENT SERVICE II",
+      "File": "dbug086c.msa"
+   },
+   "DBug Disk 87": {
+      "Games": "CAPTAIN PLANET",
+      "File": "dbug087.msa"
+   },
+   "DBug Disk 88(A)": {
+      "Games": "CALIFORNIA GAMES II, ZEPPELIN WORLD RUGBY, DOCS FOR INDY HEAT, SWIV, CJS ELEPHANT ANTICS, WACKY RACES, SILENT SERVICE II KEY GUIDE, MEAN MACHINE",
+      "File": "dbug088a.msa"
+   },
+   "DBug Disk 88(B)": {
+      "Games": "FRANKENSTEIN, MULTI-PLAYER SOCCER MANAGER, CALIFORNIA GAMES II DATA, DOCS FOR FOOTBALL DIRECTOR II, REALMS, INTERNATIONAL SPORTS CHALLENGE, CHUCK ROCK CHEAT, MAFDET BOOK OF THE DEAD, CALIFORNIA GAMES II",
+      "File": "dbug088b.msa"
+   },
+   "DBug Disk 89(A)": {
+      "Games": "RACE DRIVIN INTRO, MRS MUNCHIE + DOCS, DOCS FOR 3D CONSTRUCTION KIT, SLIGHTLY MAGIC",
+      "File": "dbug089a.msa"
+   },
+   "DBug Disk 89(B)": {
+      "Games": "RACE DRIVIN, SLIGHTLY MAGIC, SUPER SEYMOUR SAVES THE PLANET",
+      "File": "dbug089b.msa"
+   },
+   "DBug Disk 90(A)": {
+      "Games": "EPIC + DOCS + SOLUTION",
+      "File": "dbug090a.msa"
+   },
+   "DBug Disk 90(B)": {
+      "Games": "EPIC DATA",
+      "File": "dbug090b.msa"
+   },
+   "DBug Disk 91": {
+      "Games": "PREMIER MANAGER, INTERNATIONAL NINJA RABBITS",
+      "File": "dbug091.msa"
+   },
+   "DBug Disk 92": {
+      "Games": "RAMPART, ROUND THE BEND",
+      "File": "dbug092.msa"
+   },
+   "DBug Disk 93(A)": {
+      "Games": "MATCH OF THE DAY, DOCS FOR ECO, CASTLES, GOLDEN PATH",
+      "File": "dbug093a.msa"
+   },
+   "DBug Disk 93(B)": {
+      "Games": "CASTLES, SHADOWLANDS CHEAT MAKER, MATCH OF THE DAY SAVE GAME 4",
+      "File": "dbug093b.msa"
+   },
+   "DBug Disk 94": {
+      "Games": "MOTORHEAD + DOCS, SLUG 2092, CODEMASTERS ROBIN HOOD, DOCS FOR DEUTEROS, PITFIGHTER, ANOTHER WORLD, LOTUS TURBO ESPRIT II",
+      "File": "dbug094.msa"
+   },
+   "DBug Disk 95(A)": {
+      "Games": "SENSIBLE SOCCER, SCOOBY DOO AND SCRAPPY DOO",
+      "File": "dbug095a.msa"
+   },
+   "DBug Disk 95(B)": {
+      "Games": "SENSIBLE SOCCER DATA + DOCS, COUNT DUCKULA II, Q2 BUBBLE BOBBLE, DOCS FOR WACKY DARTS, ROBOCOD, LEANDER, LEMMINGS, MEGA TWINS, JIMMY WHITE SNOOKER, R-TYPE II, JAMES POND, FIRST SAMURAI, WWF WRESTLEMANIA",
+      "File": "dbug095b.msa"
+   },
+   "DBug Disk 96(A)": {
+      "Games": "LAST NINJA III, YOHANGHIR KHAN SQUASH, SPEED PACKER III",
+      "File": "dbug096a.msa"
+   },
+   "DBug Disk 96(B)": {
+      "Games": "LAST NINJA III DATA",
+      "File": "dbug096b.msa"
+   },
+   "DBug Disk 97(A)": {
+      "Games": "AMBERSTAR (A), LAST ARCADIAN, DOCS FOR RACE DRIVIN, TITUS THE FOX, SPECIAL FORCES, MIDWINTER II SOLTN, PUSHOVER LEVEL CODES, NIGHTBREED THE MOVIE, ESPANIA 92, A320 FLIGHT CODES, MULTI-PLAYER SOCCER MANAGER, SYNTHETIC ARTS, FORMULA 1 GP KEY REF",
+      "File": "dbug097a.msa"
+   },
+   "DBug Disk 97(B)": {
+      "Games": "AMBERSTAR (B), CHRONICLE DEMO, CHIP MUSIC DEMO, MUSIC DISK 1 DEMO",
+      "File": "dbug097b.msa"
+   },
+   "DBug Disk 97(C)": {
+      "Games": "AMBERSTAR (C), SYNTHETIC ART, POWERMONGER MAPS",
+      "File": "dbug097c.msa"
+   },
+   "DBug Disk 98(A)": {
+      "Games": "DEUTEROS + MAKE SAVE PROGRAM",
+      "File": "dbug098a.msa"
+   },
+   "DBug Disk 98(B)": {
+      "Games": "DEUTEROS SAVE FILES, INDIANA JONES AND THE FATE OF, ATLANTIS",
+      "File": "dbug098b.msa"
+   },
+   "DBug Disk 99": {
+      "Games": "SPOT, WRECKERS, KID GP + DOCS, PLOP + DOCS",
+      "File": "dbug099.msa"
+   },
+   "DBug Disk 100(A)": {
+      "Games": "STREETFIGHTER II (MEG ONLY), CD LIST, VOTING LIST (SEE DESKTOP)",
+      "File": "dbug100a.msa"
+   },
+   "DBug Disk 100(B)": {
+      "Games": "STREETFIGHTER II DATA",
+      "File": "dbug100b.msa"
+   },
+   "DBug Disk 100(C)": {
+      "Games": "STREETFIGHTER II DATA, WWF EUROPEAN RAMPAGE (MEG ONLY)",
+      "File": "dbug100c.msa"
+   },
+   "DBug Disk 100(D)": {
+      "Games": "WWF EUROPEAN RAMPAGE DATA",
+      "File": "dbug100d.msa"
+   },
+   "DBug Disk 100(E)": {
+      "Games": "STREETFIGHTER II DATA, COOL CROC TWINS, HARDCORE DEMO VERSION, DOCS:- ACCESSORY GAMES, HARDCORE",
+      "File": "dbug100e.msa"
+   },
+   "DBug Disk 101(A)": {
+      "Games": "WOLFCHILD, FACEOFF, EVADER",
+      "File": "dbug101a.msa"
+   },
+   "DBug Disk 101(B)": {
+      "Games": "WOLFCHILD DATA",
+      "File": "dbug101b.msa"
+   },
+   "DBug Disk 102(A)": {
+      "Games": "COOLWORLD, PAKIBASH, CAPTAIN CARNAGE, DOCS:- MEGALOMANIA, DOWNFALL, SPACE WAR, SPECIAL FORCES, INDIANA JONES & FATE OF ATLANTIS",
+      "File": "dbug102a.msa"
+   },
+   "DBug Disk 102(B)": {
+      "Games": "COOLWORLD DATA, SPACE WAR, DOWNFALL",
+      "File": "dbug102b.msa"
+   },
+   "DBug Disk 103(A)": {
+      "Games": "SPECIAL FORCES",
+      "File": "dbug103a.msa"
+   },
+   "DBug Disk 103(B)": {
+      "Games": "SPECIAL FORCES DATA",
+      "File": "dbug103b.msa"
+   },
+   "DBug Disk 104": {
+      "Games": "HEAVY METAL HEROES, OXXONIAN GAME II, DOCS:- SIMPSONS, CYBERCON III SOLUTION, CRUISE FOR CORPSE SOLUTION, F1 GRAND PRIX, UTOPIA, HARLEQUIN SOLUTION, CHESSMASTER 2175, SHADOW SORCEROR + SOLUTION, WORLD CLASS RUGBY, SUSPICIOUS CARGO, KNIGHTMARE, MERCENARY III, RAILROAD TYCOON TECH MANUAL,KEY GUIDE",
+      "File": "dbug104.msa"
+   },
+   "DBug Disk 105": {
+      "Games": "REBELLION, SLACKSKIN & FLINT, DOCS:- BARBARIAN II, EPIC, FINAL BLOW, MICROPROSE GOLF, HUNTER, DEVIOUS DESIGNS, CISCO HEAT, ELF, CHEATS",
+      "File": "dbug105.msa"
+   },
+   "DBug Disk 106": {
+      "Games": "LETHAL WAEPON, OXXONAIN GAME I, POCKET BIKE, SPINMANIA",
+      "File": "dbug106.msa"
+   },
+   "DBug Disk 107": {
+      "Games": "MIG 29 SUPER FULCRUM, COMBAT COURSE",
+      "File": "dbug107.msa"
+   },
+   "DBug Disk 108": {
+      "Games": "A320 AIRBUS + DOCS, INSECTICIDE + DOCS",
+      "File": "dbug108.msa"
+   },
+   "DBug Disk 109": {
+      "Games": "TWIN TURBOS, FOKKER + DOCS, MATCH MAKER + DOCS",
+      "File": "dbug109.msa"
+   },
+   "DBug Disk 110(A)": {
+      "Games": "VIOLENCE, SENSIBLE SOCCER V1.1",
+      "File": "dbug110a.msa"
+   },
+   "DBug Disk 110(B)": {
+      "Games": "SENSIBLE SOCCER HI-LIGHTS, NIGHT BREED INTERACTIVE MOVIE, INSECTROID + DOCS, DOCS:- SQUISH, TWIX, HUDSON HAWK, MIG 29 SUPER FULCRUM SUPPLEMENT, OH NO MORE LEMMINGS CODES, ROBOCOP III, POPULOUS II + EDITOR, QUIKSNAX, VIOLENCE, SENSIBLE SOCCER, WORLD CLASS RUGBY, THUNDERHAWK TACTICS",
+      "File": "dbug110b.msa"
+   },
+   "DBug Disk 110(C)": {
+      "Games": "NIGHTBREED INTERACTIVE MOVIE DATA",
+      "File": "dbug110c.msa"
+   },
+   "DBug Disk 111": {
+      "Games": "SKY FOX II, CENTIPEDE, SQUISH, TWIX, SENAKE, CHESSMASTER 2175, PICTURA 2.0, MEGA DEPACKER V1.997",
+      "File": "dbug111.msa"
+   },
+   "DBug Disk 112": {
+      "Games": "MEGALOMANIA",
+      "File": "dbug112.msa"
+   },
+   "DBug Disk 113(A)": {
+      "Games": "MICROPROSE F1 GRAND PRIX, GALAXIAN, ORK + SAVE FILES, DOCS:- FUTURE WARS, INTERNATIONAL TRUCK RACING, BATMAN CAPED CRUSADER, LINE OF FIRE, STRYX, MAYA, VROOM, MIG 29, KENNY DALGLISH, NIGHT BREED ACTION GAME",
+      "File": "dbug113a.msa"
+   },
+   "DBug Disk 114": {
+      "Games": "THUNDERJAWS, BLOODY RUN, DOCS FOR COOL WORLD, COUNT DUCKULA II, LETHAL WEAPON, PREMIER MANAGER, TWIN TURBOS, WIZKID, CODEMASTERS ROBIN HOOD",
+      "File": "dbug114.msa"
+   },
+   "DBug Disk 115(A)": {
+      "Games": "GOBLINS II, ACCESSORY GAMES, DOCS:- ANOTHER WORLD SOLUTION, GRAEME SOUNESS VECTOR SOCCER, CHUCK ROCK, COOL CROC TWINS + CODES, DEATHBRINGER, ROUND THE BEND, DIE HARD II, FAST FOOD, FANTASY WORLD DIZZY, LAST NINJA III, GRAV II, FATE OF ATLANTIS + SOLUTION, LOTUS ESPRIT III, MOTORHEAD, WORLD CLASS RUGBY, RODLANDS, KNIGHTS OF THE SKY KEYGUIDE",
+      "File": "dbug115a.msa"
+   },
+   "DBug Disk 115(B)": {
+      "Games": "GOBLINS II DISK II, THE POWER",
+      "File": "dbug115b.msa"
+   },
+   "DBug Disk 115(C)": {
+      "Games": "GOBLINS II DISK III, COURSE ANGLER",
+      "File": "dbug115c.msa"
+   },
+   "DBug Disk 116(A)": {
+      "Games": "OBITUS",
+      "File": "dbug116a.msa"
+   },
+   "DBug Disk 116(B)": {
+      "Games": "OBITUS DATA",
+      "File": "dbug116b.msa"
+   },
+   "DBug Disk 117(A)": {
+      "Games": "FIRE & ICE",
+      "File": "dbug117a.msa"
+   },
+   "DBug Disk 117(B)": {
+      "Games": "FIRE & ICE DATA",
+      "File": "dbug117b.msa"
+   },
+   "DBug Disk 118": {
+      "Games": "AV8B ASSAULT HARRIER",
+      "File": "dbug118.msa"
+   },
+   "DBug Disk 119": {
+      "Games": "DIE HARD II, ARCHER MACLAIN POOL",
+      "File": "dbug119.msa"
+   },
+   "DBug Disk 120": {
+      "Games": "CREATURES, 4-7-11",
+      "File": "dbug120.msa"
+   },
+   "DBug Disk 121": {
+      "Games": "ALCATRAZ + MAPS + DOCS + SOLUTION, DOCS:- OGRE, OVERLORD, BLUES BROS SOLUTION, ALTERED BEAST CHEAT",
+      "File": "dbug121.msa"
+   },
+   "DBug Disk 122(A)": {
+      "Games": "3D CONSTRUCTION KIT II, KNIFE ST",
+      "File": "dbug122a.msa"
+   },
+   "DBug Disk 122(B)": {
+      "Games": "3D CONSTRUCTION KIT II DATA, ANIMATION TOOL, FRACLAND, STOS FIX, NEOCHROME V2.23",
+      "File": "dbug122b.msa"
+   },
+   "DBug Disk 123(A)": {
+      "Games": "BLUE MAX DISK A, KID KONG, MATHEMATICA",
+      "File": "dbug123a.msa"
+   },
+   "DBug Disk 123(B)": {
+      "Games": "BLUE MAX DISK B, SUMMER GAMES I & II",
+      "File": "dbug123b.msa"
+   },
+   "DBug Disk 124(A)": {
+      "Games": "CRIMEWAVE, MANCIOLA",
+      "File": "dbug124a.msa"
+   },
+   "DBug Disk 124(B)": {
+      "Games": "CRIMEWAVE DATA, THE MAZE, SLOT MACHINE",
+      "File": "dbug124b.msa"
+   },
+   "DBug Disk 125": {
+      "Games": "GRAV II, CYBERCOP, INTERNATIONAL TRUCK RACING",
+      "File": "dbug125.msa"
+   },
+   "DBug Disk 126": {
+      "Games": "LABOTOMY INVADERS + DOCS, KUBES + DOCS, RAYOID + DOCS, DOCS:- WEEN, BUBBLE DIZZY, LIFE AND DEATH, CJ IN THE USA, ELF",
+      "File": "dbug126.msa"
+   },
+   "DBug Disk 127": {
+      "Games": "CRYSTAL KINGDOM DIZZY, BUGS UK",
+      "File": "dbug127.msa"
+   },
+   "DBug Disk 128": {
+      "Games": "CAMPAIGN, BOLO",
+      "File": "dbug128.msa"
+   },
+   "DBug Disk 129": {
+      "Games": "NO SECOND PRIZE, FIREHAWK",
+      "File": "dbug129.msa"
+   },
+   "DBug Disk 130": {
+      "Games": "RISKY WOODS, ABOMBINABALL, DOCS:- COOLWORLD, KID KONG, DYNABLASTER PASSWORDS, FIREHAWK, BUGS UK, PREMIER MANAGER, SLEEPWALKERS, BLUES BROS SOLUTION, STREETFIGHTER II QUICK REF, AV8B ASSAULT HARRIER KEY GUIDE",
+      "File": "dbug130.msa"
+   },
+   "DBug Disk 131": {
+      "Games": "GRAHAM GOOCH WORLD CRICKET, TREBLE CHAMPIONS II, STOMP + DOCS, DOCS:- ABOMBINABALL, GALAXIANS, RAILROAD TYCOON KEY GUIDE, RAILROAD TYCOON TECH SUPPLEMENT",
+      "File": "dbug131.msa"
+   },
+   "DBug Disk 132": {
+      "Games": "NIGEL MANSELL, PABLO AND THE GOLD OF MONTEZUMA",
+      "File": "dbug132.msa"
+   },
+   "DBug Disk 133": {
+      "Games": "LEMMINGS II THE TRIBES + DOCS, DOCS:- AIRBALL, CONTINENTAL CIRCUS, GOLDRUNNER I+II, ST SOCCER, INTERNATIONAL ICE HOCKEY, JUG, JUPITER PROBE, MAJOR MOTION, TANGLEWOOD, TETRA QUEST, THE GRAIL",
+      "File": "dbug133.msa"
+   },
+   "DBug Disk 134(A)": {
+      "Games": "REACH FOR THE SKIES (MEG ONLY), PSYCHO PIG II, DOCS:- RAMPART, WILLOW, HARLEQUIN, G-LOC, SABRE TEAM, SORCERY, WIZKID, SUPER GRAND PRIX SIMULATOR, REACH FOR THE SKY KEY GUIDE, WWF II RAMPAGE TOUR",
+      "File": "dbug134a.msa"
+   },
+   "DBug Disk 134(B)": {
+      "Games": "REACH FOR THE SKIES DISK B, MEGA DEPACKER V2.12, DOCS:- INTO THE EAGLES NEST, MERCS, DEFENDER OF THE CROWN, FIGHTER BOMBER, TURRICAN, POPULOUS, SAINT DRAGON, DE-LUXE STRIP POKER, GUY SPY, OIDS, FIFTH GEAR",
+      "File": "dbug134b.msa"
+   },
+   "DBug Disk 135(A)": {
+      "Games": "CILVIZATION + DOCS (MEG ONLY), DOCS:- AMBERSTAR, LETHAL WEAPON, LOTUS ESPRIT III + CODES, ROBIN HOOD, MOTORHEAD",
+      "File": "dbug135a.msa"
+   },
+   "DBug Disk 135(B)": {
+      "Games": "CIVILIZATION DATA",
+      "File": "dbug135b.msa"
+   },
+   "DBug Disk 136(A)": {
+      "Games": "CHAOS ENGINE (MEG ONLY), MACDONALDLAND, COLOUR CLASH",
+      "File": "dbug136a.msa"
+   },
+   "DBug Disk 136(B)": {
+      "Games": "CHAOS ENGINE DATA + DOCS, DOCS:- INTERNATIONAL TENNIS, CRYSTAL KINGDOM DIZZY SOLUTION, ZAK MCKRAKEN CODES",
+      "File": "dbug136b.msa"
+   },
+   "DBug Disk 137(A)": {
+      "Games": "THE SHOE PEOPLE + SAVE FILES",
+      "File": "dbug137a.msa"
+   },
+   "DBug Disk 137(B)": {
+      "Games": "NODDYS PLAYTIME, THE SHOE PEOPLE SAVE FILES",
+      "File": "dbug137b.msa"
+   },
+   "DBug Disk 137(C)": {
+      "Games": "NODDYS PLAYTIME DATA, THE SHOE PEOPLE SAVE FILES",
+      "File": "dbug137c.msa"
+   },
+   "DBug Disk 138": {
+      "Games": "WARRIORS OF RELEYNE, KILLING MACHINE, HENRIETTAS BOOK OF SPELLS",
+      "File": "dbug138.msa"
+   },
+   "DBug Disk 139(A)": {
+      "Games": "D-DAY, JOHN LOWES ULTIMATE DARTS",
+      "File": "dbug139a.msa"
+   },
+   "DBug Disk 139(B)": {
+      "Games": "D-DAY DATA",
+      "File": "dbug139b.msa"
+   },
+   "DBug Disk 140(A)": {
+      "Games": "SLEEPWALKER DISK 1",
+      "File": "dbug140a.msa"
+   },
+   "DBug Disk 140(B)": {
+      "Games": "SLEEPWALKER DISK 2",
+      "File": "dbug140b.msa"
+   },
+   "DBug Disk 140(C)": {
+      "Games": "SLEEPWALKER DISK 3",
+      "File": "dbug140c.msa"
+   },
+   "DBug Disk 141(A)": {
+      "Games": "WEEN DISK 1, 3RD REICH",
+      "File": "dbug141a.msa"
+   },
+   "DBug Disk 141(B)": {
+      "Games": "WEEN DISK 2, DOCS:- CIVILIZATION + HINTS, FLIGHT OF THE INTRUDER, NIGEL MANSELL, GOBLINS II SOLUTION, NO SECOND PRIZE, MIDWINTER II SOLUTION, SUMMER GAMES 1 + 2",
+      "File": "dbug141b.msa"
+   },
+   "DBug Disk 141(C)": {
+      "Games": "WEEN DISK 3, DOCS:- GUY SPY, SCRAMBLE SPIRITS, POPULOUS II + LEVEL CODES, TAU-CETI, SABRE FORCE, 04/07/2011, COLOUR CLASH, AV8B ASSAULT HARRIER QUICK DOCS, ACC GAMES, FOOLS ERRAND SOLUTION, TETRA QUEST, TURBO CUP CHALLENGE, WESTERN GAMES",
+      "File": "dbug141c.msa"
+   },
+   "DBug Disk 142(A)": {
+      "Games": "DALEK ATTACK",
+      "File": "dbug142a.msa"
+   },
+   "DBug Disk 142(B)": {
+      "Games": "BONANZA BROS, DALEK ATTACK DATA, DOCS:- GOBLINS HINTS, FIRST SAMURAI SOLUTION, FASCINATION SOLUTION, BALLGAME, CASTLES, ARMOURGEDDON",
+      "File": "dbug142b.msa"
+   },
+   "DBug Disk 143(A)": {
+      "Games": "TRANSARTICA, COHORT II - FIGHTING FOR ROME",
+      "File": "dbug143a.msa"
+   },
+   "DBug Disk 143(B)": {
+      "Games": "TRANSARTICA DATA, DOCS:- GOLDEN AXE, KLAX, SIM CITY, MIG 29 MISSIONS, GUARDIAN ANGEL, SENSIBLE SOCCER, REALM OF THE TROLLS, PREHISTORIK, THUNDERJAWS, WRECKERS, FACE OFF, CHEATS VOL 3",
+      "File": "dbug143b.msa"
+   },
+   "DBug Disk 144(A)": {
+      "Games": "ISHAR II MESSENGERS OF DOOM A",
+      "File": "dbug144a.msa"
+   },
+   "DBug Disk 144(B)": {
+      "Games": "ISHAR II MESSENGERS OF DOOM B",
+      "File": "dbug144b.msa"
+   },
+   "DBug Disk 144(C)": {
+      "Games": "ISHAR II MESSENGERS OF DOOM C",
+      "File": "dbug144c.msa"
+   },
+   "DBug Disk 145": {
+      "Games": "EXILE, PUZWORD, RUNES, SUPER MATCH MAKER, DOCS:- EXILE, RISK, SUPER MATCH MAKER",
+      "File": "dbug145.msa"
+   },
+   "DBug Disk 146": {
+      "Games": "SPACE CRUSADE EXPNSION DISK, FROGGER, REBOUND, GRAND PRIX MANAGER",
+      "File": "dbug146.msa"
+   },
+   "DBug Disk 147": {
+      "Games": "VOLFIED, PUNT II + DOCS, DOCS:- GAME HINTS, LEISURE SUIT LARRY + CODES",
+      "File": "dbug147.msa"
+   },
+   "DBug Disk 148": {
+      "Games": "ENCHANTED LAND, ARENA EARTH",
+      "File": "dbug148.msa"
+   },
+   "DBug Disk 149": {
+      "Games": "GRANDAD - QUEST FOR HOLEY VEST, GRANDAD CHEAT, TURBO, MISSING LINK, DOCS:- TURBO, MISSING LINK, TWIN TURBOS, GLADIATOR, PARASOL STARS, PURPLE SATURN DAY, HOVERSPRINT, HOT RUBBER",
+      "File": "dbug149.msa"
+   },
+   "DBug Disk 150(A)": {
+      "Games": "PLAN 9, REVENGE DOCUMENT DISPLAYER 2.30, VIEWPIC 1.01, CD LIST, DOCS:- VIEWPIC, REVENGE DOCUMENT DISPLAYER",
+      "File": "dbug150a.msa"
+   },
+   "DBug Disk 150(B)": {
+      "Games": "PLAN 9 DATA, PROBE ST V2.00",
+      "File": "dbug150b.msa"
+   },
+   "DBug Disk 150(C)": {
+      "Games": "PLAN 9 DATA, X BOOT V3.00, HOT WIRE V3.00, PA PACKER, FLEET STREET MADNESS, DOCS:- ERIK, WEEN, PLAN 9 AND SOLUTION, SPACE CRUSADE HINTS",
+      "File": "dbug150c.msa"
+   },
+   "DBug Disk 150(D)": {
+      "Games": "PLAN 9 DATA, PRENSORIUM, CLOD HOPPER, DOCS :- B17 FLYING FORTRESS, PRESORIUM AND CODES, CLOD HOPPER, TITUS THE FOX",
+      "File": "dbug150d.msa"
+   },
+   "DBug Disk 151(A)": {
+      "Games": "LEGENDS OF VALOUR, LEGENDS OF VALOUR MAPS, DOCS:- LEGENDS OF VALOUR, RINGS OF ZILFIN, POLICE QUEST III, POLICE QUEST III HINTS, STREETFIGHTER 2",
+      "File": "dbug151a.msa"
+   },
+   "DBug Disk 151(B)": {
+      "Games": "LEGENDS OF VALOUR DATA",
+      "File": "dbug151b.msa"
+   },
+   "DBug Disk 151(C)": {
+      "Games": "LEGENDS OF VALOUR DATA, GLASS BUTTOCK OF THARG, DOCS:- CHAOS ENGINE, CREATURES, NINJA REMIX",
+      "File": "dbug151c.msa"
+   },
+   "DBug Disk 152": {
+      "Games": "POTSWORTH & CO, LEGACY DEMO, MIXULOAD",
+      "File": "dbug152.msa"
+   },
+   "DBug Disk 153(A)": {
+      "Games": "CHAMPIONSHIP MANAGER 93, TORNADO GRROUND ATTACK, DOCS:- ELECTRONIC POOL, NIGHT HUNTER, CHASE HQ, SATAN, WARZONE, TO BE ON TOP, FIGHTING SOCCER, POWER DRIFT, BLOODMONEY, CRIME WAVE, RANARAMA, TERRAPODS",
+      "File": "dbug153a.msa"
+   },
+   "DBug Disk 153(B)": {
+      "Games": "CHAMPIONSHIP MANAGER 93 DATA",
+      "File": "dbug153b.msa"
+   },
+   "DBug Disk 154": {
+      "Games": "FIREFORCE, DOCS:- FIREFORCE, FIREFORCE SOLUTION",
+      "File": "dbug154.msa"
+   },
+   "DBug Disk 155": {
+      "Games": "ZOOL, JUNIOR TYPIST, DOCS:- ZOOL",
+      "File": "dbug155.msa"
+   },
+   "DBug Disk 156": {
+      "Games": "FATEMASTER, FOOTBALL MANAGER 2 EXPANSION KIT, THE COCOONS OF JUSSE, COUNTOUT, DOCS:- THE COCOONS OF JUSSE",
+      "File": "dbug156.msa"
+   },
+   "DBug Disk 157(A)": {
+      "Games": "THE PATRICIAN, HOLOCAUST, THE PATRICIAN MAPS, DOCS:- THE PATRICIAN",
+      "File": "dbug157a.msa"
+   },
+   "DBug Disk 157(B)": {
+      "Games": "THE PATRICIAN DATA, H-MEC 2 (STE MEG ONLY), ST ZIP 2.5",
+      "File": "dbug157b.msa"
+   },
+   "DBug Disk 157(C)": {
+      "Games": "B17 FLYING FORTRESS, THE PATRICIAN DATA",
+      "File": "dbug157c.msa"
+   },
+   "DBug Disk 157(D)": {
+      "Games": "B17 FLYING FORTRESS DATA, TUZZLE",
+      "File": "dbug157d.msa"
+   },
+   "DBug Disk 158": {
+      "Games": "ONE STEP BEYOND",
+      "File": "dbug158.msa"
+   },
+   "DBug Disk 159(A)": {
+      "Games": "SPACE SHUTTLE, HUCKLEBERRY HOUND, PEGASUS, DOCS:- SPACE SHUTTLE, PEGASUS",
+      "File": "dbug159a.msa"
+   },
+   "DBug Disk 159(B)": {
+      "Games": "SPACE SHUTTLE DATA",
+      "File": "dbug159b.msa"
+   },
+   "DBug Disk 160": {
+      "Games": "COARSE ANGLER 1.2, ISHAR II FIX, MAKEFORM II, DOCS:- TUZZLE, ISHAR II, COARSE ANGLER 1.2",
+      "File": "dbug160.msa"
+   },
+   "DBug Disk 161": {
+      "Games": "GRANDAD 2",
+      "File": "dbug161.msa"
+   },
+   "DBug Disk 162": {
+      "Games": "ELITE 2 - FRONTIER, WALLS OF ILLUSION",
+      "File": "dbug162.msa"
+   },
+   "DBug Disk 163(A)": {
+      "Games": "KINGMAKER, PACMAN ON E'S (STE MEG ONLY), DOCS:- KINGMAKER, PACMAN ON E'S, ELITE 2 - FRONTIER",
+      "File": "dbug163a.msa"
+   },
+   "DBug Disk 163(B)": {
+      "Games": "KINGMAKER DATA, DOCS:- ELITE 2 GAZETEER",
+      "File": "dbug163b.msa"
+   },
+   "DBug Disk 164(A)": {
+      "Games": "OBSESSION",
+      "File": "dbug164a.msa"
+   },
+   "DBug Disk 164(B)": {
+      "Games": "OBSESSION DATA",
+      "File": "dbug164b.msa"
+   },
+   "DBug Disk 165(A)": {
+      "Games": "HOLLYWOOD HUSTLER +, ADRENALINE RIPPER 1.05",
+      "File": "dbug165a.msa"
+   },
+   "DBug Disk 165(B)": {
+      "Games": "D-BUG CD LIST 1-165, LEGENDS OF VALOUR CHEAT, CRIME CITY CHEAT, ISHAR II CHEAT, CAESAR CHEAT, NEW DEPACK 1.01, HOLLYWOOD HUSTLER DATA",
+      "File": "dbug165b.msa"
+   },
+   "DBug Disk 165(C)": {
+      "Games": "DEADLAND (MEG ONLY), HOLLYWOOD HUSTLER DATA",
+      "File": "dbug165c.msa"
+   },
+   "DBug Disk 166": {
+      "Games": "HIGH SPEED PASCAL V1.13",
+      "File": "dbug166.msa"
+   },
+   "DBug Disk 167(A)": {
+      "Games": "SLEEPING GODS LIE, BRAIN DAMAGE (< TOS 1.62 ONLY), SUSAN, DOCS",
+      "File": "dbug167a.msa"
+   },
+   "DBug Disk 167(B)": {
+      "Games": "SLEEPING GODS LIE DATA, PRISM PAINT V1.1",
+      "File": "dbug167b.msa"
+   },
+   "DBug Disk 168": {
+      "Games": "IMMORTAL",
+      "File": "dbug168.msa"
+   },
+   "DBug Disk 169(A)": {
+      "Games": "DOGFIGHT, DYNABLASTER",
+      "File": "dbug169a.msa"
+   },
+   "DBug Disk 169(B)": {
+      "Games": "DOGFIGHT DATA, TRI HELLI II",
+      "File": "dbug169b.msa"
+   },
+   "DBug Disk 170": {
+      "Games": "CASTLE CAPERS DEMO, HMEC 2 (STE ONLY), SKULLS, MEGALINE, OH NO! NOT MORE RADIOACTIVE MINESHAFTS, DOCS",
+      "File": "dbug170.msa"
+   },
+   "DBug Disk 171": {
+      "Games": "TEAM, HEARTLAND 2000, HERMAN, MINE-SWEEPER",
+      "File": "dbug171.msa"
+   },
+   "DBug Disk 172": {
+      "Games": "ZOMPI+, HUMEUR VITREE",
+      "File": "dbug172.msa"
+   },
+   "DBug Disk 173": {
+      "Games": "CHAOS, CLACKER, JET SET WILLY+",
+      "File": "dbug173.msa"
+   },
+   "DBug Disk 174": {
+      "Games": "BOSTON BOMB CLUB, SEIGEMASTER, ROBIN SMITH INTERNATIONAL CRICKET",
+      "File": "dbug174.msa"
+   },
+   "DBug Disk 175": {
+      "Games": "GODPEY, WALLS OF ILLUSION",
+      "File": "dbug175.msa"
+   },
+   "DBug Disk 176": {
+      "Games": "UNDER PRESSURE, HERO, PACIFIC ASSAULT+",
+      "File": "dbug176.msa"
+   },
+   "DBug Disk 177(A)": {
+      "Games": "PREMIER MANAGER 2, DOUBLE JUNGLE VEGATABOBBLE",
+      "File": "dbug177a.msa"
+   },
+   "DBug Disk 177(B)": {
+      "Games": "PREMIER MANAGER 2 DATA, BRIDES OF DRACULA",
+      "File": "dbug177b.msa"
+   },
+   "DBug Disk 178": {
+      "Games": "TRASH HEAP, STARBALL",
+      "File": "dbug178.msa"
+   },
+   "DBug Disk 179": {
+      "Games": "REALM OF THE TROLLS, ZOMBIE APOCALYPSE+, TRAPPED 2",
+      "File": "dbug179.msa"
+   },
+   "DBug Disk 180": {
+      "Games": "SUPERFLY, ROGER",
+      "File": "dbug180.msa"
+   },
+   "DBug Disk 181": {
+      "Games": "MERCENARY III, TURN 'N' BURN, CAVE MANIA+",
+      "File": "dbug181.msa"
+   },
+   "DBug Disk 182": {
+      "Games": "UNIVERSE II, BREAKERS",
+      "File": "dbug182.msa"
+   },
+   "DBug Disk 183": {
+      "Games": "REALMS OF REALITY, OSMOSIS",
+      "File": "dbug183.msa"
+   },
+   "DBug Disk 184(A)": {
+      "Games": "PEGASUS, SNACMAN (2.06 FIX), SPACE BATTLE",
+      "File": "dbug184a.msa"
+   },
+   "DBug Disk 184(B)": {
+      "Games": "PEGASUS DATA",
+      "File": "dbug184b.msa"
+   },
+   "DBug Disk 185": {
+      "Games": "GARY LINEKER'S HOT-SHOT, ROBOCOP 2+, DROID 2+",
+      "File": "dbug185.msa"
+   },
+   "DBug Disk 186": {
+      "Games": "LEAVIN TERAMIS ULS INSTALLER, HARLEQUIN ULS INSTALLER, JAMES POND 2, MOONSHINE RACERS ULS INSTALLER, RESOLUTION 101 ULS INSTALLER, ROBOCOP 2 ULS INSTALLER, SPEEDBALL 2 ULS INSTALLER, STREETFIGHTER 2 ULS INSTALLER, THE UNTOUCHABLES ULS INSTALLER, WIZKID ULS INSTALLER",
+      "File": "dbug186.msa"
+   },
+   "DBug Disk 187": {
+      "Games": "SWIV+, MEGA PHOENIX",
+      "File": "dbug187.msa"
+   },
+   "DBug Disk 188": {
+      "Games": "JOURNEY TO THE CENTRE OF THE EARTH, LIFE'S A BITCH, THE ADVENTURES OF ALICE",
+      "File": "dbug188.msa"
+   },
+   "DBug Disk 188v2": {
+      "Games": "JOURNEY TO THE CENTRE OF THE EARTH+, LIFE'S A BITCH",
+      "File": "dbug188v2.msa"
+   },
+   "DBug Disk 189": {
+      "Games": "ORBITER, WELL 'ARD, THE ADVENTURES OF ALICE, IN THE YEAR 2093",
+      "File": "dbug189.msa"
+   },
+   "DBug Disk 190(A)": {
+      "Games": "CANNON FODDER",
+      "File": "dbug190a.msa"
+   },
+   "DBug Disk 190(B)": {
+      "Games": "CANNON FODDER DATA, CD LIST 1-190",
+      "File": "dbug190b.msa"
+   },
+   "DBug Disk 191": {
+      "Games": "LETHAL XCESS, MONSTER BUSINESS INSTALLER",
+      "File": "dbug191.msa"
+   },
+   "DBug Disk 192(A)": {
+      "Games": "DRAGON FLIGHT HD FALCON (GERMAN)",
+      "File": "dbug192a.msa"
+   },
+   "DBug Disk 192(B)": {
+      "Games": "POOZ (FINAL VERSION), POOZ EDITOR, DRAGON FLIGHT HD FALCON (GERMAN) DATA",
+      "File": "dbug192b.msa"
+   },
+   "DBug Disk 192(C)": {
+      "Games": "DRAGON FLIGHT HD FALCON (ENGLISH)",
+      "File": "dbug192c.msa"
+   },
+   "DBug Disk 192(D)": {
+      "Games": "DRAGON FLIGHT HD FALCON (ENGLISH) DATA, SAINT DRAGON+",
+      "File": "dbug192d.msa"
+   },
+   "DBug Disk 193(A)": {
+      "Games": "MINDBOMB DEMO, CUDDLY DEMOS, SYNTAX TERROR, DARK SIDE OF THE SPOON, DECADE DEMO",
+      "File": "dbug193a.msa"
+   },
+   "DBug Disk 193(B)": {
+      "Games": "CUDDLY DEMOS",
+      "File": "dbug193b.msa"
+   },
+   "DBug Disk 193(C)": {
+      "Games": "SYNTAX TERROR",
+      "File": "dbug193c.msa"
+   },
+   "DBug Disk 193(D)": {
+      "Games": "DARK SIDE OF THE SPOON",
+      "File": "dbug193d.msa"
+   },
+   "DBug Disk 193(E)": {
+      "Games": "DECADE DEMO",
+      "File": "dbug193e.msa"
+   },
+   "DBug Disk 194(A)": {
+      "Games": "BLOOD MONEY - HD FALCON, ARCTIC MOVES - HD FALCON",
+      "File": "dbug194a.msa"
+   },
+   "DBug Disk 194(B)": {
+      "Games": "ARCTIC MOVES DATA",
+      "File": "dbug194b.msa"
+   },
+   "DBug Disk 195": {
+      "Games": "ENCOUNTER, INDIGO+, ZNAX",
+      "File": "dbug195.msa"
+   },
+   "DBug Disk 196(A)": {
+      "Games": "LORNA, HAMMERBOY",
+      "File": "dbug196a.msa"
+   },
+   "DBug Disk 196(B)": {
+      "Games": "LORNA",
+      "File": "dbug196b.msa"
+   },
+   "DBug Disk 197": {
+      "Games": "GAUNTLET II",
+      "File": "dbug197.msa"
+   },
+   "DBug Disk 198(A)": {
+      "Games": "GAUNTLET III, OUTZONE",
+      "File": "dbug198a.msa"
+   },
+   "DBug Disk 198(B)": {
+      "Games": "GAUNTLET III",
+      "File": "dbug198b.msa"
+   },
+   "DBug Disk 199(A)": {
+      "Games": "CRUISE FOR A CORPSE",
+      "File": "dbug199a.msa"
+   },
+   "DBug Disk 199(B)": {
+      "Games": "CRUISE FOR A CORPSE",
+      "File": "dbug199b.msa"
+   },
+   "DBug Disk 199(C)": {
+      "Games": "CRUISE FOR A CORPSE",
+      "File": "dbug199c.msa"
+   },
+   "DBug Disk 199(D)": {
+      "Games": "CRUISE FOR A CORPSE",
+      "File": "dbug199d.msa"
+   },
+   "DBug Disk 199(E)": {
+      "Games": "CRUISE FOR A CORPSE",
+      "File": "dbug199e.msa"
+   },
+   "Automation Disk 0": {
+      "Games": "SINBAD AND THE THRONE OF THE FALCON",
+      "File": "A_000.ST"
+   },
+   "Automation Disk 1": {
+      "Games": "CRYSTAL CASTLES, NORTHSTAR, ROBOTRON, THE EMPIRE STRIKES BACK, STAR RAIDERS, TRAILBLAZER II, THE SENTINEL, WORLD CHAMPIONSHIP FOOTBALL MANAGER",
+      "File": "A_001.ST"
+   },
+   "Automation Disk 2": {
+      "Games": "INTO THE EAGLES NEST, TRANTOR, EXTENSOR, KNIGHTMARE, PLUTOS, VIRUS, JOE BLADE, TRIFFIDE II",
+      "File": "A_002.ST"
+   },
+   "Automation Disk 3": {
+      "Games": "MERCENARY, ARCADE CLASSICS, DELTA PATROL, FOOTBALL MANAGER, SUPER HUEY, ROLLING THUNDER, ARKANOID 2: REVENGE OF DOH",
+      "File": "A_003.ST"
+   },
+   "Automation Disk 4": {
+      "Games": "MISSION GENOCIDE, SCRABBLE DELUXE, MOON PATROL, EDEN BLUES, XEVIOUS, AIRBALL, STAR QUAKE, MISSILE COMMAND",
+      "File": "A_004.ST"
+   },
+   "Automation Disk 5": {
+      "Games": "TYPHOON THOMPSON, STREET GANG, DEATHSTRIKE",
+      "File": "A_005.ST"
+   },
+   "Automation Disk 6": {
+      "Games": "BETTER DEAD THAN ALIEN, JOUST!, MISSILE COMMAND (V2), PINBALL FACTORY, THUNDERCATS, ARMY MOVES, ROCKFORD",
+      "File": "A_006.ST"
+   },
+   "Automation Disk 7": {
+      "Games": "ASTEROIDS DELUXE, KARATE KID II, DIABLO, BATTLE SHIPS, VAMPIRE S EMPIRE, OVERLANDER",
+      "File": "A_007.ST"
+   },
+   "Automation Disk 8": {
+      "Games": "BACKLASH, NINJA MISSION, GOLDRUNNER, MAJOR MOTION, SUPER BREAKOUT, REVENGE OF THE MUTANT CAMELS, QBALL, SPOOK",
+      "File": "A_008.ST"
+   },
+   "Automation Disk 9": {
+      "Games": "ENDURO RACER, CHUBBY GRISTLE, ELIMINATOR, NEBULUS, BLUE ANGELS  69",
+      "File": "A_009.ST"
+   },
+   "Automation Disk 10": {
+      "Games": "LEADERBOARD, TOURNAMENT LEADERBOARD, PENGY, VETERN, BLACK LAMP, WHIRLIGIG",
+      "File": "A_010.ST"
+   },
+   "Automation Disk 11": {
+      "Games": "CHAMPIONSHIP CRICKET, SUPREMO SOCCER, SUPER TENNIS, QUADRALIEN, MUDPIES, LANDS OF HAVOC, HOTSHOT, THRUST, 8 BALL",
+      "File": "A_011.ST"
+   },
+   "Automation Disk 12": {
+      "Games": "BEYOND THE ICE PALACE, SPACE KILLER, TIME BANDITS, SKY CHASE, DEFLEKTOR, SHACKLED",
+      "File": "A_012.ST"
+   },
+   "Automation Disk 13": {
+      "Games": "SUPER HANG ON, SUPER SPRINT, ST KARATE, ELECTRONIC POOL",
+      "File": "A_013.ST"
+   },
+   "Automation Disk 14": {
+      "Games": "STAR GOOSE, ELITE, HELTER SKELTER, VIXEN, WORLD SERIES BASEBALL",
+      "File": "A_014.ST"
+   },
+   "Automation Disk 15": {
+      "Games": "RETURN TO GENESIS, STAR RAY",
+      "File": "A_015.ST"
+   },
+   "Automation Disk 16": {
+      "Games": "FEDERATION OF FREE TRADERS, FOOTBALL MANAGER II, SCREAMING WINGS, MOUSE TRAP, BOMBJACK",
+      "File": "A_016.ST"
+   },
+   "Automation Disk 17": {
+      "Games": "MAGNETIC TANK, SPY VS SPY, INDIANA JONES AND THE TEMPLE OF DOOM, TETRAQUEST, CYBERNOID, TETRIS",
+      "File": "A_017.ST"
+   },
+   "Automation Disk 18": {
+      "Games": "BUGGY BOY, FLOYD THE DROID, WIZBALL, ECO, PHANTASM, DRAGON LORD",
+      "File": "A_018.ST"
+   },
+   "Automation Disk 19": {
+      "Games": "WHERE TIME STOOD STILL, BATTLE PROBE, SORCERY+, XOR",
+      "File": "A_019.ST"
+   },
+   "Automation Disk 20": {
+      "Games": "ARTURA, GARFIELD, MOONBASE, GALAX 3D",
+      "File": "A_020.ST"
+   },
+   "Automation Disk 21": {
+      "Games": "NIGEL MANSELL S GRAND PRIX, FERNANDEZ MUST DIE, BATTLEZONE, ENFORCER, URIDIUM, ALTAIR",
+      "File": "A_021.ST"
+   },
+   "Automation Disk 22": {
+      "Games": "1943, CAPTAIN AMERICA, SLAP FIGHT, LEATHERNECKS, RAMPAGE",
+      "File": "A_022.ST"
+   },
+   "Automation Disk 23": {
+      "Games": "TURBO CUP, FLYING SHARK, SNAFUX, STRIP POKER III",
+      "File": "A_023.ST"
+   },
+   "Automation Disk 24": {
+      "Games": "RETURN OF THE JEDI, OFFSHORE WARRIOR, BANK BUSTERS, TWO GAME",
+      "File": "A_024.ST"
+   },
+   "Automation Disk 25": {
+      "Games": "PACMANIA, SOLOMON S KEYS, INTERNATIONAL KARATE+, PEPSI CHALLENGE, HARRIER STRIKE MISSION, METROCROSS, HELLFIRE",
+      "File": "A_025.ST"
+   },
+   "Automation Disk 26": {
+      "Games": "MILLIPEDE, DRILLER, MACH III, TRUCK",
+      "File": "A_026.ST"
+   },
+   "Automation Disk 27": {
+      "Games": "LIVE AND LET DIE, FOUNDATIONS WASTE, ST PROTECTOR, PANDORA",
+      "File": "A_027.ST"
+   },
+   "Automation Disk 28": {
+      "Games": "FIRE BLASTER, NETHERWORLD, STORM BRINGER, FROSTBYTE, XENON",
+      "File": "A_028.ST"
+   },
+   "Automation Disk 29": {
+      "Games": "BARBARIAN (PALACE), FUZZBALL, ALIEN SYNDROME, SPACE STATION",
+      "File": "A_029.ST"
+   },
+   "Automation Disk 30": {
+      "Games": "HAUNTED HOUSE, EXOLON, SPEEDBALL, ATAX, CRACK ED, TIMEBLAST",
+      "File": "A_030.ST"
+   },
+   "Automation Disk 31": {
+      "Games": "DALEY THOMPSON S OLYMPIC CHALLENGE, GROWTH",
+      "File": "A_031.ST"
+   },
+   "Automation Disk 32": {
+      "Games": "STAR BATTLE, SDI (CINEMAWARE), BIONIC COMMANDOS",
+      "File": "A_032.ST"
+   },
+   "Automation Disk 33": {
+      "Games": "PREDATOR, BOUNCEOUT, CHUCKIE EGG, SOLDIER OF LIGHT, PERILS OF PENFOLD",
+      "File": "A_033.ST"
+   },
+   "Automation Disk 34": {
+      "Games": "BUBBLE BOBBLE, HYPERDROME, HELLBENT, GL SOCCER, MONEY",
+      "File": "A_034.ST"
+   },
+   "Automation Disk 35": {
+      "Games": "FALCON, BOMBUZAL",
+      "File": "A_035.ST"
+   },
+   "Automation Disk 36": {
+      "Games": "JOE BLADE II, POOL, FLIPSIDE, WANTED",
+      "File": "A_036.ST"
+   },
+   "Automation Disk 37": {
+      "Games": "OPERATION WOLF, TOP GUN",
+      "File": "A_037.ST"
+   },
+   "Automation Disk 38": {
+      "Games": "MISSION ELEVATOR, IKARI WARRIORS, FLINTSTONES, MUNSTERS, CHECKERS",
+      "File": "A_038.ST"
+   },
+   "Automation Disk 39": {
+      "Games": "TERRAMEX, METROPOLIS, SUPER SKI, POKER ROYALE",
+      "File": "A_039.ST"
+   },
+   "Automation Disk 40": {
+      "Games": "IRON TRACKER, VICTORY ROAD, MEGAROIDS",
+      "File": "A_040.ST"
+   },
+   "Automation Disk 41": {
+      "Games": "STREET FIGHTER, SPACE RACER, RIPCORD",
+      "File": "A_041.ST"
+   },
+   "Automation Disk 42": {
+      "Games": "GALACTIC CONQUERER, TRAUMA, CHOPPER X, MONKEY BUSINESS",
+      "File": "A_042.ST"
+   },
+   "Automation Disk 43": {
+      "Games": "THUNDERBLADE, SPIDERTRONIC, BOULDERDASH",
+      "File": "A_043.ST"
+   },
+   "Automation Disk 44": {
+      "Games": "DESOLATOR, SDI (SAGA)",
+      "File": "A_044.ST"
+   },
+   "Automation Disk 45": {
+      "Games": "DOUBLE DRAGON, VECTORBALL",
+      "File": "A_045.ST"
+   },
+   "Automation Disk 46": {
+      "Games": "R-TYPE, MENACE",
+      "File": "A_046.ST"
+   },
+   "Automation Disk 47": {
+      "Games": "RAMBO III, TRANSPUTER, FREE CLIMBING, YAHTZEE, ZXYM",
+      "File": "A_047.ST"
+   },
+   "Automation Disk 48": {
+      "Games": "CAPTAIN FIZZ, TRACKSUIT MANAGER, ELF, ADVANCED RUGBY SIMULATOR, PYRAMINO",
+      "File": "A_048.ST"
+   },
+   "Automation Disk 49": {
+      "Games": "CRAZY CARS II, BAAL",
+      "File": "A_049.ST"
+   },
+   "Automation Disk 50": {
+      "Games": "BATMAN, BREAKANOID, ADDICTABALL, WARHAWK, BRICKYARD, CHEATS AND CD INFO",
+      "File": "A_050.ST"
+   },
+   "Automation Disk 51": {
+      "Games": "PETER BEARDSLEY FOOTBALL, PROHIBITION, IMPACT, TAU-CETI, I BALL, ST KRAK",
+      "File": "A_051.ST"
+   },
+   "Automation Disk 52": {
+      "Games": "ZANY GOLF, KARATEKA",
+      "File": "A_052.ST"
+   },
+   "Automation Disk 53": {
+      "Games": "A QUASTION OF SPORT, SPACE BALLER, TURBO GT, SKYRIDER, EREBUS",
+      "File": "A_053.ST"
+   },
+   "Automation Disk 54": {
+      "Games": "LED STORM, THUNDER WING, CHASE, MAFDET, HADES NEBULA",
+      "File": "A_054.ST"
+   },
+   "Automation Disk 55": {
+      "Games": "CUSTODIAN, ANDES ATTACK, BRATTACAS, SIDE ARMS",
+      "File": "A_055.ST"
+   },
+   "Automation Disk 56": {
+      "Games": "BERMUDA PROJECT, TRAP",
+      "File": "A_056.ST"
+   },
+   "Automation Disk 57": {
+      "Games": "I LUDICRUS, LUXOR, HUSTLER",
+      "File": "A_057.ST"
+   },
+   "Automation Disk 58": {
+      "Games": "WIZARD S ROYALE, CARDS, DAME",
+      "File": "A_058.ST"
+   },
+   "Automation Disk 59": {
+      "Games": "THE GOLDEN PATH, ROAD WARS",
+      "File": "A_059.ST"
+   },
+   "Automation Disk 60": {
+      "Games": "LIVINGSTONE I PRESUME, STARGLIDER, BLAST, LABYRINTH, MISSION, CD INFO UPDATE",
+      "File": "A_060.ST"
+   },
+   "Automation Disk 61": {
+      "Games": "CATCH 23, 10TH FRAME, ROAD RUNNER",
+      "File": "A_061.ST"
+   },
+   "Automation Disk 62": {
+      "Games": "TECHNOCOP, POWERDROME",
+      "File": "A_062.ST"
+   },
+   "Automation Disk 63": {
+      "Games": "STONEBREAKER, STRIP BREAKOUT, ARKANOID, BMX SIMULATOR, HACKER II",
+      "File": "A_063.ST"
+   },
+   "Automation Disk 64": {
+      "Games": "BARBARIAN (PSYGNOSIS), OUTRUN",
+      "File": "A_064.ST"
+   },
+   "Automation Disk 65": {
+      "Games": "GALDDREGON S DOMAIN",
+      "File": "A_065.ST"
+   },
+   "Automation Disk 66": {
+      "Games": "INCREDIBLE SHRINKING SPHERE, MAD FLUNKY, BOMB FUSION, TERRANOVA",
+      "File": "A_066.ST"
+   },
+   "Automation Disk 67": {
+      "Games": "FIRE AND FORGET, GRAFTON AND XUNK, THE EYE, THE HUNT FOR RED OCTOBER",
+      "File": "A_067.ST"
+   },
+   "Automation Disk 68": {
+      "Games": "RAFFLES, TERRESTRIAL ENCOUNTER, RINGSIDE",
+      "File": "A_068.ST"
+   },
+   "Automation Disk 69(PT1)": {
+      "Games": "PRESIDENT ELECT, STELLAR CRUSADE, WINTER GAMES, EXODUS: ULTIMA III",
+      "File": "A_069_1.ST"
+   },
+   "Automation Disk 69(PT2)": {
+      "Games": "BARBARIAN II (PALACE), THE LAST DUEL",
+      "File": "A_069_2.ST"
+   },
+   "Automation Disk 69(PT3)": {
+      "Games": "AFTERBURNER, MICROPROSE SOCCER",
+      "File": "A_069_3.ST"
+   },
+   "Automation Disk 69(PT4)": {
+      "Games": "RODEO GAMES, TECH",
+      "File": "A_069_4.ST"
+   },
+   "Automation Disk 69(PT5)": {
+      "Games": "KICK OFF II, PRO TENNIS, GHOSTS AND GOBLINS, SLIPPERY SID",
+      "File": "A_069_5.ST"
+   },
+   "Automation Disk 70": {
+      "Games": "BALLISTIX, THE REAL GHOSTBUSTERS, WARLOCK S QUEST",
+      "File": "A_070.ST"
+   },
+   "Automation Disk 71": {
+      "Games": "TEENAGE QUEEN, KARTING GRAND PRIX, SAM AND ED, KICKERBOCKERS",
+      "File": "A_071.ST"
+   },
+   "Automation Disk 72": {
+      "Games": "PROHIBITION II, SECONDS OUT, SCRIPLES, FOOTBALL DIRECTOR",
+      "File": "A_072.ST"
+   },
+   "Automation Disk 73": {
+      "Games": "GAUNTLET, ARTIC FOX, WIZARD WARZ, BATTLE FOR THE THRONE",
+      "File": "A_073.ST"
+   },
+   "Automation Disk 74": {
+      "Games": "MINI-GOLF (A), BILLIARDS SIMULATOR, BORODINO, HANGMAN",
+      "File": "A_074.ST"
+   },
+   "Automation Disk 75": {
+      "Games": "MARIA S CHRISTMAS BOX, GAME OVER II, PAC MAN, MINI-GOLF (B)",
+      "File": "A_075.ST"
+   },
+   "Automation Disk 76": {
+      "Games": "KICK OFF, NO EXCUSES, GREAT BATTLES, RUBGY LEAGUE BOSS",
+      "File": "A_076.ST"
+   },
+   "Automation Disk 77": {
+      "Games": "CAPTAIN BLOOD, ARKANOID II, TNT, HEXX",
+      "File": "A_077.ST"
+   },
+   "Automation Disk 78": {
+      "Games": "TRIVIAL PURSUIT, TRIVIA PURSUIT: A NEW BEGINNING, ROADWAR EUROPA",
+      "File": "A_078.ST"
+   },
+   "Automation Disk 79": {
+      "Games": "PAC LAND, ZYNAPS, SAPIENS, ROGUE",
+      "File": "A_079.ST"
+   },
+   "Automation Disk 80": {
+      "Games": "BLASTEROIDS, COMPUTER MANIAC S DIARY, GRID RUNNER, WRANGLER, SKWEEK, CD INFO UPDATE",
+      "File": "A_080.ST"
+   },
+   "Automation Disk 81": {
+      "Games": "POPULOUS, WALL STREET",
+      "File": "A_081.ST"
+   },
+   "Automation Disk 82": {
+      "Games": "DEFENDER OF THE CROWN, THE PINK PANTHER, SUPER LEAGUE SOCCER",
+      "File": "A_082.ST"
+   },
+   "Automation Disk 83": {
+      "Games": "KRYPTON EGG, CHUCKIE EGG II, SKULLDIGGERY, ILLUSIONS",
+      "File": "A_083.ST"
+   },
+   "Automation Disk 84": {
+      "Games": "DRAGONSCAPE, HUMAN KILLING MACHINE, ROAD BLASTERS, THE LAST TROOPER",
+      "File": "A_084.ST"
+   },
+   "Automation Disk 85": {
+      "Games": "THE GAMES: WINTER EDITION, CYBERNOID II, ACADEMY: TAU CETI II",
+      "File": "A_085.ST"
+   },
+   "Automation Disk 86": {
+      "Games": "STEVE DAVIS SNOOKER, BOBO IN STIR CRAZY",
+      "File": "A_086.ST"
+   },
+   "Automation Disk 87": {
+      "Games": "TIGER ROAD, MOTOR MASACRE",
+      "File": "A_087.ST"
+   },
+   "Automation Disk 88": {
+      "Games": "VOYAGER, ACTION FIGHTER, WARZONE, SKYFOX, TRIVIA CHALLENGE",
+      "File": "A_088.ST"
+   },
+   "Automation Disk 89": {
+      "Games": "STAR TREK, LIBERATOR, ALPINE GAMES, SORCEROR LORD",
+      "File": "A_089.ST"
+   },
+   "Automation Disk 90": {
+      "Games": "HE MAN AND THE MASTERS OF THE UNIVERSE, INTERNATIONAL KARATE, FINAL LEGACY, CD INFO UPDATE",
+      "File": "A_090.ST"
+   },
+   "Automation Disk 91": {
+      "Games": "CLEVER AND SMART, VINDICATORS",
+      "File": "A_091.ST"
+   },
+   "Automation Disk 92": {
+      "Games": "SUPERMAN, DUGGER, DRAGON FORCE",
+      "File": "A_092.ST"
+   },
+   "Automation Disk 93": {
+      "Games": "SPACE BALLER, A-320 AIRBUS",
+      "File": "A_093.ST"
+   },
+   "Automation Disk 94": {
+      "Games": "MATAHARI, CARRIER COMMAND, OPERATION HORMUZ",
+      "File": "A_094.ST"
+   },
+   "Automation Disk 95": {
+      "Games": "COSMIC PIRATES, HOSTAGES",
+      "File": "A_095.ST"
+   },
+   "Automation Disk 96": {
+      "Games": "ROBOCOP, RENEGADE, SHANGHAI",
+      "File": "A_096.ST"
+   },
+   "Automation Disk 97": {
+      "Games": "DUNGEON MASTER, OIDS, 3D POOL",
+      "File": "A_097.ST"
+   },
+   "Automation Disk 98": {
+      "Games": "F-15 STRIKE EAGLE, MILLENIUM 22, SPACE SHUTTLE, ALPHA MAX, WARSHIP",
+      "File": "A_098.ST"
+   },
+   "Automation Disk 99": {
+      "Games": "JOAN OF ARK, MARBLE MADNESS",
+      "File": "A_099.ST"
+   },
+   "Automation Disk 100": {
+      "Games": "CHICAGO  30, PUFFY S SAGA, SAVAGE, CD INFO UPDATE",
+      "File": "A_100.ST"
+   },
+   "Automation Disk 101": {
+      "Games": "JUNGLE BOOK, PRIME TIME, STARTRASH, DOMINOES",
+      "File": "A_101.ST"
+   },
+   "Automation Disk 102": {
+      "Games": "TOTAL ECLIPSE, RED ALERT, VIDEO VEGAS, ROADWAR 2000, SKATEBALL, EMPIRE",
+      "File": "A_102.ST"
+   },
+   "Automation Disk 103": {
+      "Games": "JUG, SILKWORM, SKRULL",
+      "File": "A_103.ST"
+   },
+   "Automation Disk 104": {
+      "Games": "SPACE HARRIER, BUTCHER HILL",
+      "File": "A_104.ST"
+   },
+   "Automation Disk 105": {
+      "Games": "XYBOTS, SUPER STUNTMAN, HYPERBOWL, TWO ON TWO",
+      "File": "A_105.ST"
+   },
+   "Automation Disk 106": {
+      "Games": "RVF HONDA SIMULATOR, TOM AND JERRY",
+      "File": "A_106.ST"
+   },
+   "Automation Disk 107": {
+      "Games": "AIRBORNE RANGER, NUMERO 10, WICKED",
+      "File": "A_107.ST"
+   },
+   "Automation Disk 108": {
+      "Games": "TETRIS II, SEX VIXEN FROM SPACE",
+      "File": "A_108.ST"
+   },
+   "Automation Disk 109": {
+      "Games": "CIRCUS ATTRACTIONS, VULCAN, FACE OFF",
+      "File": "A_109.ST"
+   },
+   "Automation Disk 110": {
+      "Games": "(INFOCOM 1) - BALLYHOO, DEADLINE, THE LURKING HORROR, SEA STALKER, ZORK I, ZORK II, ZORK III, PLUNDERED HEARTS",
+      "File": "A_110.ST"
+   },
+   "Automation Disk 111": {
+      "Games": "(INFOCOM 2) - SPELLBREAKER, WISHBRINGER, ENCHANTER, SUSPENDED, MOONMIST, INFIDEL, WITNESS, SORCERER",
+      "File": "A_111.ST"
+   },
+   "Automation Disk 112": {
+      "Games": "(INFOCOM 3) - HITCH HIKERS GUIDE, LEATHER GODDESSES, HOLLYWOOD HIJINX, STATIONFALL, SUSPECT, CUT THROATS, PLANETFALL, STARCROSS",
+      "File": "A_112.ST"
+   },
+   "Automation Disk 113": {
+      "Games": "JINKS, LEVIATHAN, ST SOCCER",
+      "File": "A_113.ST"
+   },
+   "Automation Disk 114": {
+      "Games": "JAWS, PHOBIA",
+      "File": "A_114.ST"
+   },
+   "Automation Disk 115": {
+      "Games": "LICENCE TO KILL, CHARIOTS OF WRATH",
+      "File": "A_115.ST"
+   },
+   "Automation Disk 116": {
+      "Games": "BUBBLE GHOST, SUNDOG, X-TRON",
+      "File": "A_116.ST"
+   },
+   "Automation Disk 117": {
+      "Games": "BLOOD MONEY (DEMO), HAWKEYE, SUPER CYCLE, STUNT CAR RACER",
+      "File": "A_117.ST"
+   },
+   "Automation Disk 118": {
+      "Games": "CHAMPIONSHIP WREESTLING, BOB MORANE: CHEVALERIE, GARFIELD: A WINTERS TAIL",
+      "File": "A_118.ST"
+   },
+   "Automation Disk 119": {
+      "Games": "WEIRD DREAMS, BOOTIFUL BABE, GRAND PRIX 500CC",
+      "File": "A_119.ST"
+   },
+   "Automation Disk 120": {
+      "Games": "THUNDERBIRDS, BEAM, RICK DANGEROUS",
+      "File": "A_120.ST"
+   },
+   "Automation Disk 121": {
+      "Games": "STORMTROOPER, ASTEROTH (ANGEL OF DEATH)",
+      "File": "A_121.ST"
+   },
+   "Automation Disk 122": {
+      "Games": "WINTER OLYMPIAD, BLOODWYCH",
+      "File": "A_122.ST"
+   },
+   "Automation Disk 123": {
+      "Games": "TIME SCANNER, ROLL OUT, RENEGADE, STRIKE FORCE HARRIER",
+      "File": "A_123.ST"
+   },
+   "Automation Disk 124": {
+      "Games": "INDIANA JONES AND THE LAST CRUSADE, CASTLE WARRIOR",
+      "File": "A_124.ST"
+   },
+   "Automation Disk 125": {
+      "Games": "LOMBARD RAC RALLY, BUBBLE TROUBLE",
+      "File": "A_125.ST"
+   },
+   "Automation Disk 126": {
+      "Games": "SIDEWINDER, WAR MACHINE",
+      "File": "A_126.ST"
+   },
+   "Automation Disk 127": {
+      "Games": "MURDERS IN VENICE, SPACE PORT, 8BALL POOL",
+      "File": "A_127.ST"
+   },
+   "Automation Disk 128": {
+      "Games": "TIMES OF LORE, DARKSIDE, OVERLORD",
+      "File": "A_128.ST"
+   },
+   "Automation Disk 129": {
+      "Games": "RED HEAT, GEMINI WING, BLOOD FEVER",
+      "File": "A_129.ST"
+   },
+   "Automation Disk 130": {
+      "Games": "SKYFIGHTER, PURSUIT TO EARTH, JUPITER PROBE",
+      "File": "A_130.ST"
+   },
+   "Automation Disk 131": {
+      "Games": "SUMMER OLYMPIAD, PASSING SHOT",
+      "File": "A_131.ST"
+   },
+   "Automation Disk 132": {
+      "Games": "DARK FUSION, JET, ROSEMARY RACOON, THE ARMAGEDDON MAN",
+      "File": "A_132.ST"
+   },
+   "Automation Disk 133": {
+      "Games": "XENON II: MEGABLAST!, BUMPY, HI-LO",
+      "File": "A_133.ST"
+   },
+   "Automation Disk 134": {
+      "Games": "PSYCHO, DYNAMITE DUX",
+      "File": "A_134.ST"
+   },
+   "Automation Disk 135": {
+      "Games": "MAKIN  WHOOPIE, WATERLOO",
+      "File": "A_135.ST"
+   },
+   "Automation Disk 136": {
+      "Games": "THE GREAT GIANA SISTERS, KENNEDY APPROACH, APB, BLASTER, MISSION EN RAFAELE",
+      "File": "A_136.ST"
+   },
+   "Automation Disk 137": {
+      "Games": "DREAM ZONE, BLUE WAR III, AMMOTRAX",
+      "File": "A_137.ST"
+   },
+   "Automation Disk 138": {
+      "Games": "FIFTH GEAR, SLAYER, SAINT AND GREAVSIE, TRACKER",
+      "File": "A_138.ST"
+   },
+   "Automation Disk 139": {
+      "Games": "MR HELI, HIGH STEEL, MANIAC, SHIP COMBAT",
+      "File": "A_139.ST"
+   },
+   "Automation Disk 140": {
+      "Games": "GRAND MONSTER SLAM, NIGHT HUNTER",
+      "File": "A_140.ST"
+   },
+   "Automation Disk 141": {
+      "Games": "TV SPORTS FOOTBALL, CHESSMASTER 2000, THE TEMPLE OF APSHAI TRILLOGY",
+      "File": "A_141.ST"
+   },
+   "Automation Disk 142": {
+      "Games": "MOEBIUS, NIGHT DAWN, SUB BATTLE SIMULATOR",
+      "File": "A_142.ST"
+   },
+   "Automation Disk 143": {
+      "Games": "STEEL, DARK CENTURY, FUTURE SPORTS, GRAND PRIX MASTER, MEGAFORMAT 21",
+      "File": "A_143.ST"
+   },
+   "Automation Disk 144": {
+      "Games": "FORGOTTEN WORLDS, HARD N HEAVY",
+      "File": "A_144.ST"
+   },
+   "Automation Disk 145": {
+      "Games": "TIME RUNNER, MAD, SPITFIRE  40, BUZZWORD",
+      "File": "A_145.ST"
+   },
+   "Automation Disk 146": {
+      "Games": "ZERO GRAVITY, HATE, RECOIL, INVADERS, BRIDGE-IT",
+      "File": "A_146.ST"
+   },
+   "Automation Disk 147": {
+      "Games": "ALTERED BEAST, GOLD OF THE REALM, RAZ RATS",
+      "File": "A_147.ST"
+   },
+   "Automation Disk 148(A)": {
+      "Games": "THE GAMES: SUMMER EDITION (A)",
+      "File": "A_148_A.ST"
+   },
+   "Automation Disk 148(B)": {
+      "Games": "THE GAMES: SUMMER EDITION (B), BIO CHALLENGE, JUMP JET",
+      "File": "A_148_B.ST"
+   },
+   "Automation Disk 149": {
+      "Games": "ALBEDO, MIND FIGHTER, TRIP-A-TRON",
+      "File": "A_149.ST"
+   },
+   "Automation Disk 150": {
+      "Games": "PAPER BOY, SPHERICAL, STAR WARS, CD INFO UPDATE",
+      "File": "A_150.ST"
+   },
+   "Automation Disk 151": {
+      "Games": "LEISURE SUIT LARRY, KINGS QUEST, SARGON III",
+      "File": "A_151.ST"
+   },
+   "Automation Disk 152": {
+      "Games": "CIRCUS GAMES, SILENT SERVICE",
+      "File": "A_152.ST"
+   },
+   "Automation Disk 153": {
+      "Games": "ZOMBIE, BATTLESHIPS, PIRATES OF THE BARBARY COAST",
+      "File": "A_153.ST"
+   },
+   "Automation Disk 154": {
+      "Games": "SUPERSTAR ICE HOCKEY, CRASH GARRET, ONSLAUGHT, FASTCOPY, MULTI",
+      "File": "A_154.ST"
+   },
+   "Automation Disk 155": {
+      "Games": "PHANTASIE, BANKOK KNIGHTS",
+      "File": "A_155.ST"
+   },
+   "Automation Disk 156": {
+      "Games": "BATTLE TECH, ACTION SERVICE",
+      "File": "A_156.ST"
+   },
+   "Automation Disk 157": {
+      "Games": "STRIDER, TANGLEWOOD",
+      "File": "A_157.ST"
+   },
+   "Automation Disk 158": {
+      "Games": "STARGLIDER II, NIGHTWALKER",
+      "File": "A_158.ST"
+   },
+   "Automation Disk 159": {
+      "Games": "BOB MORANE (OPERATION NEPTUNE), INDY 500",
+      "File": "A_159.ST"
+   },
+   "Automation Disk 160": {
+      "Games": "FISH, GUILD OF THIEVES, THE LAST SHOOT EM UP",
+      "File": "A_160.ST"
+   },
+   "Automation Disk 161": {
+      "Games": "FALCON: MISSION DISK 1, HARDBALL",
+      "File": "A_161.ST"
+   },
+   "Automation Disk 162": {
+      "Games": "ULTIMA IV, POSTMAN PAT, SUPER SCRAMBLE SIMULATOR",
+      "File": "A_162.ST"
+   },
+   "Automation Disk 163": {
+      "Games": "LANCASTER, CHICAGO 90 S",
+      "File": "A_163.ST"
+   },
+   "Automation Disk 164": {
+      "Games": "TIN TIN ON THE MOON (DEMO), CYBERMIND, SHUFFLEBOARD",
+      "File": "A_164.ST"
+   },
+   "Automation Disk 165": {
+      "Games": "INDIAN MISSION, SPACE PILOT, BOMBER COMMAND, PROFESSOR CRAPS, PICK POCKET",
+      "File": "A_165.ST"
+   },
+   "Automation Disk 166": {
+      "Games": "ROCK N ROLL, DARIUS+",
+      "File": "A_166.ST"
+   },
+   "Automation Disk 167": {
+      "Games": "LASER SQUAD, ELEMENTAL",
+      "File": "A_167.ST"
+   },
+   "Automation Disk 168": {
+      "Games": "PLATOON, OPERATION CLEAN STREETS (MANHATTEN DEALERS)",
+      "File": "A_168.ST"
+   },
+   "Automation Disk 169": {
+      "Games": "FUSION, QUARTZ, SPACE INVADERS, ELITE PILOT EDITOR",
+      "File": "A_169.ST"
+   },
+   "Automation Disk 170": {
+      "Games": "BATTLEHAWKS 1942, RANARAMA, PASSENGERS ON THE WIND (PART 1)",
+      "File": "A_170.ST"
+   },
+   "Automation Disk 171": {
+      "Games": "FERRARI F1, MAKE A BREAK, PASSENGERS ON THE WIND (PART 2)",
+      "File": "A_171.ST"
+   },
+   "Automation Disk 172": {
+      "Games": "HOLLYWOOD POKER PRO, MOTORBIKE MADNESS",
+      "File": "A_172.ST"
+   },
+   "Automation Disk 173": {
+      "Games": "SNOOPY, TOOBIN, INDOOR SPORTS, SHUTDOWN, JITTERBUGS",
+      "File": "A_173.ST"
+   },
+   "Automation Disk 174": {
+      "Games": "SPACE QUEST II, ROOKIE, WORLD DARTS",
+      "File": "A_174.ST"
+   },
+   "Automation Disk 175": {
+      "Games": "KOSMIC KRIEG, OVERLORD, TURBO GT II, CRASZY CARS, BOB WINNER, CD INFO UPDATE",
+      "File": "A_175.ST"
+   },
+   "Automation Disk 176": {
+      "Games": "RED LIGHTNING, ANCO STRIP POKER, FREDDY HARDEST",
+      "File": "A_176.ST"
+   },
+   "Automation Disk 177": {
+      "Games": "WESTERN GAMES, PHANTASIE II",
+      "File": "A_177.ST"
+   },
+   "Automation Disk 178": {
+      "Games": "FORBIDDEN QUEST, STARFLEET, ST HACK, STRIKE, ARTIFICIAL DREAMS",
+      "File": "A_178.ST"
+   },
+   "Automation Disk 179": {
+      "Games": "MANIAC MANSION, SUPERBIKE CHALLENGE, SPEADBOAT ASSASIN",
+      "File": "A_179.ST"
+   },
+   "Automation Disk 180": {
+      "Games": "NAVY MOVES, FAST LANE",
+      "File": "A_180.ST"
+   },
+   "Automation Disk 181": {
+      "Games": "COMMANDO, VERMINATOR, SWITCHBLADE",
+      "File": "A_181.ST"
+   },
+   "Automation Disk 182": {
+      "Games": "GATEWAY, TOP SECRET, WHEELS OF FORTUNE, THE SUN AND TIMES CROSSWORDS",
+      "File": "A_182.ST"
+   },
+   "Automation Disk 183": {
+      "Games": "DIVE BOMBER, DEMON S WINTER",
+      "File": "A_183.ST"
+   },
+   "Automation Disk 184": {
+      "Games": "FLIGHT SIIMULATOR II, ROCKET RANGER",
+      "File": "A_184.ST"
+   },
+   "Automation Disk 185": {
+      "Games": "PHAROAH, MIAMI MICE",
+      "File": "A_185.ST"
+   },
+   "Automation Disk 186": {
+      "Games": "UNIVERSAL MILITARY SIMULATOR, LITTLE COMPUTER PEOPLE, POTHOLE PETE, PICTIONARY, ATARI PLANETARIUM",
+      "File": "A_186.ST"
+   },
+   "Automation Disk 187": {
+      "Games": "GUN SHIP, KILL DOZERS, SCHOOL YARD SLAUGHTER",
+      "File": "A_187.ST"
+   },
+   "Automation Disk 188": {
+      "Games": "HARD DRIVIN , BREACH, TRIVIA TROVE, SPECTRUM 512, A MIND FOREVER VOYAGING",
+      "File": "A_188.ST"
+   },
+   "Automation Disk 189": {
+      "Games": "RED STORM RISING, AUTO-DUEL",
+      "File": "A_189.ST"
+   },
+   "Automation Disk 190": {
+      "Games": "INTERPHASE, AXEL S MAGIC HAMMER, BAD COMPANY, FIRST PERSON PINBALL",
+      "File": "A_190.ST"
+   },
+   "Automation Disk 191": {
+      "Games": "HELL RAISER, FIST OF FURY, HOLE IN ONE, CUBEMAZE",
+      "File": "A_191.ST"
+   },
+   "Automation Disk 192": {
+      "Games": "CHAOS STRIKES BACK",
+      "File": "A_192.ST"
+   },
+   "Automation Disk 193": {
+      "Games": "ZAK MCKRACKEN AND THE ALIEN MINDBENDERS",
+      "File": "A_193.ST"
+   },
+   "Automation Disk 194": {
+      "Games": "SHOOT THE MOON, SAFARI GUNS, KENNY DAGLISH SOCCER",
+      "File": "A_194.ST"
+   },
+   "Automation Disk 195": {
+      "Games": "POWER PLAY, SPACE FLIGHT, BELLUM",
+      "File": "A_195.ST"
+   },
+   "Automation Disk 196": {
+      "Games": "CHASE HQ, BALANCE OF POWER (1990 EDITION), MONKEYS AND BALLOONS",
+      "File": "A_196.ST"
+   },
+   "Automation Disk 197": {
+      "Games": "SHERMAN M4 TANK PATROL, ROLLER COASTER RUMBLER",
+      "File": "A_197.ST"
+   },
+   "Automation Disk 198": {
+      "Games": "MINDBENDER, AYATOLLA INVADERS, STARBLAZE, TERRY S BIG ADVENTURE, GILBERT: ESCAPE FROM DRILL",
+      "File": "A_198.ST"
+   },
+   "Automation Disk 199": {
+      "Games": "GHOSTS AND GHOULS, MOT, COLOURSPACE",
+      "File": "A_199.ST"
+   },
+   "Automation Disk 200": {
+      "Games": "SKIDO, PIPEDREAM, GREAT COURTS",
+      "File": "A_200.ST"
+   },
+   "Automation Disk 201": {
+      "Games": "DRAGONS OF FLAME, AFRICAN RAIDERS",
+      "File": "A_201.ST"
+   },
+   "Automation Disk 202": {
+      "Games": "MAGIC ALPHA, HACKER, ROULETTE, OGRE, MAGIC BILLE, TECKMATE, PEGAMON, MAGIC CASES, ST POOL 13, TRUMP CASTLE",
+      "File": "A_202.ST"
+   },
+   "Automation Disk 203": {
+      "Games": "BRAIN BOX, WERNER ST",
+      "File": "A_203.ST"
+   },
+   "Automation Disk 204": {
+      "Games": "CONFLICT IN EUROPE, ARMADA",
+      "File": "A_204.ST"
+   },
+   "Automation Disk 205": {
+      "Games": "THE LEGEND OF DJEL, PATRICE MARTIN",
+      "File": "A_205.ST"
+   },
+   "Automation Disk 206": {
+      "Games": "CLUEDO, KAYDEN GARTH, COLONIAL CONQUEST, TARGET RANGE",
+      "File": "A_206.ST"
+   },
+   "Automation Disk 207": {
+      "Games": "NORTH AND SOUTH, LEONARDO",
+      "File": "A_207.ST"
+   },
+   "Automation Disk 208": {
+      "Games": "TONIC TILES, KELLY X, TOLTEKA, BOB MORANE: JUNGLE, BACKGAMMON, TRIVIA MASTER, CROSSWORDS",
+      "File": "A_208.ST"
+   },
+   "Automation Disk 209": {
+      "Games": "ULTIMA II, PHANTASIE, JUMPSTER, MONOPOLY, FINAL ASSAULT",
+      "File": "A_209.ST"
+   },
+   "Automation Disk 210": {
+      "Games": "AUTO-ROUTE",
+      "File": "A_210.ST"
+   },
+   "Automation Disk 211": {
+      "Games": "DAY OF THE VIPER, CRAZY SHOT",
+      "File": "A_211.ST"
+   },
+   "Automation Disk 212": {
+      "Games": "POLICE QUEST, ENTERPRISE",
+      "File": "A_212.ST"
+   },
+   "Automation Disk 213": {
+      "Games": "THE EYE OF HORUS, FOOTBALLER OF THE YEAR II, WHO FRAMED ROGER RABBIT?",
+      "File": "A_213.ST"
+   },
+   "Automation Disk 214": {
+      "Games": "SUPER WONDER BOY, THE SEVEN GATES OF JAMBALA",
+      "File": "A_214.ST"
+   },
+   "Automation Disk 215": {
+      "Games": "UNDER THE ICE, FULL METAL PLANET",
+      "File": "A_215.ST"
+   },
+   "Automation Disk 216": {
+      "Games": "TREASURE ISLAND DIZZY, QUARTET, TRITON III, DAILY DOUBLE",
+      "File": "A_216.ST"
+   },
+   "Automation Disk 217": {
+      "Games": "GONE FISHING, FORMULA ONE GP, WHO MAIMED ROGER RABBIT?",
+      "File": "A_217.ST"
+   },
+   "Automation Disk 218": {
+      "Games": "CORRUPTION, WIZARD S CROWN, BRIAN CLOUGHS FOOTBALL",
+      "File": "A_218.ST"
+   },
+   "Automation Disk 219": {
+      "Games": "DOUBLE DRAGON II, ALF",
+      "File": "A_219.ST"
+   },
+   "Automation Disk 220": {
+      "Games": "GALAXY FORCE III, DOGS OF WAR, TEMPEST",
+      "File": "A_220.ST"
+   },
+   "Automation Disk 221": {
+      "Games": "ULTIMA V, STAR BREAKER",
+      "File": "A_221.ST"
+   },
+   "Automation Disk 222": {
+      "Games": "BREACH II, DEEP SPACE, DIZZY WIZARD",
+      "File": "A_222.ST"
+   },
+   "Automation Disk 223": {
+      "Games": "THE UNTOUCHABLES, WORLD TROPHY SOCCER",
+      "File": "A_223.ST"
+   },
+   "Automation Disk 224": {
+      "Games": "BATMAN: THE MOVIE, BLOODWYCH II, SPY V SPY II",
+      "File": "A_224.ST"
+   },
+   "Automation Disk 225": {
+      "Games": "BAD COMPANY, STORMLORD, THE GAMBLER",
+      "File": "A_225.ST"
+   },
+   "Automation Disk 226": {
+      "Games": "WIND WALKER, WIZZO, WARGAME CONSTRUCTION KIT",
+      "File": "A_226.ST"
+   },
+   "Automation Disk 227": {
+      "Games": "HIGHWAY PATROL, COMPANION, CHECKMATE / SOLITAIRE / BLACKJACK",
+      "File": "A_227.ST"
+   },
+   "Automation Disk 228": {
+      "Games": "CROSSBOW, ARCHIPELAGOS, SPITTING IMAGES",
+      "File": "A_228.ST"
+   },
+   "Automation Disk 229": {
+      "Games": "SUPERCARS, WAYNE GRETSKY S ICE HOCKEY",
+      "File": "A_229.ST"
+   },
+   "Automation Disk 230": {
+      "Games": "TURBO OUTRUN, IZNOGOUD",
+      "File": "A_230.ST"
+   },
+   "Automation Disk 231": {
+      "Games": "RAINBOW ISLANDS, HILLSFAR",
+      "File": "A_231.ST"
+   },
+   "Automation Disk 232": {
+      "Games": "X-OUT, AAARGH!",
+      "File": "A_232.ST"
+   },
+   "Automation Disk 233": {
+      "Games": "WILDLIFE, THE MAN FROM THE COUNCIL",
+      "File": "A_233.ST"
+   },
+   "Automation Disk 234": {
+      "Games": "SPORTING TRIANGLES, MIKE READ S COMPUTER POP QUIZ, WEST AND ZKULL",
+      "File": "A_234.ST"
+   },
+   "Automation Disk 235": {
+      "Games": "HUNTER KILLER, DR DOOM S REVENGE",
+      "File": "A_235.ST"
+   },
+   "Automation Disk 236": {
+      "Games": "PHOTON STORM, SAS COMBAT, KID GLOVES, GLADIATOR",
+      "File": "A_236.ST"
+   },
+   "Automation Disk 237": {
+      "Games": "BLUE ANGELS  69, F-16 COMBAT PILOT AND PILOT EDITOR",
+      "File": "A_237.ST"
+   },
+   "Automation Disk 238": {
+      "Games": "LEGEND, QUESTRON II",
+      "File": "A_238.ST"
+   },
+   "Automation Disk 239": {
+      "Games": "JUMPING JACKSON, SOCCER KING",
+      "File": "A_239.ST"
+   },
+   "Automation Disk 240(A)": {
+      "Games": "OPERATION: THUNDERBOLT (A), ROTOR, BLACK TIGER",
+      "File": "A_240_A.ST"
+   },
+   "Automation Disk 240(B)": {
+      "Games": "OPERATION: THUNDERBOLD (B), BRICK BUSTA",
+      "File": "A_240_B.ST"
+   },
+   "Automation Disk 241": {
+      "Games": "CENTREFOLD SQUARES, RUSH",
+      "File": "A_241.ST"
+   },
+   "Automation Disk 242": {
+      "Games": "XENOPHOBE, SHOOT EM UP CONSTRUCTION KIT, ROCK STAR ATE MY HAMSTER",
+      "File": "A_242.ST"
+   },
+   "Automation Disk 243(A)": {
+      "Games": "INDIANA JONES: THE ADVENTURE (DISKS 1 AND 2), THE PRESIDENT IS MISSING",
+      "File": "A_243_A.ST"
+   },
+   "Automation Disk 243(B)": {
+      "Games": "INDIANA JONES: THE ADVENTURE (DISKS 3,4,5 AND 6)",
+      "File": "A_243_B.ST"
+   },
+   "Automation Disk 244": {
+      "Games": "JACK NICLAUS GOLF",
+      "File": "A_244.ST"
+   },
+   "Automation Disk 245": {
+      "Games": "OLIVER AND CO, KICK OFF: EXTRA TIME, AUSTERLITZ",
+      "File": "A_245.ST"
+   },
+   "Automation Disk 246": {
+      "Games": "DOMINATOR, EMS HERMES",
+      "File": "A_246.ST"
+   },
+   "Automation Disk 247": {
+      "Games": "STRYX, CASTLE MASTER",
+      "File": "A_247.ST"
+   },
+   "Automation Disk 248": {
+      "Games": "SCOTT ADAMS ADVENTURE, SECRETS OF STEEL, MIDI MAZE, AZARIAN",
+      "File": "A_248.ST"
+   },
+   "Automation Disk 249": {
+      "Games": "PINBALL MAGIC, RALLY CROSS, SPACE HARRIER (EXTRA)",
+      "File": "A_249.ST"
+   },
+   "Automation Disk 250": {
+      "Games": "NECRON, BOULDERDASH CONSTRUCTION SET",
+      "File": "A_250.ST"
+   },
+   "Automation Disk 251": {
+      "Games": "PARIS DAKAR 1990, SPY V SPY III, MEAN 18 AND EDITOR",
+      "File": "A_251.ST"
+   },
+   "Automation Disk 252": {
+      "Games": "WARHEAD, TOM AND JERRY II",
+      "File": "A_252.ST"
+   },
+   "Automation Disk 253": {
+      "Games": "WORLD CHAMPIONSHIP BOXING MANAGER, BRIDGE PLAYER 2000",
+      "File": "A_253.ST"
+   },
+   "Automation Disk 254": {
+      "Games": "PETER PAN, IMPOSSIBLE MISSION II",
+      "File": "A_254.ST"
+   },
+   "Automation Disk 255": {
+      "Games": "RISK, MOUTH TRAP, JIGSAW PUZZLE MANIA",
+      "File": "A_255.ST"
+   },
+   "Automation Disk 256": {
+      "Games": "SHUFFLEPUCK CAFE, LEAGUE CHALLENGE",
+      "File": "A_256.ST"
+   },
+   "Automation Disk 257": {
+      "Games": "TERRORPODS, SHINOBI, CLOWN MANIA",
+      "File": "A_257.ST"
+   },
+   "Automation Disk 258": {
+      "Games": "SKATETRIBE, SKYSTRIKE, EXPLODE, VIRUS, RUSH, FRUIT MACHINE, Dungeons,Amethysts,Alchemists AND Everything",
+      "File": "A_258.ST"
+   },
+   "Automation Disk 259": {
+      "Games": "RAINBOW WARRIOR",
+      "File": "A_259.ST"
+   },
+   "Automation Disk 260": {
+      "Games": "THE LEGEND OF THE SWORD, TOYETTES",
+      "File": "A_260.ST"
+   },
+   "Automation Disk 261": {
+      "Games": "IMPOSSAMOLE, 3D WANDERER, NINJA SPIRITS",
+      "File": "A_261.ST"
+   },
+   "Automation Disk 262": {
+      "Games": "LEAVIN  TERRAMIS, P-47+",
+      "File": "A_262.ST"
+   },
+   "Automation Disk 263": {
+      "Games": "MIDWINTER, ULTIMATE GOLF",
+      "File": "A_263.ST"
+   },
+   "Automation Disk 264": {
+      "Games": "WAR IN MIDDLE EARTH",
+      "File": "A_264.ST"
+   },
+   "Automation Disk 265": {
+      "Games": "ASTATE, STOS YAHTZEE, WINNIE THE POOH",
+      "File": "A_265.ST"
+   },
+   "Automation Disk 266": {
+      "Games": "PIRATES!",
+      "File": "A_266.ST"
+   },
+   "Automation Disk 267": {
+      "Games": "TWYLIGHTS RANDSOM",
+      "File": "A_267.ST"
+   },
+   "Automation Disk 268": {
+      "Games": "THE GRAIL, FIRE BRIGADE",
+      "File": "A_268.ST"
+   },
+   "Automation Disk 269": {
+      "Games": "INFESTATION, E-MOTION, CLOUD KINGDOMS, ZENER",
+      "File": "A_269.ST"
+   },
+   "Automation Disk 270": {
+      "Games": "KING OF CHICAGO, MICRO LEAGUE BASEBALL",
+      "File": "A_270.ST"
+   },
+   "Automation Disk 271": {
+      "Games": "STAR FLIGHT, DEMON S TOMB",
+      "File": "A_271.ST"
+   },
+   "Automation Disk 272": {
+      "Games": "MOTHER GOOSE, 221B BAKER STREET, TUNNEL VISION, ST WARS",
+      "File": "A_272.ST"
+   },
+   "Automation Disk 273": {
+      "Games": "ESKIMO GAMES, CONQUEROR, SANTA PARAVIA, SCORE FOUR",
+      "File": "A_273.ST"
+   },
+   "Automation Disk 274": {
+      "Games": "BEACH VOLLEY, PROTECTOR, ARENA",
+      "File": "A_274.ST"
+   },
+   "Automation Disk 275": {
+      "Games": "CRACK DOWN",
+      "File": "A_275.ST"
+   },
+   "Automation Disk 276": {
+      "Games": "SOLDIER 2000, ATOMIX, SEWERNAUT, CASTLE MASTER II, ESPIONAGE",
+      "File": "A_276.ST"
+   },
+   "Automation Disk 277": {
+      "Games": "WORLD GAMES, COURSE WINNER, ELECTION GAME, DEATHSTAR, CHAOS EDITOR, BLOODWYCH EDITOR",
+      "File": "A_277.ST"
+   },
+   "Automation Disk 278": {
+      "Games": "BATTLE CHESS, DELUXE STRIP POKER II",
+      "File": "A_278.ST"
+   },
+   "Automation Disk 279": {
+      "Games": "CORSARIO, MACADAM BUMPER, LIVINGSTONE III, MILEGAME",
+      "File": "A_279.ST"
+   },
+   "Automation Disk 280(A)": {
+      "Games": "AFTER THE WAR (A), CRYSTAL CAVERNS",
+      "File": "A_280_A.ST"
+   },
+   "Automation Disk 280(B)": {
+      "Games": "AFTER THE WAR (B), DAN DARE III",
+      "File": "A_280_B.ST"
+   },
+   "Automation Disk 281": {
+      "Games": "MANCHESTER UNITED, HOT ROD",
+      "File": "A_281.ST"
+   },
+   "Automation Disk 282": {
+      "Games": "TIME!",
+      "File": "A_282.ST"
+   },
+   "Automation Disk 283": {
+      "Games": "KINGS QUEST III, FILE COPIER (CHEETAH), MISCELLANEOUS ADVENTURE SOLUTIONS",
+      "File": "A_283.ST"
+   },
+   "Automation Disk 284(A)": {
+      "Games": "MAN HUNTER: NEW YORK CITY (A)",
+      "File": "A_284_A.ST"
+   },
+   "Automation Disk 284(B)": {
+      "Games": "MAN HUNTER: SAN FRANSISCO (A)",
+      "File": "A_284_B.ST"
+   },
+   "Automation Disk 284(C)": {
+      "Games": "MAN HUNTER: NEW YORK CITY AND SAN FRANSISCO (B)",
+      "File": "A_284_C.ST"
+   },
+   "Automation Disk 285": {
+      "Games": "ITALY 90 (WORLD CUP), WARP, THE CHAOS MAPS",
+      "File": "A_285.ST"
+   },
+   "Automation Disk 286": {
+      "Games": "CYBERBALL, HEAVY METAL, PUZZLE",
+      "File": "A_286.ST"
+   },
+   "Automation Disk 287": {
+      "Games": "XENOMORPH",
+      "File": "A_287.ST"
+   },
+   "Automation Disk 288": {
+      "Games": "CONTINENTAL CIRCUS, BUBBLE GHOST+, TWYLYTE",
+      "File": "A_288.ST"
+   },
+   "Automation Disk 289": {
+      "Games": "CARTOON CAPERS, COUNT DUCKULA",
+      "File": "A_289.ST"
+   },
+   "Automation Disk 290": {
+      "Games": "OIL IMPERIUM, HOLLYWOOD POKER DELUXE, CONQUERER DOCS, DONALD DUCK S PLAYGROUND",
+      "File": "A_290.ST"
+   },
+   "Automation Disk 291": {
+      "Games": "KLAX, TIN TIN ON THE MOON, DR ZOCK, STRIKEY",
+      "File": "A_291.ST"
+   },
+   "Automation Disk 292": {
+      "Games": "SKIDZ, SIM CITY",
+      "File": "A_292.ST"
+   },
+   "Automation Disk 293": {
+      "Games": "RESOLUTION 101, PLANET OF LUST",
+      "File": "A_293.ST"
+   },
+   "Automation Disk 294(A)": {
+      "Games": "LEISURE SUIT LARRY II (LOOKING FOR LOVE) (A)",
+      "File": "A_294_A.ST"
+   },
+   "Automation Disk 294(B)": {
+      "Games": "LEISURE SUIT LARRY II (LOOKING FOR LOVE) (B), DAMOCLES: MERCENARY II",
+      "File": "A_294_B.ST"
+   },
+   "Automation Disk 295(A)": {
+      "Games": "GOLDRUSH (A)",
+      "File": "A_295_A.ST"
+   },
+   "Automation Disk 295(B)": {
+      "Games": "GOLDRUSH (B)",
+      "File": "A_295_B.ST"
+   },
+   "Automation Disk 296": {
+      "Games": "HAMMER FIST (PARTS 1 AND 2), GRAFFITI MAN",
+      "File": "A_296.ST"
+   },
+   "Automation Disk 297(A)": {
+      "Games": "THE VIKING CHILD (A), TENNIS CUP",
+      "File": "A_297_A.ST"
+   },
+   "Automation Disk 297(B)": {
+      "Games": "THE VIKING CHILD (B)",
+      "File": "A_297_B.ST"
+   },
+   "Automation Disk 298": {
+      "Games": "IN 80 DAYS AROUND THE WORLD",
+      "File": "A_298.ST"
+   },
+   "Automation Disk 299": {
+      "Games": "PERSIAN GULF INFERNO, THE THIRD COURIER",
+      "File": "A_299.ST"
+   },
+   "Automation Disk 300": {
+      "Games": "DRAGON BREATH",
+      "File": "A_300.ST"
+   },
+   "Automation Disk 301": {
+      "Games": "FIGHTING SOCCER, TREBLE CHAMPIONS, EMLYN HUGHES, BANK IT, TOXIC 2",
+      "File": "A_301.ST"
+   },
+   "Automation Disk 302": {
+      "Games": "TEST DRIVE, ONYX, ZOG, WARLOCK, ELIMINATE",
+      "File": "A_302.ST"
+   },
+   "Automation Disk 303": {
+      "Games": "MOTORWAY DEATH, THE 3 MUSKETEERS",
+      "File": "A_303.ST"
+   },
+   "Automation Disk 304": {
+      "Games": "THE NEXT GENERATION, SPACE HARRIER II, THE FINAL FRONTIER",
+      "File": "A_304.ST"
+   },
+   "Automation Disk 305": {
+      "Games": "THE UNINVITED, RORKE S DRIFT, NOVA, SPACE BLOB",
+      "File": "A_305.ST"
+   },
+   "Automation Disk 306": {
+      "Games": "TO BE ON TOP, DYNASTY WARS, ACE INVADERS",
+      "File": "A_306.ST"
+   },
+   "Automation Disk 307": {
+      "Games": "IRON LORD",
+      "File": "A_307.ST"
+   },
+   "Automation Disk 308": {
+      "Games": "RUN THE GAUNTLET, THE TOWER OF BABEL",
+      "File": "A_308.ST"
+   },
+   "Automation Disk 309": {
+      "Games": "DEJA VU, PUB TRIVIA, POWER STRUGLE, MOMBER JACKY, FIA",
+      "File": "A_309.ST"
+   },
+   "Automation Disk 310": {
+      "Games": "HOYLE S CARDS, ANIMAL KINGDOM",
+      "File": "A_310.ST"
+   },
+   "Automation Disk 311": {
+      "Games": "POWER DRIFT, MR DIG, DOGFIGHT, SOLUTIONS 1",
+      "File": "A_311.ST"
+   },
+   "Automation Disk 312": {
+      "Games": "PHOENIX, LOGO, PYRAMEX",
+      "File": "A_312.ST"
+   },
+   "Automation Disk 313": {
+      "Games": "FLOOD, THUNDERSTRIKE",
+      "File": "A_313.ST"
+   },
+   "Automation Disk 314(A)": {
+      "Games": "POLICE QUEST II (A), IMPERIUM",
+      "File": "A_314_A.ST"
+   },
+   "Automation Disk 314(B)": {
+      "Games": "POLICE QUEST (B)",
+      "File": "A_314_B.ST"
+   },
+   "Automation Disk 315(A)": {
+      "Games": "SPACE QUEST III (A), TANK BATTLE, LIGHT CYCLES",
+      "File": "A_315_A.ST"
+   },
+   "Automation Disk 315(B)": {
+      "Games": "SPACE QUEST III (B)",
+      "File": "A_315_B.ST"
+   },
+   "Automation Disk 316": {
+      "Games": "THE LIFT, 20,000 LEAGUES UNDER THE SEA, PARABELLUM",
+      "File": "A_316.ST"
+   },
+   "Automation Disk 317": {
+      "Games": "TOTAL ANARCHY, EXODUS",
+      "File": "A_317.ST"
+   },
+   "Automation Disk 318": {
+      "Games": "FIRE AND BRIMSTONE, ROBOTZ, MATCH IT",
+      "File": "A_318.ST"
+   },
+   "Automation Disk 319(A)": {
+      "Games": "NINJA WARRIORS (A)",
+      "File": "A_319_A.ST"
+   },
+   "Automation Disk 319(B)": {
+      "Games": "NINJA WARRIORS (B)",
+      "File": "A_319_B.ST"
+   },
+   "Automation Disk 319(C)": {
+      "Games": "NINJA WARRIROS (C)",
+      "File": "A_319_C.ST"
+   },
+   "Automation Disk 320": {
+      "Games": "BLOCKOUT, DOMINATION, DEFENDERS OF THE EARTH, ITALY 1990 (WINNERS EDITION)",
+      "File": "A_320.ST"
+   },
+   "Automation Disk 321": {
+      "Games": "JAMES POND, WARLOCK: THE AVENGER, INTERNATIONAL ICE HOCKEY",
+      "File": "A_321.ST"
+   },
+   "Automation Disk 322": {
+      "Games": "LE MARGOULIN, SIMY CITY (EXTRA LEVELS), STRIP POKER II (EXTRA DATA)",
+      "File": "A_322.ST"
+   },
+   "Automation Disk 323(A)": {
+      "Games": "CHRONO QUEST (A), ZENITH, ROCKET RACER",
+      "File": "A_323_A.ST"
+   },
+   "Automation Disk 323(B)": {
+      "Games": "CHRONO QUEST (B), BOLO, TECHMATE CHESS",
+      "File": "A_323_B.ST"
+   },
+   "Automation Disk 324": {
+      "Games": "JOURNEY TO THE CENTRE OF THE EARTH, CASCADE DISK 15",
+      "File": "A_324.ST"
+   },
+   "Automation Disk 325": {
+      "Games": "TASS TIMES IN TONE TOWN, FOOTBALL CRAZY",
+      "File": "A_325.ST"
+   },
+   "Automation Disk 326": {
+      "Games": "COMBO RACER, THE PUNISHER",
+      "File": "A_326.ST"
+   },
+   "Automation Disk 327": {
+      "Games": "NEVER MIND, BEREAUCRACY",
+      "File": "A_327.ST"
+   },
+   "Automation Disk 328": {
+      "Games": "COLORADO, DRIVING FORCE",
+      "File": "A_328.ST"
+   },
+   "Automation Disk 329": {
+      "Games": "TCB SOUNDTRACKER, SYNC SOUNDTRACKER, NOISE TRACKER, MODULE CONVERTION UTILITY",
+      "File": "A_329.ST"
+   },
+   "Automation Disk 330": {
+      "Games": "COBRA II, MAGIC LINES",
+      "File": "A_330.ST"
+   },
+   "Automation Disk 331": {
+      "Games": "STAR BLAZE, PLAYER MANAGER, SID",
+      "File": "A_331.ST"
+   },
+   "Automation Disk 332": {
+      "Games": "VENUS THE FLYTRAP, PUKADU",
+      "File": "A_332.ST"
+   },
+   "Automation Disk 333": {
+      "Games": "DEJA VU II, VICTORY",
+      "File": "A_333.ST"
+   },
+   "Automation Disk 334": {
+      "Games": "PSION CHESS, CHESSMASTER 2000, COLOSSUS CHESS X",
+      "File": "A_334.ST"
+   },
+   "Automation Disk 335(A)": {
+      "Games": "SHADOW WARRIOR (A), SCRAMBLE SPIRITS",
+      "File": "A_335_A.ST"
+   },
+   "Automation Disk 335(B)": {
+      "Games": "SHADOW WARRIOR (B)",
+      "File": "A_335_B.ST"
+   },
+   "Automation Disk 336": {
+      "Games": "MIDNIGHT RESISTANCE, LIN-WU, EVERTON FC",
+      "File": "A_336.ST"
+   },
+   "Automation Disk 337(A)": {
+      "Games": "LEISURE SUIT LARRY III (A)",
+      "File": "A_337_A.ST"
+   },
+   "Automation Disk 337(B)": {
+      "Games": "LEISURE SUIT LARRY III (B)",
+      "File": "A_337_B.ST"
+   },
+   "Automation Disk 338": {
+      "Games": "MAD SHOW, SOLO, PACK ICE, K-SEKA 23",
+      "File": "A_338.ST"
+   },
+   "Automation Disk 339": {
+      "Games": "SATAN, DO! RUN! RUN!, YOGI S GREAT ESCAPE, CARD ADDICT, WHERE IS IT?, ATOMS",
+      "File": "A_339.ST"
+   },
+   "Automation Disk 340": {
+      "Games": "THE NEW ZEALAND STORY, DRAGON NINJA",
+      "File": "A_340.ST"
+   },
+   "Automation Disk 341": {
+      "Games": "ORIENTAL GAMES, BLINKY S SCARY SCHOOL",
+      "File": "A_341.ST"
+   },
+   "Automation Disk 342": {
+      "Games": "WORLD SOCCER, BACK TO THE FUTURE: PART II, HYPERFORCE",
+      "File": "A_342.ST"
+   },
+   "Automation Disk 343": {
+      "Games": "THE ORISON, MAD PROFESSOR MORIARTI, TURTLE TENNIS SIMULATOR",
+      "File": "A_343.ST"
+   },
+   "Automation Disk 344": {
+      "Games": "SLY SPY, DAYS OF THUNDER, TURTLE GROOVES, FOUR-FIT, THE MILL",
+      "File": "A_344.ST"
+   },
+   "Automation Disk 345": {
+      "Games": "FRED, HARRIS GOES SKIING, FLIGHT SIM II DATA DISK (JAPAN)",
+      "File": "A_345.ST"
+   },
+   "Automation Disk 346": {
+      "Games": "POWER BOAT, PERRY MASON, SPACEWOLF, STRIKER, MIAMI MICE",
+      "File": "A_346.ST"
+   },
+   "Automation Disk 347": {
+      "Games": "DARK SAT, BEVERLY HILLS COP",
+      "File": "A_347.ST"
+   },
+   "Automation Disk 348": {
+      "Games": "RINGS OF MEDUSA, STAG",
+      "File": "A_348.ST"
+   },
+   "Automation Disk 349": {
+      "Games": "THE FOOLS ERRAND, GATO",
+      "File": "A_349.ST"
+   },
+   "Automation Disk 350": {
+      "Games": "FUTURE BIKE, ESCAPE FROM THE PLANET OF THE ROBOT MONSTERS, VIDEO POKER",
+      "File": "A_350.ST"
+   },
+   "Automation Disk 351": {
+      "Games": "DRAGON SPIRIT, ROTOX",
+      "File": "A_351.ST"
+   },
+   "Automation Disk 352": {
+      "Games": "SHADOWGATE, PLOTTING (DEMO), SAFE AS HOUSES, FANTASIA",
+      "File": "A_352.ST"
+   },
+   "Automation Disk 353": {
+      "Games": "ROY OF THE ROVERS, VOLLEYBALL SIMULATOR, ZX-81 EMULATOR",
+      "File": "A_353.ST"
+   },
+   "Automation Disk 354": {
+      "Games": "SPACE ROGUE, BOUNTY HUNTER, BALLANCE OF POWER, ROTATUS",
+      "File": "A_354.ST"
+   },
+   "Automation Disk 355": {
+      "Games": "THE SPY WHO LOVED ME, SUBUTTEO, STOCK MARKET",
+      "File": "A_355.ST"
+   },
+   "Automation Disk 356": {
+      "Games": "SHADOW OF THE BEAST",
+      "File": "A_356.ST"
+   },
+   "Automation Disk 357": {
+      "Games": "PLOTTING (FULL VERSION), THEME PARK MYSTERY, FALCON MISSION DISK II",
+      "File": "A_357.ST"
+   },
+   "Automation Disk 358": {
+      "Games": "KHALAAN, TARK",
+      "File": "A_358.ST"
+   },
+   "Automation Disk 359": {
+      "Games": "SONIC BOOM, PRO POWERBOAT SIMULATOR, INVASION TYPING TUTOR",
+      "File": "A_359.ST"
+   },
+   "Automation Disk 360": {
+      "Games": "FIREBALL, CRICKET CAPTAIN",
+      "File": "A_360.ST"
+   },
+   "Automation Disk 361": {
+      "Games": "XALARACK, FREEDOM AND DOCS, BLITZKREIG (MAY 1940), EVERTON DOCS",
+      "File": "A_361.ST"
+   },
+   "Automation Disk 362": {
+      "Games": "MAGIC FLY, RICK DANGEROUS II, YOLANDA",
+      "File": "A_362.ST"
+   },
+   "Automation Disk 363": {
+      "Games": "THE LAST NINJA II, THE LIGHT CORRIDOR, DEADZONE",
+      "File": "A_363.ST"
+   },
+   "Automation Disk 364": {
+      "Games": "ASTRO MARINE CORPS, STEIGAR, RUFF AND READY",
+      "File": "A_364.ST"
+   },
+   "Automation Disk 365": {
+      "Games": "EXTASE, GREMLINS II: THE NEW BATCH, OPERATION STEALTH DOCS",
+      "File": "A_365.ST"
+   },
+   "Automation Disk 366": {
+      "Games": "TEAM YANKEE AND DOCS, SOPHELIE",
+      "File": "A_366.ST"
+   },
+   "Automation Disk 367": {
+      "Games": "THE BARD S TALE, PERPLEXIA AND DOCS",
+      "File": "A_367.ST"
+   },
+   "Automation Disk 368": {
+      "Games": "JINXTER, HOYLE S CARDS II, ATARI TENNIS, LAZER BALL",
+      "File": "A_368.ST"
+   },
+   "Automation Disk 369": {
+      "Games": "BATTLE OF BRITAIN, GALAXIA",
+      "File": "A_369.ST"
+   },
+   "Automation Disk 370": {
+      "Games": "DARKLANDS, COLTRIS",
+      "File": "A_370.ST"
+   },
+   "Automation Disk 371(A)": {
+      "Games": "THE FINAL BATTLE (A), SNOW STRIKE, JOCKEY WILSON S DARTS, BSS JANE SEYMOUR DOCS",
+      "File": "A_371_A.ST"
+   },
+   "Automation Disk 371(B)": {
+      "Games": "THE FINAL BATTLE (B), BSS JANE SEYMOUR (A)",
+      "File": "A_371_B.ST"
+   },
+   "Automation Disk 371(C)": {
+      "Games": "BSS JANE SEYMOUR (B)",
+      "File": "A_371_C.ST"
+   },
+   "Automation Disk 372(A)": {
+      "Games": "NIGHT BREED (A), TIME MACHINE AND DOCS, ROGUE II",
+      "File": "A_372_A.ST"
+   },
+   "Automation Disk 372(B)": {
+      "Games": "NIGHT BREED (B)",
+      "File": "A_372_B.ST"
+   },
+   "Automation Disk 373": {
+      "Games": "DRAGON BREED, 3D INTERNATIONAL TENNIS",
+      "File": "A_373.ST"
+   },
+   "Automation Disk 374(A)": {
+      "Games": "GOLD OF THE AZTECS (A), MIKE REID S POP QUIZ, RENAISSANCE",
+      "File": "A_374_A.ST"
+   },
+   "Automation Disk 374(B)": {
+      "Games": "GOLD OF THE AZTECS (B)",
+      "File": "A_374_B.ST"
+   },
+   "Automation Disk 375": {
+      "Games": "GRIMBLOOD, TELLER, CHESS SIMULATOR",
+      "File": "A_375.ST"
+   },
+   "Automation Disk 376": {
+      "Games": "NINE LIVES, NO EXIT, DWEABY S QUEST",
+      "File": "A_376.ST"
+   },
+   "Automation Disk 377": {
+      "Games": "NITRO, MURDER AND DOCS, F-29 RETALIATOR",
+      "File": "A_377.ST"
+   },
+   "Automation Disk 378": {
+      "Games": "HONG KONG PHOOEY, MOON BLASTER, THE FINAL CONFLICT",
+      "File": "A_378.ST"
+   },
+   "Automation Disk 379": {
+      "Games": "ATOMIC ROBO KID",
+      "File": "A_379.ST"
+   },
+   "Automation Disk 380": {
+      "Games": "TUSKER, SKATE WARS",
+      "File": "A_380.ST"
+   },
+   "Automation Disk 381": {
+      "Games": "DRAGON LORD, FIRE RESCUE",
+      "File": "A_381.ST"
+   },
+   "Automation Disk 382": {
+      "Games": "LEGEND OF THE LOST, WINDSURF WILLY",
+      "File": "A_382.ST"
+   },
+   "Automation Disk 383(A)": {
+      "Games": "MURDERS IN SPACE (A), THE CAVES OF RIGEL (A), TURBO LOTUS ESPRIT CHALLENGE",
+      "File": "A_383_A.ST"
+   },
+   "Automation Disk 383(B)": {
+      "Games": "MURDERS IN SPACE (B), THE CAVES OF RIGEL (B)",
+      "File": "A_383_B.ST"
+   },
+   "Automation Disk 384": {
+      "Games": "TORVIK THE WARRIOR AND DOCS, GRAN N PRIX",
+      "File": "A_384.ST"
+   },
+   "Automation Disk 385": {
+      "Games": "M1 TANK PLATOON, VAXINE, TOS VERSION 20",
+      "File": "A_385.ST"
+   },
+   "Automation Disk 386": {
+      "Games": "SIMULCRA, TURN IT, THE BODY SHOP",
+      "File": "A_386.ST"
+   },
+   "Automation Disk 387": {
+      "Games": "THE CURSE OF RA, MIG 29, POP QUIZ CHALLENGE",
+      "File": "A_387.ST"
+   },
+   "Automation Disk 388(A)": {
+      "Games": "PANZA KICK BOXING (A), LLAMATRON (512K)",
+      "File": "A_388_A.ST"
+   },
+   "Automation Disk 388(B)": {
+      "Games": "PANZA KICK BOXING (B), LLAMATRON (1024K)",
+      "File": "A_388_B.ST"
+   },
+   "Automation Disk 389": {
+      "Games": "THE PRINCE OF PERSIA",
+      "File": "A_389.ST"
+   },
+   "Automation Disk 390": {
+      "Games": "PARADROID  90, ATF II",
+      "File": "A_390.ST"
+   },
+   "Automation Disk 391": {
+      "Games": "CHAMPIONSHIP RUN, SAINT DRAGON, DRAGON S TOWER",
+      "File": "A_391.ST"
+   },
+   "Automation Disk 392": {
+      "Games": "TEENAGE MUTANT NINJA TURTLES, BADLANDS",
+      "File": "A_392.ST"
+   },
+   "Automation Disk 393(A)": {
+      "Games": "MEAN STREETS (A), STRIDER II AND DOCS",
+      "File": "A_393_A.ST"
+   },
+   "Automation Disk 393(B)": {
+      "Games": "MEAN STREETS (B) AND DOCS",
+      "File": "A_393_B.ST"
+   },
+   "Automation Disk 394": {
+      "Games": "MYSTICAL, WELLER",
+      "File": "A_394.ST"
+   },
+   "Automation Disk 395": {
+      "Games": "SPIDERMAN, SLIDERS, LOCATION: CRISSLE FRIDGE",
+      "File": "A_395.ST"
+   },
+   "Automation Disk 396": {
+      "Games": "ROBOCOP II, CABAL",
+      "File": "A_396.ST"
+   },
+   "Automation Disk 397": {
+      "Games": "NARCO COP, PUZZNIC, LOOPZ, FOREST FIRE",
+      "File": "A_397.ST"
+   },
+   "Automation Disk 398": {
+      "Games": "CORPORATION",
+      "File": "A_398.ST"
+   },
+   "Automation Disk 399": {
+      "Games": "GOLDEN AXE, EDD THE DUCK, CORPORATION DOCS",
+      "File": "A_399.ST"
+   },
+   "Automation Disk 400": {
+      "Games": "SPEEDBALL II, SPINDIZZY WORLDS, BOGGLE AND DOKER",
+      "File": "A_400.ST"
+   },
+   "Automation Disk 401": {
+      "Games": "BATTLEMASTER",
+      "File": "A_401.ST"
+   },
+   "Automation Disk 402": {
+      "Games": "FLIP IT AND MAGNOSE, MANIX 1990, TWIXT",
+      "File": "A_402.ST"
+   },
+   "Automation Disk 403": {
+      "Games": "TIME RACE, WEBB OF TERROR, 3 CARD BRAG AND DOCS",
+      "File": "A_403.ST"
+   },
+   "Automation Disk 404": {
+      "Games": "GAZZA II, STRIKER, INTERNATIONAL SOCCER CHALLENGE",
+      "File": "A_404.ST"
+   },
+   "Automation Disk 405": {
+      "Games": "BATTLE COMMAND, FANTASY WORLD DIZZY",
+      "File": "A_405.ST"
+   },
+   "Automation Disk 406": {
+      "Games": "UN SQUADRON, FUTURE BASKETBALL",
+      "File": "A_406.ST"
+   },
+   "Automation Disk 407": {
+      "Games": "THE SWORD AND THE ROSE, BUILDERLAND, HEATWAVE AND DOCS",
+      "File": "A_407.ST"
+   },
+   "Automation Disk 408": {
+      "Games": "THE MAGICIAN, BOTICS",
+      "File": "A_408.ST"
+   },
+   "Automation Disk 409": {
+      "Games": "BADLANDS PETE",
+      "File": "A_409.ST"
+   },
+   "Automation Disk 410": {
+      "Games": "STUN RUNNER, ADVANCED SKI SIMULATOR",
+      "File": "A_410.ST"
+   },
+   "Automation Disk 411": {
+      "Games": "VOODOO KNIGHTMARE, SPELLFIRE THE SORCEROR, VARIOUS DOCS",
+      "File": "A_411.ST"
+   },
+   "Automation Disk 412": {
+      "Games": "THE CHRONICLES OF OMEGA, DEFENDER II, FAST FOOD",
+      "File": "A_412.ST"
+   },
+   "Automation Disk 413": {
+      "Games": "ADVANCES SKI SIMULATOR, HACKMAN II AND DOCS, JUST ANOTHER WAR IN SPACE",
+      "File": "A_413.ST"
+   },
+   "Automation Disk 414": {
+      "Games": "RANX",
+      "File": "A_414.ST"
+   },
+   "Automation Disk 415(A)": {
+      "Games": "CADAVER (A), HORROR ZOMBIES FROM BEYOND THE CRYPT, EUROPEAN SOCCER CHALLENGE",
+      "File": "A_415_A.ST"
+   },
+   "Automation Disk 415(B)": {
+      "Games": "CADAVER (B)",
+      "File": "A_415_B.ST"
+   },
+   "Automation Disk 416": {
+      "Games": "E-SWAT",
+      "File": "A_416.ST"
+   },
+   "Automation Disk 417": {
+      "Games": "XIPHOS, GET DEXTER II, VARIOUS DOCS",
+      "File": "A_417.ST"
+   },
+   "Automation Disk 418(A)": {
+      "Games": "TEST DRIVE II (A), WORLD CHAMPIONSHIP SOCCER",
+      "File": "A_418_A.ST"
+   },
+   "Automation Disk 418(B)": {
+      "Games": "TEST DRIVE II (B), SUPERCARS EXPANSION DISK",
+      "File": "A_418_B.ST"
+   },
+   "Automation Disk 419": {
+      "Games": "CARV-UP, TOYOTA CELICA GT RALLY",
+      "File": "A_419.ST"
+   },
+   "Automation Disk 420(A)": {
+      "Games": "FIENDISH FREDDIES BIG TOP  O FUN (DISKS 1,2 AND 3), MIX N MATCH, CHEAT DOCS",
+      "File": "A_420_A.ST"
+   },
+   "Automation Disk 420(B)": {
+      "Games": "FIENDISH FREDDUES BIG TOP  O FUN (DISKS 4 AND 5)",
+      "File": "A_420_B.ST"
+   },
+   "Automation Disk 421": {
+      "Games": "MIG 29 FULCRUM AND DOCS, PROFLIGHT SIMULATOR AND DOCS, VARIOUS DOCS",
+      "File": "A_421.ST"
+   },
+   "Automation Disk 422": {
+      "Games": "THE ULTIMATE RIDE",
+      "File": "A_422.ST"
+   },
+   "Automation Disk 423": {
+      "Games": "JUPITER MASTERDRIVE, IRON MAN IVAN STEWART, VARIOUS DOCS",
+      "File": "A_423.ST"
+   },
+   "Automation Disk 424": {
+      "Games": "F-19 STEALTH FIGHTER AND KEYMAP, KAMIKAZE",
+      "File": "A_424.ST"
+   },
+   "Automation Disk 425(A)": {
+      "Games": "SUPREMACY (A), JUDGE DREDD, VARIOUS DOCS",
+      "File": "A_425_A.ST"
+   },
+   "Automation Disk 425(B)": {
+      "Games": "SUPREMACY (B), VARIOUS DOCS",
+      "File": "A_425_B.ST"
+   },
+   "Automation Disk 426": {
+      "Games": "MORTVILLE MANOR, GETTYSBERG, TOYOTA CELICA GT DOCS",
+      "File": "A_426.ST"
+   },
+   "Automation Disk 427(A)": {
+      "Games": "WINGS OF DEATH (A), MIGHTY BOMBJACK, VARIOUS DOCS",
+      "File": "A_427_A.ST"
+   },
+   "Automation Disk 427(B)": {
+      "Games": "WINGS OF DEATH (B), PANG, VARIOUS DOCS",
+      "File": "A_427_B.ST"
+   },
+   "Automation Disk 428": {
+      "Games": "CURSE OF THE AZURE BONDS",
+      "File": "A_428.ST"
+   },
+   "Automation Disk 429": {
+      "Games": "IVANHOE, ATOMINO",
+      "File": "A_429.ST"
+   },
+   "Automation Disk 430": {
+      "Games": "EMMANUELLE, RECOVERY",
+      "File": "A_430.ST"
+   },
+   "Automation Disk 431": {
+      "Games": "NARC, HARD DRIVIN  II, VARIOUS DOCS",
+      "File": "A_431.ST"
+   },
+   "Automation Disk 432": {
+      "Games": "SUPER GRAND PRIX, MICKEY MOUSE, VARIOUS DOCS",
+      "File": "A_432.ST"
+   },
+   "Automation Disk 433": {
+      "Games": "TOURNAMENT GOLF, POKER DICE",
+      "File": "A_433.ST"
+   },
+   "Automation Disk 434": {
+      "Games": "POP UP, FRUIT MACHINE SIMULATOR, VARIOUS DOCS",
+      "File": "A_434.ST"
+   },
+   "Automation Disk 435": {
+      "Games": "FIRE AND FORGET II, THE HUNT FOR RED OCTOBER II, SOLITAIRE GAME PACJ, VARIOUS DOCS",
+      "File": "A_435.ST"
+   },
+   "Automation Disk 436": {
+      "Games": "UNIVERSAL MILITARY SIMULATOR II, STRABBLE",
+      "File": "A_436.ST"
+   },
+   "Automation Disk 437": {
+      "Games": "REVELATION, CRIME DOES NOT PAY, VARIOUS DOCS",
+      "File": "A_437.ST"
+   },
+   "Automation Disk 438": {
+      "Games": "METAL MASTERS, SORRY!",
+      "File": "A_438.ST"
+   },
+   "Automation Disk 439": {
+      "Games": "MASTERBLAZER, TEE-UP!, SNOBALL",
+      "File": "A_439.ST"
+   },
+   "Automation Disk 440": {
+      "Games": "LINE OF FIRE, INSECTS IN SPACE",
+      "File": "A_440.ST"
+   },
+   "Automation Disk 441": {
+      "Games": "AQUANAUT, HELTER SKELTER (1990 EDITION)",
+      "File": "A_441.ST"
+   },
+   "Automation Disk 442(A)": {
+      "Games": "GHOSTBUSTERS II (A)",
+      "File": "A_442_A.ST"
+   },
+   "Automation Disk 442(B)": {
+      "Games": "GHOSTBUSTERS II (B), VARIOUS DOCS",
+      "File": "A_442_B.ST"
+   },
+   "Automation Disk 443": {
+      "Games": "ASCOT AND EDITOR, BOXING CHAMP, DIZZY LIZZY AND DOCS",
+      "File": "A_443.ST"
+   },
+   "Automation Disk 444": {
+      "Games": "THE PAWN, A FROGGY DAY IN LONDON TOWN, RED WAR, VARIOUS DOCS",
+      "File": "A_444.ST"
+   },
+   "Automation Disk 445": {
+      "Games": "FRONT LINE, BLOCK ED",
+      "File": "A_445.ST"
+   },
+   "Automation Disk 446": {
+      "Games": "TOTAL REKALL, TEAM SUZUKI, VARIOUS DOCS",
+      "File": "A_446.ST"
+   },
+   "Automation Disk 447": {
+      "Games": "OPERATION HARRIER, POLE 500, VARIOUS DOCS",
+      "File": "A_447.ST"
+   },
+   "Automation Disk 448": {
+      "Games": "TURRICAN, CHIPS CHALLENGE",
+      "File": "A_448.ST"
+   },
+   "Automation Disk 449": {
+      "Games": "TURRICAN II",
+      "File": "A_449.ST"
+   },
+   "Automation Disk 450": {
+      "Games": "CHAMBERS OF SHAOLIN, YOGI BEAR AND FRIENDS, VARIOUS DOCS",
+      "File": "A_450.ST"
+   },
+   "Automation Disk 451": {
+      "Games": "OPERATION NEPTUNE, MERCHANT COLONY, SUPER LEAGUE SOCCER",
+      "File": "A_451.ST"
+   },
+   "Automation Disk 452": {
+      "Games": "FEUDAL LORDS, BILLY BOUNCE, LOCOMOTION, SOL NEGRO (M AND F)",
+      "File": "A_452.ST"
+   },
+   "Automation Disk 453": {
+      "Games": "VIZ!, T-BIRD, DOUGLAS ROCKMORE",
+      "File": "A_453.ST"
+   },
+   "Automation Disk 454": {
+      "Games": "NIGHT SHIFT AND DOCS, MATRIX MARAUDERS",
+      "File": "A_454.ST"
+   },
+   "Automation Disk 455(A)": {
+      "Games": "ELVIRA: MISTRESS OF THE DARK (A)",
+      "File": "A_455_A.ST"
+   },
+   "Automation Disk 455(B)": {
+      "Games": "ELVIRA: MISTRESS OF THE DARK (B)",
+      "File": "A_455_B.ST"
+   },
+   "Automation Disk 455(C)": {
+      "Games": "ELVIRA: MISTRESS OF THE DARK (C)",
+      "File": "A_455_C.ST"
+   },
+   "Automation Disk 455(D)": {
+      "Games": "ELVIRA: MISTRESS OF THE DARK (D)",
+      "File": "A_455_D.ST"
+   },
+   "Automation Disk 455(E)": {
+      "Games": "ELVIRA: MISTRESS OF THE DARK (E)",
+      "File": "A_455_E.ST"
+   },
+   "Automation Disk 456(A)": {
+      "Games": "ICE AND FIRE (A)",
+      "File": "A_456_A.ST"
+   },
+   "Automation Disk 456(B)": {
+      "Games": "ICE AND FIRE (B), THE LOST DUTCHMAN AND DOCS",
+      "File": "A_456_B.ST"
+   },
+   "Automation Disk 457": {
+      "Games": "FIGHTER BOMBER AND DOCS, SPECTRUM 512 AND DOCS, DAMOCLES MISSION",
+      "File": "A_457.ST"
+   },
+   "Automation Disk 458": {
+      "Games": "PURPLE SATURN DAY, THE LORDS OF CONQUEST",
+      "File": "A_458.ST"
+   },
+   "Automation Disk 459(A)": {
+      "Games": "THE KILLING GAME SHOW (A), BLAZING THUNDER",
+      "File": "A_459_A.ST"
+   },
+   "Automation Disk 459(B)": {
+      "Games": "THE KILLING GAME SHOW (B) AND DOCS",
+      "File": "A_459_B.ST"
+   },
+   "Automation Disk 460": {
+      "Games": "EMYLN HUGHES ARCADE QUIZ, COHORT, BERT THE SQUIRT, GO PLAYER",
+      "File": "A_460.ST"
+   },
+   "Automation Disk 461": {
+      "Games": "OMNICRON CONSPIRACY, BACKGAMMON ROYAL, GUIDED MISSILE",
+      "File": "A_461.ST"
+   },
+   "Automation Disk 462": {
+      "Games": "GREAT COURTS II, SIM CITY TERRAIN EDITOR, AUTORAMA",
+      "File": "A_462.ST"
+   },
+   "Automation Disk 463(A)": {
+      "Games": "LOOM (A)",
+      "File": "A_463_A.ST"
+   },
+   "Automation Disk 463(B)": {
+      "Games": "LOOM (B), FLIGHT SIM II DATA DISK (WASHINGTON, CHARLOTTE, JACKSONVILLE, MIAMI)",
+      "File": "A_463_B.ST"
+   },
+   "Automation Disk 464(A)": {
+      "Games": "PERSONAL NIGHTMARE (A), TARGHAN",
+      "File": "A_464_A.ST"
+   },
+   "Automation Disk 464(B)": {
+      "Games": "PERSONAL NIGHTMARE (B), COMPENDIUM",
+      "File": "A_464_B.ST"
+   },
+   "Automation Disk 464(C)": {
+      "Games": "PERSONAL NIGHTMARE (C), SIDEWALK",
+      "File": "A_464_C.ST"
+   },
+   "Automation Disk 465": {
+      "Games": "HILL STREET BLUES, PENGUIN, FOOTBALL GAMES",
+      "File": "A_465.ST"
+   },
+   "Automation Disk 466(A)": {
+      "Games": "THE LEGEND OF FAERGHAIL (A) AND DOCS, TOP CAT",
+      "File": "A_466_A.ST"
+   },
+   "Automation Disk 466(B)": {
+      "Games": "THE LEGEND OF FAERGHAIL (B), PALADIN",
+      "File": "A_466_B.ST"
+   },
+   "Automation Disk 467(A)": {
+      "Games": "BRAT (A), NINJA RABBITS, AFRICA CORPS, SUPER GAME",
+      "File": "A_467_A.ST"
+   },
+   "Automation Disk 467(B)": {
+      "Games": "BRAT (B)",
+      "File": "A_467_B.ST"
+   },
+   "Automation Disk 468": {
+      "Games": "NAM AND DOCS, TRIPPLE YAHTZEE",
+      "File": "A_468.ST"
+   },
+   "Automation Disk 469(A)": {
+      "Games": "MOONSHINE RACER (A), SUPER CARS II",
+      "File": "A_469_A.ST"
+   },
+   "Automation Disk 469(B)": {
+      "Games": "MOONSHINE RACER (B)",
+      "File": "A_469_B.ST"
+   },
+   "Automation Disk 470": {
+      "Games": "Z-OUT, FLIGHT SIM II DATA DISK (LAKE HURON AND DETROIT)",
+      "File": "A_470.ST"
+   },
+   "Automation Disk 471": {
+      "Games": "OOZE!, TANGRAM AND DOCS",
+      "File": "A_471.ST"
+   },
+   "Automation Disk 472": {
+      "Games": "KICK OFF II: THE FINAL WHISTLE, I-PLAY 3D SOCCER, VARIOUS DOCS",
+      "File": "A_472.ST"
+   },
+   "Automation Disk 473": {
+      "Games": "CHASE HQ II, CODEMASTERS ITALY 1990",
+      "File": "A_473.ST"
+   },
+   "Automation Disk 474": {
+      "Games": "BACK TO THE FUTURE III, EMPIRE BUILDERM VARIOUS DOCS",
+      "File": "A_474.ST"
+   },
+   "Automation Disk 475": {
+      "Games": "SKULL AND CROSSBONES, CALIFORNIA GAMES",
+      "File": "A_475.ST"
+   },
+   "Automation Disk 476(A)": {
+      "Games": "GODS (A), NAVY SEALS, CREEPY, VARIOUS DOCS",
+      "File": "A_476_A.ST"
+   },
+   "Automation Disk 476(B)": {
+      "Games": "GODS (B), VARIOUS DOCS",
+      "File": "A_476_B.ST"
+   },
+   "Automation Disk 477(A)": {
+      "Games": "PREDATOR II (A)",
+      "File": "A_477_A.ST"
+   },
+   "Automation Disk 477(B)": {
+      "Games": "PREDATOR II (B), SHADOW DANCER",
+      "File": "A_477_B.ST"
+   },
+   "Automation Disk 478(A)": {
+      "Games": "AWESOME (A), CARVE UP, THE FINAL FRONTIER, BLOCKNUSTER",
+      "File": "A_478_A.ST"
+   },
+   "Automation Disk 478(B)": {
+      "Games": "AWESOME (B) AND DOCS",
+      "File": "A_478_B.ST"
+   },
+   "Automation Disk 479": {
+      "Games": "HEROS OF THE LANCE",
+      "File": "A_479.ST"
+   },
+   "Automation Disk 480": {
+      "Games": "TOKI, KICK OFF II: THE FINAL WHISTLE WINNING TACTICS",
+      "File": "A_480.ST"
+   },
+   "Automation Disk 481": {
+      "Games": "GEM STONE LEGEND, COLONY",
+      "File": "A_481.ST"
+   },
+   "Automation Disk 482": {
+      "Games": "GOLD OF THE AMERICAS, SPACE WELLER",
+      "File": "A_482.ST"
+   },
+   "Automation Disk 483(A)": {
+      "Games": "THE SECRET OF MONKEY ISLAND (A), THE FINAL DAY",
+      "File": "A_483_A.ST"
+   },
+   "Automation Disk 483(B)": {
+      "Games": "THE SECRET OF MONKEY ISLAND (B), LORDS OF CHAOS",
+      "File": "A_483_B.ST"
+   },
+   "Automation Disk 483(C)": {
+      "Games": "THE SECTET OF MONKEY ISLAND (C), OIL MANIA",
+      "File": "A_483_C.ST"
+   },
+   "Automation Disk 483(D)": {
+      "Games": "THE SECRET OF MONKEY ISLAND (D), SOCCER GLORY",
+      "File": "A_483_D.ST"
+   },
+   "Automation Disk 484(A)": {
+      "Games": "HERO QUEST (A) AND DOCS, THE SEARCH",
+      "File": "A_484_A.ST"
+   },
+   "Automation Disk 484(B)": {
+      "Games": "HERO QUEST (B)",
+      "File": "A_484_B.ST"
+   },
+   "Automation Disk 484(C)": {
+      "Games": "HERO QUEST (C)",
+      "File": "A_484_C.ST"
+   },
+   "Automation Disk 485": {
+      "Games": "FRENETIC, LOGICAL",
+      "File": "A_485.ST"
+   },
+   "Automation Disk 486": {
+      "Games": "HYPNOTIC LANDS, FATAL ERROR, MONKEY ISLAND SOLUTION",
+      "File": "A_486.ST"
+   },
+   "Automation Disk 487": {
+      "Games": "HOCKEY PISTA, NAUTILUS",
+      "File": "A_487.ST"
+   },
+   "Automation Disk 488": {
+      "Games": "LODE RUNNER, STORM BALL, VARIOUS PACKERS AND SOURCE",
+      "File": "A_488.ST"
+   },
+   "Automation Disk 489": {
+      "Games": "HYDRA, BALL GAME, AUTOMATION BOOT SECTOR MAKER",
+      "File": "A_489.ST"
+   },
+   "Automation Disk 490": {
+      "Games": "A PREHISTORIC TALE, HERO QUEST, VARIOUS ADVENTURE SOLUTIONS",
+      "File": "A_490.ST"
+   },
+   "Automation Disk 491": {
+      "Games": "ENGLAND CHAMPS, SUPER SOCCER CHALLENGE, TRAIN SET AND DOCS",
+      "File": "A_491.ST"
+   },
+   "Automation Disk 492": {
+      "Games": "METAL MUTANT, SOKO",
+      "File": "A_492.ST"
+   },
+   "Automation Disk 493": {
+      "Games": "FIRE MISSION, 3D CONSTRUCTION SET, PAC MAN ST",
+      "File": "A_493.ST"
+   },
+   "Automation Disk 494": {
+      "Games": "NINJA TURTLE COLOURING BOOK, MICKEY S RUNAWAY ZOO, GOOFY S RAILWAY EXPRESS, POOLS V302",
+      "File": "A_494.ST"
+   },
+   "Automation Disk 495": {
+      "Games": "POWERMONGER, CONFLICT CHEAT, VARIOUS DOCS",
+      "File": "A_495.ST"
+   },
+   "Automation Disk 496": {
+      "Games": "VIOLATOR, SUPER MONACO GP, VARIOUS DOCS",
+      "File": "A_496.ST"
+   },
+   "Automation Disk 497": {
+      "Games": "RSI BASEBALL II, INTERCHANGE, VARIOUS DOCS",
+      "File": "A_497.ST"
+   },
+   "Automation Disk 498": {
+      "Games": "MANCHESTER UNITED IN EUROPE, SHARKEY S MOLL, RADIO CONTROLLED RACERS",
+      "File": "A_498.ST"
+   },
+   "Automation Disk 499(A)": {
+      "Games": "GEISHA AND DOCS, DEREK THE DROID",
+      "File": "A_499_A.ST"
+   },
+   "Automation Disk 499(B)": {
+      "Games": "OIL IMPERIUM (V2), PUZZMANIA, AVINA BLUE",
+      "File": "A_499_B.ST"
+   },
+   "Automation Disk 500(B)": {
+      "Games": "BOOLEY, F-15 STRIKE EAGLE II",
+      "File": "A_500_B.ST"
+   },
+   "Automation Disk 500(C)": {
+      "Games": "GRAVITY, CADAVER: EXTRA LEVELS",
+      "File": "A_500_C.ST"
+   },
+   "Automation Disk 500(D)": {
+      "Games": "APPRENTICE, ARCADE TRIVIA QUIZ",
+      "File": "A_500_D.ST"
+   },
+   "Automation Disk 500(E)2": {
+      "Games": "CHUCK YEAGERS FLIGHT SIMULATOR, LEVEL 9 ADVENTURES",
+      "File": "A_500_E2.ST"
+   },
+   "Automation Disk 500(F)": {
+      "Games": "TRADERS, KUBYSIMUS",
+      "File": "A_500_F.ST"
+   },
+   "Automation Disk 500(G)": {
+      "Games": "BABY JOE, CRASH 2000, FORT APACHE",
+      "File": "A_500_G.ST"
+   },
+   "Automation Disk 500(H)": {
+      "Games": "POP-EYED, DR FOX S FOOTBALL ANNUAL",
+      "File": "A_500_H.ST"
+   },
+   "Automation Disk 500(I)": {
+      "Games": "EXTERMINATOR, INTERNATIONAL CHAMPIONSHIP ATHLETICS",
+      "File": "A_500_I.ST"
+   },
+   "Automation Disk 501": {
+      "Games": "BIG GAME FISHING, ELEPHANT ANTICS AND DOCS, BURGERMAN",
+      "File": "A_501.ST"
+   },
+   "Automation Disk 502": {
+      "Games": "HERO, 3D SOCCER, MISSILE ALERT",
+      "File": "A_502.ST"
+   },
+   "Automation Disk 503": {
+      "Games": "MEGA TRAVELLER",
+      "File": "A_503.ST"
+   },
+   "Automation Disk 504": {
+      "Games": "MONSTER BUISINESS, CRYSTALS OF ARBOREA",
+      "File": "A_504.ST"
+   },
+   "Automation Disk 505": {
+      "Games": "FALLEN ANGEL AND DOCS, THE BLUES BROTHERS, SYSTEM 4, DOCS FOR STACK UP",
+      "File": "A_505.ST"
+   },
+   "Automation Disk 506": {
+      "Games": "SCOOBY DOO AND SCRAPPY, RODLAND",
+      "File": "A_506.ST"
+   },
+   "Automation Disk 507": {
+      "Games": "CHUCK ROCK",
+      "File": "A_507.ST"
+   },
+   "Automation Disk 508": {
+      "Games": "MONTY PYTHON, LIFE AND DEATH DOCS",
+      "File": "A_508.ST"
+   },
+   "Automation Disk 509": {
+      "Games": "TIME SOLDIERS, TITANIC BLINKY",
+      "File": "A_509.ST"
+   },
+   "Automation Disk 510": {
+      "Games": "HARLEY DAVIDSON, HEAD OVER HEELS",
+      "File": "A_510.ST"
+   },
+   "Automation Disk 511": {
+      "Games": "MERCS, CHUCK ROCK EXTRA LEVELS",
+      "File": "A_511.ST"
+   },
+   "Automation Disk 512": {
+      "Games": "ENGLAND CHAMPIONSHIP SOCCER, CHALLENGE GOLF",
+      "File": "A_512.ST"
+   }
+}
