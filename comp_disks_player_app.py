@@ -8,7 +8,7 @@ from tkinter import filedialog, messagebox, ttk
 from disk_library import DiskLibrary, TEAMS
 from emulator_launcher import EmulatorLauncher
 from settings_store import (
-    APP_NAME, DEFAULT_JOYSTICK_KEYS, FOLDER_NAMES, JOYSTICK_ACTIONS, SettingsStore, settings_file_path,
+    APP_NAME, APP_VERSION, DEFAULT_JOYSTICK_KEYS, FOLDER_NAMES, JOYSTICK_ACTIONS, SettingsStore, settings_file_path,
 )
 
 
@@ -22,6 +22,12 @@ KEY_NAMES = {
 }
 FONT = ("Helvetica", 10)
 SEARCH_DELAY_MS = 200
+BACKGROUND_COLOR = "#b6f5b6"
+CREDIT_TEXT = (
+    "Atari ST Compilation Disk Browser and Player (new enhanced version)\n"
+    "@Dimfil 2026\n"
+    "Thanks to members of all groups who made all this possible!"
+)
 
 
 def application_directory():
@@ -62,7 +68,7 @@ class CompilationDisksPlayer(tk.Tk):
         """Set the title, icon, position and close handler."""
         if sys.platform == "darwin":
             self.tk.call("tk", "appname", APP_NAME)
-        self.title(APP_NAME)
+        self.title(f"{APP_NAME} v{APP_VERSION}")
         self.resizable(False, False)
         if sys.platform == "win32":
             icon_path = self.app_directory / "atari.ico"
@@ -82,12 +88,12 @@ class CompilationDisksPlayer(tk.Tk):
         style.configure("TLabelframe.Label", background="#ececec", foreground="black")
         style.configure("TRadiobutton", background="#ececec", foreground="black")
         style.configure("TButton", background="#e0e0e0", foreground="black")
-        self.configure(background="green yellow")
-        top = tk.Frame(self, padx=5, pady=5, bg="green yellow")
+        self.configure(background=BACKGROUND_COLOR)
+        top = tk.Frame(self, padx=5, pady=5, bg=BACKGROUND_COLOR)
         top.pack(fill="x")
         disk_frame = tk.Frame(top, padx=5, pady=5, relief="groove", bd=5)
         disk_frame.pack(side="left", fill="both", expand=True)
-        control_frame = tk.Frame(top, padx=5, pady=5, bg="lime green", relief="groove", bd=5)
+        control_frame = tk.Frame(top, padx=5, pady=5, bg=BACKGROUND_COLOR, relief="groove", bd=5)
         control_frame.pack(side="left", fill="both", expand=True)
 
         self._build_disk_tree(disk_frame)
@@ -97,14 +103,14 @@ class CompilationDisksPlayer(tk.Tk):
         self._build_credits()
 
     def _build_menu(self):
-        """Create the Game and Options menus and the Ctrl+F / Ctrl+S shortcuts."""
+        """Create the Game, Options and Help menus and the Ctrl+F / Ctrl+S shortcuts."""
         menu_bar = tk.Menu(self, name="menubar")
         if sys.platform == "darwin":
             application_menu = tk.Menu(menu_bar, name="apple", tearoff=False)
             menu_bar.add_cascade(label=APP_NAME, menu=application_menu)
 
         game_menu = tk.Menu(menu_bar, tearoff=False)
-        game_menu.add_command(label="Search for Game", command=self._focus_search, accelerator="Ctrl+F")
+        game_menu.add_command(label="Search for Game", command=self._clear_and_focus_search, accelerator="Ctrl+F")
         game_menu.add_command(
             label="Start Selected Disk", command=self._play_selected_disk, accelerator="Ctrl+S",
         )
@@ -124,9 +130,37 @@ class CompilationDisksPlayer(tk.Tk):
         options_menu.add_command(label="Settings...", command=self._open_settings)
         menu_bar.add_cascade(label="Options", menu=options_menu)
 
+        help_menu = tk.Menu(menu_bar, name="help", tearoff=False)
+        help_menu.add_command(label="About...", command=self._open_about)
+        menu_bar.add_cascade(label="Help", menu=help_menu)
+
         self.configure(menu=menu_bar)
-        self.bind_all("<Control-f>", lambda _event: self._focus_search())
+        self.bind_all("<Control-f>", lambda _event: self._clear_and_focus_search())
         self.bind_all("<Control-s>", lambda _event: self._play_selected_disk())
+
+    def _open_about(self):
+        """Show the modal About dialog."""
+        window = tk.Toplevel(self)
+        window.title(f"About {APP_NAME}")
+        window.transient(self)
+        window.resizable(False, False)
+        window.grab_set()
+
+        background = BACKGROUND_COLOR
+        window.configure(background=background)
+        tk.Label(
+            window, text=APP_NAME, background=background, foreground="black",
+            font=(FONT[0], FONT[1] + 2, "bold"),
+        ).pack(padx=20, pady=(15, 5))
+        tk.Label(
+            window, text=f"Version {APP_VERSION}", background=background, foreground="black", font=FONT,
+        ).pack(padx=20)
+        tk.Label(
+            window, text=CREDIT_TEXT, background=background, foreground="black", font=FONT, justify="center",
+        ).pack(padx=20, pady=5)
+        ttk.Button(window, text="OK", command=window.destroy).pack(pady=(5, 15))
+        window.bind("<Return>", lambda _event: window.destroy())
+        window.bind("<Escape>", lambda _event: window.destroy())
 
     def _open_settings(self):
         """Open the modal Settings dialog (folders and keyboard-joystick keys) and save on confirmation."""
@@ -135,6 +169,14 @@ class CompilationDisksPlayer(tk.Tk):
         window.transient(self)
         window.resizable(False, False)
         window.grab_set()
+
+        controller_frame = ttk.LabelFrame(window, text="Controller", padding=10)
+        controller_frame.pack(fill="x", padx=10, pady=10)
+        controller_var = tk.StringVar(window, value=self.controller_choice.get())
+        for label, value in (("Keyboard", "keyboard"), ("Joystick", "joystick")):
+            ttk.Radiobutton(
+                controller_frame, text=label, variable=controller_var, value=value,
+            ).pack(side="left", padx=(0, 15))
 
         folder_frame = ttk.LabelFrame(window, text="Folders", padding=10)
         folder_frame.pack(fill="x", padx=10, pady=(0, 10))
@@ -173,7 +215,7 @@ class CompilationDisksPlayer(tk.Tk):
                 folder_vars[name].set(str(Path(chosen)))
 
         key_frame = ttk.LabelFrame(window, text="Keyboard joystick keys (Hatari)", padding=10)
-        key_frame.pack(fill="x", padx=10, pady=(0, 10))
+        key_frame.pack(fill="x", padx=10, pady=(0, 10), before=folder_frame)
         key_vars = {}
         capturing = {}
 
@@ -243,6 +285,8 @@ class CompilationDisksPlayer(tk.Tk):
                 for name, path in new_folders.items()
             }
             previous_keys = dict(self.joystick_keys)
+            previous_controller = self.controller_choice.get()
+            self.controller_choice.set(controller_var.get())
             self.joystick_keys = {action: var.get() for action, var in key_vars.items()}
             try:
                 self._use_folders(new_folders)
@@ -254,6 +298,7 @@ class CompilationDisksPlayer(tk.Tk):
             except OSError as error:
                 self.custom_folders = previous
                 self.joystick_keys = previous_keys
+                self.controller_choice.set(previous_controller)
                 messagebox.showerror("Could not save settings", str(error), parent=window)
                 return
             window.destroy()
@@ -290,27 +335,22 @@ class CompilationDisksPlayer(tk.Tk):
         self.disk_tree.bind("<Return>", self._play_selected_disk)
 
     def _build_controls(self, parent):
-        """Build the controller choice and the Start Disk and Quit buttons."""
+        """Build the Start Disk, Search for Disk, Settings and Quit buttons."""
         style = ttk.Style(self)
         style.configure("my.TButton", foreground="blue", font=FONT)
         style.configure("quit.TButton", foreground="red", font=FONT)
-        style.configure("my.TRadiobutton", background="lime green", font=FONT)
-
-        controller_frame = tk.Frame(parent, padx=5, pady=5, bg="lime green", relief="groove", bd=5)
-        controller_frame.pack(fill="both", expand=True)
-        tk.Label(
-            controller_frame, text="Select Controller:", background="lime green",
-            font=(FONT[0], FONT[1], "bold underline"),
-        ).pack(side="top", fill="x", pady=10)
-        for label, value in (("Keyboard", "keyboard"), ("Joystick", "joystick")):
-            ttk.Radiobutton(
-                controller_frame, text=label, variable=self.controller_choice,
-                value=value, style="my.TRadiobutton",
-            ).pack(side="left", fill="x", expand=True)
 
         ttk.Button(
             parent, text="Start Disk", width=20, style="my.TButton",
             command=self._play_selected_disk,
+        ).pack(side="top", pady=10)
+        ttk.Button(
+            parent, text="Search for Disk", width=20, style="my.TButton",
+            command=self._clear_and_focus_search, takefocus=False,
+        ).pack(side="top", pady=10)
+        ttk.Button(
+            parent, text="Settings", width=20, style="my.TButton",
+            command=self._open_settings, takefocus=False,
         ).pack(side="top", pady=10)
         ttk.Button(
             parent, text="Quit", width=20, style="quit.TButton",
@@ -319,20 +359,16 @@ class CompilationDisksPlayer(tk.Tk):
 
     def _build_search(self):
         """Build the search bar, which searches as you type."""
-        frame = tk.Frame(self, padx=5, pady=5, bg="green yellow")
+        frame = tk.Frame(self, padx=5, pady=5, bg=BACKGROUND_COLOR)
         frame.pack(fill="x")
         tk.Label(
-            frame, text="Search in library for: ", background="green yellow", font=FONT,
+            frame, text="Search in library for: ", background=BACKGROUND_COLOR, font=FONT,
         ).pack(side="left")
         self.search_entry = ttk.Entry(
             frame, textvariable=self.search_text, justify="center",
             foreground="blue", font=FONT,
         )
         self.search_entry.pack(side="left", fill="x", expand=True)
-        ttk.Button(
-            frame, text="Search", width=20, style="my.TButton",
-            command=self._search_games,
-        ).pack(side="right", padx=15)
         self.search_entry.bind("<Return>", self._search_games)
         self.search_text.trace_add("write", self._schedule_search)
 
@@ -369,13 +405,8 @@ class CompilationDisksPlayer(tk.Tk):
 
     def _build_credits(self):
         """Show the credits text at the bottom of the window."""
-        credit_lines = (
-            "Atari ST Compilation Disk Browser and Player (new enhanced version)\n"
-            "@Dimfil 2026\n"
-            "Thanks to members of all groups who made all this possible!"
-        )
         tk.Label(
-            self, text=credit_lines, background="green yellow", font=FONT,
+            self, text=CREDIT_TEXT, background=BACKGROUND_COLOR, font=FONT,
         ).pack(fill="x", expand=True)
 
     def _load_settings(self):
@@ -571,6 +602,11 @@ class CompilationDisksPlayer(tk.Tk):
             self.disk_tree.selection_set(item)
             self.disk_tree.focus(item)
             self.disk_tree.see(item)
+
+    def _clear_and_focus_search(self):
+        """Empty the search box and move keyboard focus to it."""
+        self.search_text.set("")
+        self._focus_search()
 
     def _focus_search(self):
         """Move keyboard focus to the search box."""

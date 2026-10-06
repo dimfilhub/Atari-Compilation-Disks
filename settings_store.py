@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 APP_NAME = "Atari ST Compilation Disks Player"
+APP_VERSION = "1.0.0"
 FOLDER_NAMES = ("floppies", "hatari", "tos")
 # Hatari key names (SDL) for the keyboard-emulated joystick.
 JOYSTICK_ACTIONS = (("kUp", "Up"), ("kDown", "Down"), ("kLeft", "Left"), ("kRight", "Right"), ("kFire", "Fire"))
