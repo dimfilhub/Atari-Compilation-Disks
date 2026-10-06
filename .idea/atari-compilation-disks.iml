@@ -3,12 +3,18 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/data/hatari/doc" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/ACSI" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/DriveSound" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/PRG" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/cartridge" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/doc" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/keyboard" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/patches" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/plugins32" />
+      <excludeFolder url="file://$MODULE_DIR$/data/steem/shortcuts" />
     </content>
     <orderEntry type="jdk" jdkName="~/PycharmProjects/atari-compilation-disks/.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-  <component name="PackageRequirementsSettings" />
-  <component name="PyDocumentationSettings" />
-  <component name="ReSTService" />
-  <component name="TestRunnerService" />
 </module>

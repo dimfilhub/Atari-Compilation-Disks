@@ -8,9 +8,9 @@ So, just for fun, I created a small app in Python that helps to:
 
 - Present the available library of my CD floppy images grouped by teams (at the moment Automation, D-Bug, Flame of Finland, Medway Boys, Pompey Pirates and Superior teams are supported)
 - Search in the library for a game (searches in user's collection but also in the full list of all supported teams)
-- Play the game with Hatari emulator (Steem SSE option added in v2.0 )
+- Play the game with Hatari emulator
 
-The player runs on Windows and macOS. On macOS, install Hatari separately (for example, with `brew install hatari`) and ensure the `hatari` command is available in `PATH`; Steem SSE is Windows-only. The application looks for its `data` folder next to the player, independent of the working directory.
+The player runs on Windows and macOS. On macOS, install Hatari separately (for example, with `brew install hatari`) and ensure the `hatari` command is available in `PATH`. The application looks for its `data` folder next to the player, independent of the working directory.
 
 An Atari ST 1040 system is emulated for best compatibility purposes. TOS 1.04 is included downloaded from http://www.avtandil.narod.ru/tose.html
 
@@ -32,10 +32,7 @@ Both emulators share the following keyboard shortcuts:
 - [AltGr+C] for cold reset
 - [AltGr+R] for warm reset
 
-Keyboard controls are cursor keys for movement and RCtrl for Fire.
-
-Please note that in Steem you may need to set your real joystick/joypad in settings.
-Just press F12 in-game (started with keyboard option enabled) and set your joystick/joypad in port 1. This has to take place for bot options (scanlines and no-scanlines) as two different ini files are used.
+Keyboard controls are cursor keys for movement and Space for Fire (configurable in Options > Settings).
 
 I hope you find it usefull. If needed, please open an issue on GitHub.
 
