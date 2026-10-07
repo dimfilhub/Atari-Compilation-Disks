@@ -10,11 +10,13 @@ So, just for fun, I created a small app in Python that helps to:
 - Search in the library for a game (searches in user's collection but also in the full list of all supported teams)
 - Play the game with Hatari emulator
 
-The player runs on Windows and macOS. On macOS, install Hatari separately (for example, with `brew install hatari`) and ensure the `hatari` command is available in `PATH`. The application looks for its `data` folder next to the player, independent of the working directory.
+The player runs on Windows and macOS: 
+- On macOS, install Hatari separately (for example directly in /Applications folder or with "brew install hatari" if you have homebrew installed) and ensure the "hatari" command is available in PATH. 
+- On Windows just place Hatari executable in data/hatari folder.
 
 An Atari ST 1040 system is emulated for best compatibility purposes. TOS 1.04 is included downloaded from http://www.avtandil.narod.ru/tose.html
 
-Place your collection in .\data\floppies folder regarding the team. Please consult CompDisksNaming.txt file for correct naming of the floppy images. Most of the time, collections already available online have correct names. The player recognizes the filenames listed in CompDisks.json, including `.ST` and `.MSA` disk images; if an image is instead stored as a same-named `.zip`, it will also be found. ZIP archives should contain one `.ST` or `.MSA` image (a matching image basename is preferred if there are several).
+Place your collection in .\data\floppies folder regarding the team. Please consult CompDisksNaming.txt file for correct naming of the floppy images. Most of the time, collections already available online have correct names. The player recognizes the filenames listed in CompDisks.json, including .ST and .MSA disk images. If an image is instead stored as a same-named .zip, it will also be found. ZIP archives should contain one .ST or .MSA image (a matching image basename is preferred if there are several).
 Folder names must be "automation", "dbug", "fof", "medway", "pompey" and "superior".
 if you have no disks yet, a good place to start is https://archive.org/details/atari-st-collection-1997-cdr-alien-pompey-pirates
 
@@ -25,15 +27,15 @@ Double click on a disk or press Start Disk button to start it!
 Note: Some releases use two (some times more) disks for a game. Unfortunately most of them do not support a second floppy drive, so it is impossible to automate the process in emulator.
 In this cases (you will know as these disks are noted as (A), (B) and so on) if you want to play a multiple disk game you have to swap the floppy image by your own. Use emulator's gui for that (F12).
 
-Both emulators share the following keyboard shortcuts:
+Following keyboard shortcuts are used in the emulator:
 - [F12] to enter emulator's gui
 - [Q] to Quit emulator
 - [ESC] to to toggle fullscreen/windowed mode
-- [AltGr+C] for cold reset
-- [AltGr+R] for warm reset
+- [CMD+C] (Mac) or [AltGr+C] (Win) for cold reset
+- [CMD+R] (Mac) or [AltGr+R] (Win) for warm reset
 
 Keyboard controls are cursor keys for movement and Space for Fire (configurable in Options > Settings).
 
-I hope you find it usefull. If needed, please open an issue on GitHub.
+I hope you find it useful. If needed, please open an issue on GitHub.
 
 Have fun...!!!
