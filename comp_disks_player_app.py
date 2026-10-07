@@ -33,7 +33,10 @@ CREDIT_TEXT = (
 def application_directory():
     """Return the folder holding the app (the executable's folder when frozen), used to find `data`."""
     if getattr(sys, "frozen", False):
-        return Path(sys.executable).resolve().parent
+        folder = Path(sys.executable).resolve().parent
+        if sys.platform == "darwin" and folder.parent.name == "Contents":
+            return folder.parents[2]  # the folder that contains the .app bundle
+        return folder
     return Path(__file__).resolve().parent
 
 
@@ -84,7 +87,7 @@ class CompilationDisksPlayer(tk.Tk):
         self.title(f"{APP_NAME} v{APP_VERSION}")
         self.resizable(False, False)
         if sys.platform == "win32":
-            icon_path = self.app_directory / "atari.ico"
+            icon_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "atari.ico"
             if icon_path.is_file():
                 self.iconbitmap(str(icon_path))
         self.geometry("+50+50")

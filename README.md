@@ -18,6 +18,10 @@ Install Python 3.11 or later and run the player with:
 - "python3 comp_disks_player.pyw" in Terminal for MacOS
 - "python comp_disks_player.pyw" in Command Prompt for Windows. 
 
+If you want to create MacOS or Windows executables you must:
+- Install pyinstaller (pip install pyinstaller) and pillow (pip install pillow)
+- run "build.py" script in Terminal for MacOS or in Command Prompt for Windows. It will create a dist folder with the executable inside.
+
 The app will create a config file in the same folder where it is run, so you can change the default settings (like Hatari path, TOS version, etc.) if needed.
 
 An Atari ST 1040 system is emulated for best compatibility purposes. TOS 1.04 is included downloaded from http://www.avtandil.narod.ru/tose.html
