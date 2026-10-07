@@ -14,6 +14,12 @@ The player runs on Windows and macOS:
 - On macOS, install Hatari separately (for example directly in /Applications folder or with "brew install hatari" if you have homebrew installed) and ensure the "hatari" command is available in PATH. 
 - On Windows just place Hatari executable in data/hatari folder.
 
+Install Python 3.11 or later and run the player with: 
+- "python3 comp_disks_player.pyw" in Terminal for MacOS
+- "python comp_disks_player.pyw" in Command Prompt for Windows. 
+
+The app will create a config file in the same folder where it is run, so you can change the default settings (like Hatari path, TOS version, etc.) if needed.
+
 An Atari ST 1040 system is emulated for best compatibility purposes. TOS 1.04 is included downloaded from http://www.avtandil.narod.ru/tose.html
 
 Place your collection in .\data\floppies folder regarding the team. Please consult CompDisksNaming.txt file for correct naming of the floppy images. Most of the time, collections already available online have correct names. The player recognizes the filenames listed in CompDisks.json, including .ST and .MSA disk images. If an image is instead stored as a same-named .zip, it will also be found. ZIP archives should contain one .ST or .MSA image (a matching image basename is preferred if there are several).
