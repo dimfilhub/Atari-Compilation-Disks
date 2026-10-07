@@ -49,6 +49,7 @@ class CompilationDisksPlayer(tk.Tk):
             "hatari": self.default_data_directory / "hatari",
             "tos": self.default_data_directory / "roms" / "tos.img",
         }
+        self._create_default_folders()
         self.catalogue_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "CompDisks.json"
         self.settings = SettingsStore(settings_file_path())
         self.controller_choice = tk.StringVar(self)
@@ -63,6 +64,18 @@ class CompilationDisksPlayer(tk.Tk):
         self._build_interface()
         self._build_menu()
         self._populate_tree()
+
+    def _create_default_folders(self):
+        """Create the default `data` folders (floppies, hatari, roms) on first start if missing."""
+        for directory in (
+            self.default_folders["floppies"],
+            self.default_folders["hatari"],
+            self.default_folders["tos"].parent,
+        ):
+            try:
+                directory.mkdir(parents=True, exist_ok=True)
+            except OSError:
+                pass
 
     def _configure_window(self):
         """Set the title, icon, position and close handler."""
