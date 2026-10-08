@@ -21,6 +21,7 @@ Install Python 3.11 or later and run the player with:
 If you want to create MacOS or Windows executables you must:
 - Install pyinstaller (pip install pyinstaller) and pillow (pip install pillow)
 - run "build.py" script in Terminal for MacOS or in Command Prompt for Windows. It will create a dist folder with the executable inside.
+- after successful build executable is placed in dist folder. Just move it to the main project directory.
 
 The app will create a config file in the same folder where it is run, so you can change the default settings (like Hatari path, TOS version, etc.) if needed.
 
