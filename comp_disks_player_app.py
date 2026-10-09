@@ -7,6 +7,7 @@ from tkinter import filedialog, messagebox, ttk
 
 from disk_library import DiskLibrary, TEAMS
 from emulator_launcher import EmulatorLauncher
+from hatari_defaults import DEFAULT_HATARI_CONFIG
 from settings_store import (
     APP_NAME, APP_VERSION, DEFAULT_JOYSTICK_KEYS, FOLDER_NAMES, JOYSTICK_ACTIONS, SettingsStore, settings_file_path,
 )
@@ -69,7 +70,7 @@ class CompilationDisksPlayer(tk.Tk):
         self._populate_tree()
 
     def _create_default_folders(self):
-        """Create the default `data` folders (floppies, hatari, roms) on first start if missing."""
+        """Create the default `data` folders (floppies, hatari, roms) and the default Hatari config if missing."""
         for directory in (
             self.default_folders["floppies"],
             self.default_folders["hatari"],
@@ -77,6 +78,12 @@ class CompilationDisksPlayer(tk.Tk):
         ):
             try:
                 directory.mkdir(parents=True, exist_ok=True)
+            except OSError:
+                pass
+        config_path = self.default_folders["hatari"] / "atari_keys"
+        if not config_path.exists():
+            try:
+                config_path.write_text(DEFAULT_HATARI_CONFIG, encoding="utf-8", newline="\n")
             except OSError:
                 pass
 

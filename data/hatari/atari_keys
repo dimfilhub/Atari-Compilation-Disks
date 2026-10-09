@@ -1,0 +1,75 @@
+[KeyShortcutsWithMod]
+kOptions = O
+kFullScreen = Escape
+kBorders = B
+kMouseMode = M
+kColdReset = C
+kWarmReset = R
+kScreenShot = G
+kBossKey = I
+kCursorEmu = J
+kFastForward = X
+kRecAnim = A
+kRecSound = Y
+kSound = S
+kPause =
+kDebugger = Pause
+kQuit = Q
+kLoadMem = L
+kSaveMem = K
+kInsertDiskA = D
+kSwitchJoy0 = F1
+kSwitchJoy1 = F2
+kSwitchPadA = F3
+kSwitchPadB = F4
+
+[KeyShortcutsWithoutMod]
+kOptions = F12
+kFullScreen = Escape
+kBorders =
+kMouseMode =
+kColdReset =
+kWarmReset =
+kScreenShot =
+kBossKey =
+kCursorEmu =
+kFastForward =
+kRecAnim =
+kRecSound =
+kSound =
+kPause = Pause
+kDebugger =
+kQuit = Q
+kLoadMem =
+kSaveMem =
+kInsertDiskA =
+kSwitchJoy0 =
+kSwitchJoy1 =
+kSwitchPadA =
+kSwitchPadB =
+
+[Floppy]
+bAutoInsertDiskB = TRUE
+FastFloppy = TRUE
+EnableDriveA = TRUE
+DriveA_NumberOfHeads = 2
+EnableDriveB = TRUE
+DriveB_NumberOfHeads = 2
+nWriteProtection = 0
+szDiskAZipPath =
+szDiskAFileName =
+szDiskBZipPath =
+szDiskBFileName =
+szDiskImageDirectory =
+
+[ROM]
+szTosImageFileName = .\data\hatari\tos.img
+bPatchTos = TRUE
+szCartridgeImageFileName =
+
+[Joystick1]
+kUp = Up
+kDown = Down
+kLeft = Left
+kRight = Right
+kFire = Space
