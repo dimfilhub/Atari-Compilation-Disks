@@ -49,4 +49,8 @@ Keyboard controls are cursor keys for movement and Space for Fire (configurable 
 
 I hope you find it useful. If needed, please open an issue on GitHub.
 
+## License
+
+This project is released under the MIT License. See the [LICENSE](LICENSE) file. The Atari TOS ROM and the disk images are not part of this project and remain the property of their respective owners.
+
 Have fun...!!!
