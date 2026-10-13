@@ -19,15 +19,15 @@ Install Python 3.11 or later and run the player with:
 - "python comp_disks_player.pyw" in Command Prompt for Windows. 
 
 If you want to create MacOS or Windows executables you must:
-- Install pyinstaller (pip install pyinstaller) and pillow (pip install pillow)
+- Install the build dependencies (pip install -r requirements.txt)
 - run "build.py" script in Terminal for MacOS or in Command Prompt for Windows. It will create a dist folder with the executable inside.
 - after successful build executable is placed in dist folder. Just move it to the main project directory.
 
 The app will create a config file in the same folder where it is run, so you can change the default settings (like Hatari path, TOS version, etc.) if needed.
 
-An Atari ST 1040 system is emulated for best compatibility purposes. TOS 1.04 is included downloaded from http://www.avtandil.narod.ru/tose.html
+An Atari ST 1040 system is emulated for best compatibility purposes. TOS 1.04 is recommended. The TOS ROM is not included: provide your own image and place it in data/roms as tos.img (or select it in Options > Settings).
 
-Place your collection in .\data\floppies folder regarding the team. Please consult CompDisksNaming.txt file for correct naming of the floppy images. Most of the time, collections already available online have correct names. The player recognizes the filenames listed in CompDisks.json, including .ST and .MSA disk images. If an image is instead stored as a same-named .zip, it will also be found. ZIP archives should contain one .ST or .MSA image (a matching image basename is preferred if there are several).
+Place your collection in .\data\floppies folder regarding the team. Please consult data/CompDisksNaming.txt file for correct naming of the floppy images. Most of the time, collections already available online have correct names. The player recognizes the filenames listed in CompDisks.json, including .ST and .MSA disk images. If an image is instead stored as a same-named .zip, it will also be found. ZIP archives should contain one .ST or .MSA image (a matching image basename is preferred if there are several).
 Folder names must be "automation", "dbug", "fof", "medway", "pompey" and "superior".
 if you have no disks yet, a good place to start is https://archive.org/details/atari-st-collection-1997-cdr-alien-pompey-pirates
 
