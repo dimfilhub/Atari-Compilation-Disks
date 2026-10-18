@@ -29,6 +29,21 @@ CREDIT_TEXT = (
     "@Dimfil 2026\n"
     "Thanks to members of all groups who made all this possible!"
 )
+HELP_TEXT = (
+    "Before first use you need to install:\n\n"
+    "1. Hatari emulator (https://hatari.tuxfamily.org)\n"
+    "    macOS: install it in /Applications or with 'brew install hatari',\n"
+    "    and make sure the 'hatari' command is in your PATH.\n"
+    "    Windows: place the Hatari executable in data/hatari.\n\n"
+    "2. An Atari ST TOS ROM image (not included, it is copyrighted)\n"
+    "    Save your own dump as data/roms/tos.img, or pick it in\n"
+    "    Options > Settings. TOS 1.04 is recommended.\n\n"
+    "Then browse the disk list, select a disk and start it with Hatari.\n\n"
+    "Ctrl+F  Search the disk catalogue for a game title\n"
+    "Ctrl+S  Start the selected disk\n\n"
+    "Options > Controller  Choose keyboard or joystick control\n"
+    "Options > Settings  Set the TOS image, disk folders and joystick keys"
+)
 
 
 def application_directory():
@@ -91,7 +106,7 @@ class CompilationDisksPlayer(tk.Tk):
         """Set the title, icon, position and close handler."""
         if sys.platform == "darwin":
             self.tk.call("tk", "appname", APP_NAME)
-        self.title(f"{APP_NAME} v{APP_VERSION}")
+        self.title(f"{APP_NAME} v{APP_VERSION} - © DimFil 2026")
         self.resizable(False, False)
         if sys.platform == "win32":
             icon_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "atari.ico"
@@ -155,12 +170,30 @@ class CompilationDisksPlayer(tk.Tk):
         menu_bar.add_cascade(label="Options", menu=options_menu)
 
         help_menu = tk.Menu(menu_bar, name="help", tearoff=False)
+        help_menu.add_command(label="How to Use...", command=self._open_help)
         help_menu.add_command(label="About...", command=self._open_about)
         menu_bar.add_cascade(label="Help", menu=help_menu)
 
         self.configure(menu=menu_bar)
         self.bind_all("<Control-f>", lambda _event: self._clear_and_focus_search())
         self.bind_all("<Control-s>", lambda _event: self._play_selected_disk())
+
+    def _open_help(self):
+        """Show the modal How to Use dialog."""
+        window = tk.Toplevel(self)
+        window.title(f"{APP_NAME} Help")
+        window.transient(self)
+        window.resizable(False, False)
+        window.grab_set()
+
+        background = BACKGROUND_COLOR
+        window.configure(background=background)
+        tk.Label(
+            window, text=HELP_TEXT, background=background, foreground="black", font=FONT, justify="left",
+        ).pack(padx=20, pady=(15, 5))
+        ttk.Button(window, text="OK", command=window.destroy).pack(pady=(5, 15))
+        window.bind("<Return>", lambda _event: window.destroy())
+        window.bind("<Escape>", lambda _event: window.destroy())
 
     def _open_about(self):
         """Show the modal About dialog."""
