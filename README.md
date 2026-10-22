@@ -1,12 +1,12 @@
 # Atari ST Compilation Disks Player
 
-Atari ST Compilation Disks Player is a desktop browser and player for the classic **Atari ST compilation disks** released by the great cracking and compilation teams of the scene. It lists your collection of floppy images grouped by team, searches both your collection and the full catalogue of supported releases (`CompDisks.json`), and launches any disk in the [Hatari](https://hatari.tuxfamily.org/) emulator with one click.
+Atari ST Compilation Disks Player is a desktop browser and player for the classic **Atari ST compilation disks** released by the great cracking and compilation teams of the scene: 285 teams and over 4,500 disks. It lists your collection of floppy images grouped by team, searches both your collection and the full catalogue of supported releases (`CompDisks.json`), and launches any disk in the [Hatari](https://hatari.tuxfamily.org/) emulator with one click.
 
 The app does not ship the disk images. You supply your own collection, and the app finds it in the `data/floppies` folder.
 
 ## What the app does
 
-- **Browse by team**: the library is grouped by Automation, Pompey Pirates, Flame of Finland, Medway Boys, Superior and D-Bug. Each disk shows its number and the games it contains.
+- **Browse by team**: the library is grouped by team: Automation, Pompey Pirates, Flame of Finland, Medway Boys, Superior, D-Bug and 279 other teams (Evil Force, The Replicants and many more). Only teams for which you have a folder and disks are listed. Each disk shows its number and the games it contains.
 - **Search**: type in the *Search in library for* field to search your collection and, below it, the full catalogue of all supported teams. Disks you own are shown in blue.
 - **Start Disk**: extracts the disk image if needed and starts Hatari as an Atari ST 1040 (1 MB of RAM) with the TOS image in `data/roms/tos.img`. It runs fullscreen on a TV monitor, with the disk loaded in drive A.
 - **Settings**: choose the controller (keyboard or joystick), the joystick keys, and the floppies, Hatari and TOS locations.
@@ -59,11 +59,17 @@ The joystick is emulated with the cursor keys for movement and Space for Fire. Y
   - **Windows**: place the Hatari executable in `data/hatari`.
 - A TOS image saved as `data/roms/tos.img` (or selected in Settings). The repository does not include one, because TOS is copyrighted: supply your own dump of an Atari ST ROM. **TOS 1.04 is recommended** for the best compatibility. The `data/hatari/atari_keys` Hatari config is included.
 
-Run the app:
+Run the app with the start script for your system. It creates a `.venv` virtual environment, installs `requirements.txt` when it has changed, and starts the app:
+
+- **macOS**: double-click `start_macos.command`
+- **Windows**: double-click `start_windows.bat` (it offers to install Python with winget if it is missing)
+- **Linux**: run `./start_linux.sh` (or double-click it and choose "Run")
+
+Or start it yourself:
 
 ```sh
-python3 comp_disks_player.pyw     # macOS (Terminal)
-python comp_disks_player.pyw      # Windows (Command Prompt)
+python3 comp_disks_player.py     # macOS, Linux (Terminal)
+python comp_disks_player.py      # Windows (Command Prompt)
 ```
 
 ## Populating the folders
@@ -73,19 +79,20 @@ The app finds your disks under `data/floppies`, in one sub-folder per team:
 ```
 data/
 ├── floppies/
-│   ├── automation/
-│   ├── dbug/
-│   ├── fof/            Flame of Finland
-│   ├── medway/
-│   ├── pompey/
-│   └── superior/
+│   ├── Automation/
+│   ├── D_Bug/
+│   ├── Flame_of_Finland/
+│   ├── Medway_Boys/
+│   ├── Pompey_Pirates/
+│   ├── Superior/
+│   └── ...             one folder per other team
 ├── hatari/             atari_keys (and the Hatari executable on Windows)
 └── roms/               tos.img
 ```
 
-The folder names must be exactly `automation`, `dbug`, `fof`, `medway`, `pompey` and `superior`.
+Each team has its own sub-folder, named exactly as the `Folder` key of its entries in `CompDisks.json` (for example `Pompey_Pirates` or `Evil_Force`). The folder name is the team name with spaces and punctuation replaced by underscores. Folder names are case-sensitive, and a disk is only listed when its team folder exists. Create only the folders you need.
 
-The player recognises the filenames listed in `CompDisks.json`, including `.ST` and `.MSA` images. Please consult `data/CompDisksNaming.txt` for the correct naming. Most collections available online already have correct names. If an image is stored as a same-named `.zip`, it is found too. A ZIP should contain one `.ST` or `.MSA` image (a matching image name is preferred if there are several).
+The player recognises the filenames listed in the `File` key of each `CompDisks.json` entry, including `.ST` and `.MSA` images. Matching is not case-sensitive. `data/CompDisksNaming.txt` lists the correct file name of every disk of the six original teams (Automation, D-Bug, Superior, Pompey Pirates, Medway Boys and Flame of Finland). For all other teams, look up the `File` value in `CompDisks.json`; it is the name of the disk image as found in the usual collections, or the `.zip` name where the image inside has a different name. Most collections available online already have correct names. If an image is stored as a same-named `.zip`, it is found too. A ZIP should contain one `.ST` or `.MSA` image (a matching image name is preferred if there are several).
 
 If you have no disks yet, a good place to start is <https://archive.org/details/atari-st-collection-1997-cdr-alien-pompey-pirates>.
 
@@ -114,7 +121,9 @@ This builds an executable with PyInstaller into `dist/`, for macOS or Windows de
 
 ## Credits
 
-- Thanks to the members of all the teams who made these compilations possible, and to the sites that document them, such as Stonish and Atari Legend.
+- Thanks to the members of all the teams who made these compilations possible.
+- The original disk catalogue comes from [www.stonish.net](https://www.stonish.net), which is now part of [Atari Legend](https://www.atarilegend.com).
+- The database behind the extra teams' disk and game lists, and the screenshots, come from [Atari Legend](https://www.atarilegend.com).
 - The Atari TOS ROM and the disk images are not part of this project and remain the property of their respective owners.
 
 I hope you find it useful. If needed, please open an issue on GitHub.

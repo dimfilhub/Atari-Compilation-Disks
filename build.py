@@ -6,7 +6,7 @@ import PyInstaller.__main__
 
 separator = ";" if sys.platform == "win32" else ":"
 args = [
-    "comp_disks_player.pyw",
+    "comp_disks_player.py",
     "--name", "AtariCompDisksPlayer",
     "--windowed",
     "--noconfirm",
