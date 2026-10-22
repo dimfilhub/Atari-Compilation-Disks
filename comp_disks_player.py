@@ -1,11 +1,12 @@
-"""Tkinter user interface: disk browser, search, settings and emulator start."""
+"""Atari ST Compilation Disks Player: disk browser, search, settings and emulator start."""
 
 import sys
 import tkinter as tk
 from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
+from tkinter import font as tkfont
 
-from disk_library import DiskLibrary, TEAMS
+from disk_library import DiskLibrary
 from emulator_launcher import EmulatorLauncher
 from hatari_defaults import DEFAULT_HATARI_CONFIG
 from settings_store import (
@@ -21,7 +22,13 @@ KEY_NAMES = {
     "left": "Left", "right": "Right", "insert": "Insert", "delete": "Delete", "home": "Home",
     "end": "End", "prior": "PageUp", "next": "PageDown",
 }
+try:
+    from PIL import Image, ImageTk
+except ImportError:  # screenshots are then shown at their original size
+    Image = ImageTk = None
+
 FONT = ("Helvetica", 10)
+PREVIEW_SIZE = (320, 225)
 SEARCH_DELAY_MS = 200
 BACKGROUND_COLOR = "#b6f5b6"
 CREDIT_TEXT = (
@@ -63,6 +70,8 @@ class CompilationDisksPlayer(tk.Tk):
         super().__init__()
         self.app_directory = application_directory()
         self.default_data_directory = self.app_directory / "data"
+        self.screenshots_directory = self.default_data_directory / "menu_screenshots"
+        self.preview_image = None
         self.default_folders = {
             "floppies": self.default_data_directory / "floppies",
             "hatari": self.default_data_directory / "hatari",
@@ -107,13 +116,23 @@ class CompilationDisksPlayer(tk.Tk):
         if sys.platform == "darwin":
             self.tk.call("tk", "appname", APP_NAME)
         self.title(f"{APP_NAME} v{APP_VERSION} - © DimFil 2026")
-        self.resizable(False, False)
+        self.resizable(True, True)
         if sys.platform == "win32":
             icon_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "atari.ico"
             if icon_path.is_file():
                 self.iconbitmap(str(icon_path))
-        self.geometry("+50+50")
+        self._maximise()
         self.protocol("WM_DELETE_WINDOW", self._close)
+
+    def _maximise(self):
+        """Start maximised, falling back to the full screen size where the platform has no zoomed state."""
+        try:
+            if sys.platform.startswith("linux"):
+                self.attributes("-zoomed", True)
+            else:
+                self.state("zoomed")
+        except tk.TclError:
+            self.geometry(f"{self.winfo_screenwidth()}x{self.winfo_screenheight()}+0+0")
 
     def _build_interface(self):
         """Apply styling and lay out the disk list, controls, search, results and credits."""
@@ -128,18 +147,19 @@ class CompilationDisksPlayer(tk.Tk):
         style.configure("TLabel", background=BACKGROUND_COLOR, foreground="black")
         style.configure("TButton", background="#e0e0e0", foreground="black")
         self.configure(background=BACKGROUND_COLOR)
+        # Bottom-packed widgets are laid out first so shrinking the window clips the disk list, not them.
+        self._build_credits()
+        self._build_results()
+        self._build_search()
         top = tk.Frame(self, padx=5, pady=5, bg=BACKGROUND_COLOR)
-        top.pack(fill="x")
-        disk_frame = tk.Frame(top, padx=5, pady=5, relief="groove", bd=5)
+        top.pack(fill="both", expand=True)
+        disk_frame = tk.Frame(top, padx=5, pady=5, bg="white", relief="groove", bd=5)
         disk_frame.pack(side="left", fill="both", expand=True)
         control_frame = tk.Frame(top, padx=5, pady=5, bg=BACKGROUND_COLOR, relief="groove", bd=5)
         control_frame.pack(side="left", fill="both", expand=True)
 
         self._build_disk_tree(disk_frame)
         self._build_controls(control_frame)
-        self._build_search()
-        self._build_results()
-        self._build_credits()
 
     def _build_menu(self):
         """Create the Game, Options and Help menus and the Ctrl+F / Ctrl+S shortcuts."""
@@ -372,9 +392,9 @@ class CompilationDisksPlayer(tk.Tk):
         style.configure("my.Treeview.Heading", foreground="blue", font=FONT)
         self.disk_tree = ttk.Treeview(parent, height=15, style="my.Treeview")
         self.disk_tree["columns"] = ("Disk", "Games")
-        self.disk_tree.column("#0", width=150, minwidth=150, stretch=True)
-        self.disk_tree.column("Disk", width=250, minwidth=250, stretch=True)
-        self.disk_tree.column("Games", width=800, minwidth=800, stretch=True)
+        self.disk_tree.column("#0", width=200, minwidth=60, stretch=False)
+        self.disk_tree.column("Disk", width=250, minwidth=60, stretch=False)
+        self.disk_tree.column("Games", width=800, minwidth=60, stretch=True)
         self.disk_tree.heading("#0", text="Team")
         self.disk_tree.heading("Disk", text="Disk")
         self.disk_tree.heading("Games", text="Games")
@@ -384,19 +404,53 @@ class CompilationDisksPlayer(tk.Tk):
         vertical = ttk.Scrollbar(parent, orient=tk.VERTICAL, command=self.disk_tree.yview)
         horizontal = ttk.Scrollbar(parent, orient=tk.HORIZONTAL, command=self.disk_tree.xview)
         self.disk_tree.configure(yscrollcommand=vertical.set, xscrollcommand=horizontal.set)
-        self.disk_tree.grid(row=0, column=0, sticky="nsew")
-        vertical.grid(row=0, column=1, sticky="ns")
-        horizontal.grid(row=1, column=0, sticky="ew")
-        parent.rowconfigure(0, weight=1)
+        self.team_count_label = tk.Label(parent, font=FONT, anchor="center", bg="white", fg="black")
+        self.team_count_label.grid(row=0, column=0, columnspan=2, sticky="ew")
+        self.disk_tree.grid(row=1, column=0, sticky="nsew")
+        vertical.grid(row=1, column=1, sticky="ns")
+        horizontal.grid(row=2, column=0, sticky="ew")
+        parent.rowconfigure(1, weight=1)
         parent.columnconfigure(0, weight=1)
+        self.disk_tree.bind("<<TreeviewSelect>>", self._show_screenshot)
         self.disk_tree.bind("<Double-1>", self._play_selected_disk)
         self.disk_tree.bind("<Return>", self._play_selected_disk)
 
+    def _show_screenshot(self, _event=None):
+        """Show the menu screenshot of the selected disk, or clear the preview if there is none."""
+        selected_items = self.disk_tree.selection()
+        values = self.disk_tree.item(selected_items[0]).get("values", []) if selected_items else []
+        details = self.library.catalogue.get(str(values[0])) if values and values[0] else None
+        self.preview_image = self._load_screenshot(details.get("Screenshot") if details else None)
+        self.preview_label.configure(image=self.preview_image or "")
+
+    def _load_screenshot(self, filename):
+        """Return the screenshot `filename` from the screenshots folder as a Tk image, or None."""
+        if not filename:
+            return None
+        path = self.screenshots_directory / filename
+        try:
+            if Image is None:
+                return tk.PhotoImage(file=str(path))
+            with Image.open(path) as screenshot:
+                screenshot = screenshot.convert("RGB")
+                screenshot.thumbnail(PREVIEW_SIZE, Image.LANCZOS)
+                return ImageTk.PhotoImage(screenshot)
+        except (OSError, tk.TclError):
+            return None
+
     def _build_controls(self, parent):
-        """Build the Start Disk, Search for Disk, Settings and Quit buttons."""
+        """Build the screenshot preview and the Start Disk, Search for Disk, Settings and Quit buttons."""
         style = ttk.Style(self)
         style.configure("my.TButton", foreground="blue", font=FONT)
         style.configure("quit.TButton", foreground="red", font=FONT)
+
+        preview_frame = tk.Frame(
+            parent, width=PREVIEW_SIZE[0], height=PREVIEW_SIZE[1], bg="black",
+        )
+        preview_frame.pack_propagate(False)
+        preview_frame.pack(side="top", pady=(0, 10))
+        self.preview_label = tk.Label(preview_frame, bg="black")
+        self.preview_label.pack(expand=True)
 
         ttk.Button(
             parent, text="Start Disk", width=20, style="my.TButton",
@@ -418,9 +472,9 @@ class CompilationDisksPlayer(tk.Tk):
     def _build_search(self):
         """Build the search bar, which searches as you type."""
         frame = tk.Frame(self, padx=5, pady=5, bg=BACKGROUND_COLOR)
-        frame.pack(fill="x")
+        frame.pack(side="bottom", fill="x")
         tk.Label(
-            frame, text="Search in library for: ", background=BACKGROUND_COLOR, font=FONT,
+            frame, text="Search in library for: ", background=BACKGROUND_COLOR, foreground="black", font=FONT,
         ).pack(side="left")
         self.search_entry = ttk.Entry(
             frame, textvariable=self.search_text, justify="center",
@@ -431,8 +485,9 @@ class CompilationDisksPlayer(tk.Tk):
         self.search_text.trace_add("write", self._schedule_search)
 
     def _build_results(self):
-        """Build the (initially hidden) search results tree."""
-        self.results_frame = tk.Frame(self, padx=5, pady=5, relief="groove", bd=5)
+        """Build the search results tree, which is always visible."""
+        self.results_frame = tk.Frame(self, padx=5, pady=5, bg="white", relief="groove", bd=5)
+        self.results_frame.pack(side="bottom", fill="x")
         self.results_tree = ttk.Treeview(
             self.results_frame, height=10, style="my.Treeview", columns=("Disk", "Games"),
         )
@@ -460,12 +515,13 @@ class CompilationDisksPlayer(tk.Tk):
         self.results_tree.bind("<Double-1>", self._play_result)
         self.results_tree.bind("<Return>", self._play_result)
         self.results_tree.bind("<Motion>", self._result_cursor)
+        self._show_search_hint()
 
     def _build_credits(self):
         """Show the credits text at the bottom of the window."""
         tk.Label(
-            self, text=CREDIT_TEXT, background=BACKGROUND_COLOR, font=FONT,
-        ).pack(fill="x", expand=True)
+            self, text=CREDIT_TEXT, background=BACKGROUND_COLOR, foreground="black", font=FONT,
+        ).pack(side="bottom", fill="x")
 
     def _load_settings(self):
         """Load the saved controller, folders and joystick keys into the window state."""
@@ -508,8 +564,7 @@ class CompilationDisksPlayer(tk.Tk):
     def _reload_disks(self):
         """Clear both trees and rebuild the disk list from the current folders."""
         self.disk_tree.delete(*self.disk_tree.get_children())
-        self.results_tree.delete(*self.results_tree.get_children())
-        self.results_frame.pack_forget()
+        self._show_search_hint()
         self._populate_tree()
 
     def _populate_tree(self):
@@ -517,14 +572,25 @@ class CompilationDisksPlayer(tk.Tk):
         team_nodes = {}
         self.disk_tree_items = {}
         available = self.library.available_disks()
-        for folder, display_name, prefix in TEAMS:
-            if any(disk_name.startswith(prefix) for disk_name in available):
-                team_nodes[prefix] = self.disk_tree.insert(
-                    "", "end", text=display_name, values=("", ""),
+        disk_counts = {}
+        for disk_name in available:
+            folder = self.library.disk_teams[disk_name]
+            disk_counts[folder] = disk_counts.get(folder, 0) + 1
+        measure = tkfont.Font(font=FONT).measure
+        widest = 0
+        for folder, display_name in self.library.teams():
+            if folder in disk_counts:
+                text = f"{display_name} ({disk_counts[folder]})"
+                widest = max(widest, measure(text))
+                team_nodes[folder] = self.disk_tree.insert(
+                    "", "end", text=text, values=("", ""),
                     open=False, tags=("team",),
                 )
+        # Room for the expand arrow and cell padding beside the widest name.
+        self.disk_tree.column("#0", width=max(widest + 50, 200))
+        self.team_count_label.configure(text=f"{len(team_nodes)} Teams Displayed")
         for disk_name, games in available.items():
-            parent = team_nodes[disk_name[:3]]
+            parent = team_nodes[self.library.disk_teams[disk_name]]
             self.disk_tree_items[disk_name] = self.disk_tree.insert(
                 parent, "end", values=(disk_name, games), tags=("game",),
             )
@@ -577,7 +643,14 @@ class CompilationDisksPlayer(tk.Tk):
         if self.search_text.get().strip():
             self._search_games()
         else:
-            self.results_frame.pack_forget()
+            self._show_search_hint()
+
+    def _show_search_hint(self):
+        """Replace the results with a prompt to enter a game title."""
+        self.results_tree.delete(*self.results_tree.get_children())
+        self.results_tree.insert(
+            "", "end", text="Enter a game title to search the disk catalogue.", tags=("header",),
+        )
 
     def _search_games(self, _event=None):
         """Search the catalogue and show matches, split into owned disks and all catalogue disks."""
@@ -585,14 +658,11 @@ class CompilationDisksPlayer(tk.Tk):
             self.after_cancel(self.search_after_id)
             self.search_after_id = None
         query = self.search_text.get().strip()
-        self.results_frame.pack(fill="x", expand=True)
-        self.results_tree.delete(*self.results_tree.get_children())
         self.disk_tree.selection_remove(self.disk_tree.selection())
         if not query:
-            self.results_tree.insert(
-                "", "end", text="Enter a game title to search the disk catalogue.", tags=("header",),
-            )
+            self._show_search_hint()
             return
+        self.results_tree.delete(*self.results_tree.get_children())
 
         collection, catalogue = self.library.search(query)
         if not collection:
@@ -691,3 +761,7 @@ def main():
         except (AttributeError, ImportError, OSError):
             pass
     CompilationDisksPlayer().mainloop()
+
+
+if __name__ == "__main__":
+    main()

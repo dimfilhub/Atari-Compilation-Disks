@@ -7,6 +7,7 @@ The app does not ship the disk images. You supply your own collection, and the a
 ## What the app does
 
 - **Browse by team**: the library is grouped by team: Automation, Pompey Pirates, Flame of Finland, Medway Boys, Superior, D-Bug and 279 other teams (Evil Force, The Replicants and many more). Only teams for which you have a folder and disks are listed. Each disk shows its number and the games it contains.
+- **Screenshot**: selecting a disk shows its menu screenshot above the buttons. The images are looked up by the `Screenshot` key of the disk in `CompDisks.json`, in `data/menu_screenshots` (not shipped; copy the screenshots there). Without a matching file the preview stays empty.
 - **Search**: type in the *Search in library for* field to search your collection and, below it, the full catalogue of all supported teams. Disks you own are shown in blue.
 - **Start Disk**: extracts the disk image if needed and starts Hatari as an Atari ST 1040 (1 MB of RAM) with the TOS image in `data/roms/tos.img`. It runs fullscreen on a TV monitor, with the disk loaded in drive A.
 - **Settings**: choose the controller (keyboard or joystick), the joystick keys, and the floppies, Hatari and TOS locations.
@@ -92,9 +93,13 @@ data/
 
 Each team has its own sub-folder, named exactly as the `Folder` key of its entries in `CompDisks.json` (for example `Pompey_Pirates` or `Evil_Force`). The folder name is the team name with spaces and punctuation replaced by underscores. Folder names are case-sensitive, and a disk is only listed when its team folder exists. Create only the folders you need.
 
-The player recognises the filenames listed in the `File` key of each `CompDisks.json` entry, including `.ST` and `.MSA` images. Matching is not case-sensitive. `data/CompDisksNaming.txt` lists the correct file name of every disk of the six original teams (Automation, D-Bug, Superior, Pompey Pirates, Medway Boys and Flame of Finland). For all other teams, look up the `File` value in `CompDisks.json`; it is the name of the disk image as found in the usual collections, or the `.zip` name where the image inside has a different name. Most collections available online already have correct names. If an image is stored as a same-named `.zip`, it is found too. A ZIP should contain one `.ST` or `.MSA` image (a matching image name is preferred if there are several).
+The player recognises the filenames listed in the `File` key of each `CompDisks.json` entry, including `.ST` and `.MSA` images. Matching is not case-sensitive. `data/CompDisksNaming.csv` lists, for every disk of every team, the team, the folder name, the disk name and the file name to use, including the full `Folder/File` path. For a few disks the `File` value is a `.zip` name, because the image inside the ZIP has a different name. Most collections available online already have correct names. If an image is stored as a same-named `.zip`, it is found too. A ZIP should contain one `.ST` or `.MSA` image (a matching image name is preferred if there are several).
 
-If you have no disks yet, a good place to start is <https://archive.org/details/atari-st-collection-1997-cdr-alien-pompey-pirates>.
+If you have no disks yet, a good place to start is <https://archive.org/details/atari-st-collection-1997-cdr-alien-pompey-pirates>. Other good places to download menu disks are:
+
+- [Atari Legend](https://www.atarilegend.com)
+- <https://www.exxosforum.co.uk/atari/games/index.htm>
+- <http://www.homecomputerworld.com/automationsite1.html>
 
 When the app starts, it fills the tree according to the floppy images it finds, grouped by team.
 
