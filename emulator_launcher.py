@@ -11,21 +11,23 @@ from pathlib import Path
 class EmulatorLauncher:
     """Launches Hatari with a floppy image, unpacking zip archives first."""
     def __init__(self, hatari_directory, tos_path):
-        """Remember the Hatari data folder (holding its config file) and the TOS image path.
+        """Remember the Hatari data folder (holding its config file) and the custom TOS image path (None for Hatari's built-in EmuTOS).
 
         `joystick_keys` may be set afterwards to override the keyboard-joystick keys.
         """
         self.hatari_directory = Path(hatari_directory)
-        self.tos_path = Path(tos_path).resolve()
+        self.tos_path = Path(tos_path).resolve() if tos_path else None
         self.joystick_keys = {}
 
     def _hatari_config_with_keys(self, config_path):
         """Return a config file with `joystick_keys` applied to the [Joystick1] section.
 
+        With no custom TOS the configured TOS path is blanked so Hatari uses its built-in EmuTOS.
+
         A temporary copy is written so the shipped config stays untouched; the original
         path is returned when there are no overrides or the file is missing.
         """
-        if not self.joystick_keys or not config_path.is_file():
+        if not config_path.is_file():
             return config_path
         lines = config_path.read_text(encoding="utf-8", errors="surrogateescape").splitlines(keepends=True)
         section = None
@@ -37,6 +39,8 @@ class EmulatorLauncher:
                 name = stripped.split("=", 1)[0].strip()
                 if name in self.joystick_keys:
                     lines[index] = f"{name} = {self.joystick_keys[name]}\n"
+            elif section == "[rom]" and self.tos_path is None and stripped.startswith("szTosImageFileName"):
+                lines[index] = "szTosImageFileName =\n"
         generated = Path(tempfile.gettempdir()) / "atari-comp-disks-hatari.cfg"
         generated.write_text("".join(lines), encoding="utf-8", errors="surrogateescape")
         return generated
@@ -80,7 +84,7 @@ class EmulatorLauncher:
         return [
             executable, "--joy1", joystick,
             "--configfile", str(self._hatari_config_with_keys(self.hatari_directory / "atari_keys")),
-            "--tos", str(self.tos_path),
+            *(["--tos", str(self.tos_path)] if self.tos_path else []),
             "--machine", "st", "--monitor", "tv", "--fullscreen", "--memsize", "1",
             "--statusbar", "FALSE", "--drive-led", "TRUE",
             "--confirm-quit", "FALSE", "--disk-a", str(floppy_path),

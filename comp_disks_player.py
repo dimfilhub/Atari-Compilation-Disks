@@ -14,7 +14,7 @@ from settings_store import (
 )
 
 
-FOLDER_LABELS = (("floppies", "Floppies:"), ("hatari", "Hatari:"), ("tos", "TOS image:"))
+FOLDER_LABELS = (("floppies", "Floppies:"), ("hatari", "Hatari:"))
 KEY_NAMES = {
     "space": "Space", "control_l": "Left Ctrl", "control_r": "Right Ctrl",
     "shift_l": "Left Shift", "shift_r": "Right Shift", "alt_l": "Left Alt", "alt_r": "Right Alt",
@@ -42,9 +42,9 @@ HELP_TEXT = (
     "    macOS: install it in /Applications or with 'brew install hatari',\n"
     "    and make sure the 'hatari' command is in your PATH.\n"
     "    Windows: place the Hatari executable in data/hatari.\n\n"
-    "2. An Atari ST TOS ROM image (not included, it is copyrighted)\n"
-    "    Save your own dump as data/roms/tos.img, or pick it in\n"
-    "    Options > Settings. TOS 1.04 is recommended.\n\n"
+    "2. Optional: your own Atari ST TOS ROM image (not included,\n"
+    "    it is copyrighted). Hatari's built-in EmuTOS is used by\n"
+    "    default; pick your TOS in Options > Settings.\n\n"
     "Then browse the disk list, select a disk and start it with Hatari.\n\n"
     "Ctrl+F  Search the disk catalogue for a game title\n"
     "Ctrl+S  Start the selected disk\n\n"
@@ -75,8 +75,8 @@ class CompilationDisksPlayer(tk.Tk):
         self.default_folders = {
             "floppies": self.default_data_directory / "floppies",
             "hatari": self.default_data_directory / "hatari",
-            "tos": self.default_data_directory / "roms" / "tos.img",
         }
+        self.roms_directory = self.default_data_directory / "roms"
         self._create_default_folders()
         self.catalogue_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "CompDisks.json"
         self.settings = SettingsStore(settings_file_path())
@@ -98,7 +98,7 @@ class CompilationDisksPlayer(tk.Tk):
         for directory in (
             self.default_folders["floppies"],
             self.default_folders["hatari"],
-            self.default_folders["tos"].parent,
+            self.roms_directory,
         ):
             try:
                 directory.mkdir(parents=True, exist_ok=True)
@@ -153,10 +153,11 @@ class CompilationDisksPlayer(tk.Tk):
         self._build_search()
         top = tk.Frame(self, padx=5, pady=5, bg=BACKGROUND_COLOR)
         top.pack(fill="both", expand=True)
+        # Packed first so the wide disk list cannot squeeze the controls and clip the screenshot preview.
+        control_frame = tk.Frame(top, padx=5, pady=5, bg=BACKGROUND_COLOR, relief="groove", bd=5)
+        control_frame.pack(side="right", fill="y")
         disk_frame = tk.Frame(top, padx=5, pady=5, bg="white", relief="groove", bd=5)
         disk_frame.pack(side="left", fill="both", expand=True)
-        control_frame = tk.Frame(top, padx=5, pady=5, bg=BACKGROUND_COLOR, relief="groove", bd=5)
-        control_frame.pack(side="left", fill="both", expand=True)
 
         self._build_disk_tree(disk_frame)
         self._build_controls(control_frame)
@@ -277,20 +278,43 @@ class CompilationDisksPlayer(tk.Tk):
         folder_frame.columnconfigure(1, weight=1)
 
         def browse(name):
-            """Pick a folder (or the TOS file for "tos") and store it in the matching entry."""
-            current = Path(folder_vars[name].get())
-            if name == "tos":
-                chosen = filedialog.askopenfilename(
-                    parent=window, title="Select TOS image", initialdir=current.parent,
-                    filetypes=(("TOS images", "*.img *.rom *.bin"), ("All files", "*.*")),
-                )
-            else:
-                chosen = filedialog.askdirectory(
-                    parent=window, title=f"Select {name} folder",
-                    initialdir=current, mustexist=False,
-                )
+            """Pick a folder and store it in the matching entry."""
+            chosen = filedialog.askdirectory(
+                parent=window, title=f"Select {name} folder",
+                initialdir=Path(folder_vars[name].get()), mustexist=False,
+            )
             if chosen:
                 folder_vars[name].set(str(Path(chosen)))
+
+        tos_frame = ttk.LabelFrame(window, text="TOS", padding=10)
+        tos_frame.pack(fill="x", padx=10, pady=(0, 10), before=folder_frame)
+        custom_tos = self._configured_folders()["tos"]
+        tos_mode_var = tk.StringVar(window, value="custom" if custom_tos else "emutos")
+        tos_path_var = tk.StringVar(window, value=str(custom_tos or ""))
+        ttk.Radiobutton(
+            tos_frame, text="EmuTOS (built into Hatari)", variable=tos_mode_var, value="emutos",
+        ).grid(row=0, column=0, columnspan=3, sticky="w")
+        ttk.Radiobutton(
+            tos_frame, text="My own TOS image:", variable=tos_mode_var, value="custom",
+        ).grid(row=1, column=0, sticky="w", pady=(4, 0))
+        ttk.Entry(tos_frame, textvariable=tos_path_var, width=40).grid(
+            row=1, column=1, sticky="ew", padx=5, pady=(4, 0),
+        )
+
+        def browse_tos():
+            """Pick a TOS image file and switch to the custom TOS option."""
+            current = Path(tos_path_var.get()) if tos_path_var.get() else self.roms_directory
+            chosen = filedialog.askopenfilename(
+                parent=window, title="Select TOS image",
+                initialdir=current if current.is_dir() else current.parent,
+                filetypes=(("TOS images", "*.img *.rom *.bin"), ("All files", "*.*")),
+            )
+            if chosen:
+                tos_path_var.set(str(Path(chosen)))
+                tos_mode_var.set("custom")
+
+        ttk.Button(tos_frame, text="Browse...", command=browse_tos).grid(row=1, column=2, pady=(4, 0))
+        tos_frame.columnconfigure(1, weight=1)
 
         key_frame = ttk.LabelFrame(window, text="Keyboard joystick keys (Hatari)", padding=10)
         key_frame.pack(fill="x", padx=10, pady=(0, 10), before=folder_frame)
@@ -344,16 +368,20 @@ class CompilationDisksPlayer(tk.Tk):
                 name: Path(var.get().strip() or self.default_folders[name]).expanduser()
                 for name, var in folder_vars.items()
             }
-            missing = [f"{name}: {path}" for name, path in new_folders.items() if name != "tos" and not path.is_dir()]
+            tos_text = tos_path_var.get().strip()
+            if tos_mode_var.get() == "custom" and not tos_text:
+                messagebox.showerror("TOS image", "Select a TOS image or choose EmuTOS.", parent=window)
+                return
+            tos_path = Path(tos_text).expanduser() if tos_mode_var.get() == "custom" else None
+            missing = [f"{name}: {path}" for name, path in new_folders.items() if not path.is_dir()]
             if missing and messagebox.askyesno(
                 "Create folders?",
                 "These folders do not exist:\n\n" + "\n".join(missing) + "\n\nCreate them?",
                 parent=window,
             ):
                 try:
-                    for name, path in new_folders.items():
-                        if name != "tos":
-                            path.mkdir(parents=True, exist_ok=True)
+                    for path in new_folders.values():
+                        path.mkdir(parents=True, exist_ok=True)
                 except OSError as error:
                     messagebox.showerror("Could not create folder", str(error), parent=window)
                     return
@@ -362,6 +390,8 @@ class CompilationDisksPlayer(tk.Tk):
                 name: "" if path == self.default_folders[name] else str(path)
                 for name, path in new_folders.items()
             }
+            self.custom_folders["tos"] = str(tos_path) if tos_path else ""
+            new_folders["tos"] = tos_path
             previous_keys = dict(self.joystick_keys)
             previous_controller = self.controller_choice.get()
             self.controller_choice.set(controller_var.get())
@@ -545,12 +575,17 @@ class CompilationDisksPlayer(tk.Tk):
         return None
 
     def _configured_folders(self):
-        """Return the folder for each setting, falling back to the defaults under `data`."""
-        return {
+        """Return the folder for each setting, falling back to the defaults under `data`.
+
+        The "tos" entry is the custom TOS image path, or None to use Hatari's built-in EmuTOS.
+        """
+        folders = {
             name: Path(self.custom_folders[name]).expanduser() if self.custom_folders[name]
             else self.default_folders[name]
-            for name in FOLDER_NAMES
+            for name in self.default_folders
         }
+        folders["tos"] = Path(self.custom_folders["tos"]).expanduser() if self.custom_folders["tos"] else None
+        return folders
 
     def _use_folders(self, folders):
         """Make `folders` current by recreating the disk library and emulator launcher."""
@@ -618,10 +653,10 @@ class CompilationDisksPlayer(tk.Tk):
         if not floppy_path.is_file():
             messagebox.showerror("Disk not found", f"The disk image could not be found:\n{floppy_path}")
             return
-        if not self.folders["tos"].is_file():
+        if self.folders["tos"] is not None and not self.folders["tos"].is_file():
             messagebox.showerror(
                 "TOS image not found",
-                f"Select a TOS image in Options > Settings.\n{self.folders['tos']}",
+                f"Select another TOS image or EmuTOS in Options > Settings.\n{self.folders['tos']}",
             )
             return
         try:
@@ -679,9 +714,14 @@ class CompilationDisksPlayer(tk.Tk):
             "", "end", text="Search results in following Compilation Disks",
             open=True, tags=("header",),
         )
+        owned = {disk_name for disk_name, _games in collection}
+        catalogue = [result for result in catalogue if result[0] not in owned]
         self._insert_search_results(node, catalogue, "catalogue")
         if not catalogue:
-            self.results_tree.insert(node, "end", text="No matching disks found.", tags=("catalogue",))
+            self.results_tree.insert(
+                node, "end", text="No other matching disks found." if owned else "No matching disks found.",
+                tags=("catalogue",),
+            )
 
     def _insert_search_results(self, parent, results, tag):
         """Add result rows under `parent`; only owned disks in the collection are clickable."""

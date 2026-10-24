@@ -9,7 +9,7 @@ The app does not ship the disk images. You supply your own collection, and the a
 - **Browse by team**: the library is grouped by team: Automation, Pompey Pirates, Flame of Finland, Medway Boys, Superior, D-Bug and 279 other teams (Evil Force, The Replicants and many more). Only teams for which you have a folder and disks are listed. Each disk shows its number and the games it contains.
 - **Screenshot**: selecting a disk shows its menu screenshot above the buttons. The images are looked up by the `Screenshot` key of the disk in `CompDisks.json`, in `data/menu_screenshots` (not shipped; copy the screenshots there). Without a matching file the preview stays empty.
 - **Search**: type in the *Search in library for* field to search your collection and, below it, the full catalogue of all supported teams. Disks you own are shown in blue.
-- **Start Disk**: extracts the disk image if needed and starts Hatari as an Atari ST 1040 (1 MB of RAM) with the TOS image in `data/roms/tos.img`. It runs fullscreen on a TV monitor, with the disk loaded in drive A.
+- **Start Disk**: extracts the disk image if needed and starts Hatari as an Atari ST 1040 (1 MB of RAM) with Hatari's built-in EmuTOS (or your own TOS image, if selected in Settings). It runs fullscreen on a TV monitor, with the disk loaded in drive A.
 - **Settings**: choose the controller (keyboard or joystick), the joystick keys, and the floppies, Hatari and TOS locations.
 
 ## Screenshots
@@ -37,7 +37,7 @@ The app does not ship the disk images. You supply your own collection, and the a
 ## Using the app
 
 - **Browse**: expand a team in the tree to see its disks. Disks you own are shown in blue in the search results.
-- **Search**: type in the *Search in library for* field. Results appear in two groups: *Found in your collection* and *Search results in following Compilation* (the full catalogue). Clear the field to hide the results again.
+- **Search**: type in the *Search in library for* field. Results appear in two groups: *Found in your collection* and *Search results in following Compilation* (the full catalogue, without the disks you already own). Clear the field to hide the results again.
 - **Launching a disk**: select it and click **Start Disk** (or press Ctrl+S), or double-click it. Hatari must be installed (see *Requirements*) and the floppy image must be in your collection.
 - **Other buttons**: **Search for Disk** (Ctrl+F) jumps to the search field, **Settings** opens the settings window, and **Quit** closes the app.
 - **Multiple disks**: some games use two or more disks, noted as (A), (B) and so on. Most of them do not support a second drive, so swap the floppy image yourself from the emulator's GUI (F12).
@@ -58,7 +58,7 @@ The joystick is emulated with the cursor keys for movement and Space for Fire. Y
 - [Hatari](https://hatari.tuxfamily.org/) to run the disks.
   - **macOS**: install it in `/Applications`, or with `brew install hatari`, and make sure the `hatari` command is in your `PATH`.
   - **Windows**: place the Hatari executable in `data/hatari`.
-- A TOS image saved as `data/roms/tos.img` (or selected in Settings). The repository does not include one, because TOS is copyrighted: supply your own dump of an Atari ST ROM. **TOS 1.04 is recommended** for the best compatibility. The `data/hatari/atari_keys` Hatari config is included.
+- Optionally, your own TOS image selected in Settings. By default Hatari's built-in EmuTOS is used; the repository does not include an Atari TOS, because it is copyrighted. **TOS 1.04 is recommended** if you want the best compatibility. The `data/hatari/atari_keys` Hatari config is included.
 
 Run the app with the start script for your system. It creates a `.venv` virtual environment, installs `requirements.txt` when it has changed, and starts the app:
 
@@ -113,7 +113,7 @@ Open **Settings** from the main window (or **Options > Settings...**). Everythin
 | **Keyboard joystick keys** | Choose the keys for Up, Down, Left, Right and Fire. Click **Set...** and press a key. Defaults: arrow keys and Space. **Defaults** resets them. Your `atari_keys` file is never modified, because a modified copy is used at launch. |
 | **Floppies** | The folder that holds your disk images (default `data/floppies`). |
 | **Hatari** | The folder that holds Hatari and `atari_keys` (default `data/hatari`). |
-| **TOS image** | The TOS ROM file (default `data/roms/tos.img`). |
+| **TOS** | *EmuTOS* (default, built into Hatari) or *My own TOS image*: pick a TOS ROM file. |
 
 ## Building a standalone app
 

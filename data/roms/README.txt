@@ -1,5 +1,5 @@
-Place your Atari ST TOS ROM image in this folder and name it tos.img.
+Optional: place your own Atari ST TOS ROM image in this folder.
 
-The TOS ROM is copyrighted and is not distributed with this project, so you must
-provide your own. TOS 1.04 (the version used by default) is recommended.
-Alternatively, pick any TOS image in Options > Settings.
+By default Hatari's built-in EmuTOS is used. The TOS ROM is copyrighted and is not
+distributed with this project; to use your own (TOS 1.04 is recommended for best
+compatibility), pick it in Options > Settings > TOS.
