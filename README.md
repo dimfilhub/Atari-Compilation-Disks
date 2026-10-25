@@ -112,7 +112,7 @@ Open **Settings** from the main window (or **Options > Settings...**). Everythin
 | **Controller** | *Keyboard* maps a joystick onto keys. *Joystick* uses a real gamepad or joystick in Hatari. |
 | **Keyboard joystick keys** | Choose the keys for Up, Down, Left, Right and Fire. Click **Set...** and press a key. Defaults: arrow keys and Space. **Defaults** resets them. Your `atari_keys` file is never modified, because a modified copy is used at launch. |
 | **Floppies** | The folder that holds your disk images (default `data/floppies`). |
-| **Hatari** | The folder that holds Hatari and `atari_keys` (default `data/hatari`). |
+| **Hatari** | The folder that holds Hatari (default `data/hatari`). On macOS and Linux Hatari is looked up here first (`hatari` or a `Hatari.app`), then in `PATH` and the usual install folders. `atari_keys` is optional; built-in defaults are used if it is missing. |
 | **TOS** | *EmuTOS* (default, built into Hatari) or *My own TOS image*: pick a TOS ROM file. |
 
 ## Building a standalone app

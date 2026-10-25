@@ -7,6 +7,8 @@ import tempfile
 import zipfile
 from pathlib import Path
 
+from hatari_defaults import DEFAULT_HATARI_CONFIG
+
 
 class EmulatorLauncher:
     """Launches Hatari with a floppy image, unpacking zip archives first."""
@@ -25,11 +27,13 @@ class EmulatorLauncher:
         With no custom TOS the configured TOS path is blanked so Hatari uses its built-in EmuTOS.
 
         A temporary copy is written so the shipped config stays untouched; the original
-        path is returned when there are no overrides or the file is missing.
+        default config is used when the file is missing.
         """
-        if not config_path.is_file():
-            return config_path
-        lines = config_path.read_text(encoding="utf-8", errors="surrogateescape").splitlines(keepends=True)
+        if config_path.is_file():
+            text = config_path.read_text(encoding="utf-8", errors="surrogateescape")
+        else:
+            text = DEFAULT_HATARI_CONFIG  # a user-chosen Hatari folder has no atari_keys
+        lines = text.splitlines(keepends=True)
         section = None
         for index, line in enumerate(lines):
             stripped = line.strip()
@@ -45,9 +49,18 @@ class EmulatorLauncher:
         generated.write_text("".join(lines), encoding="utf-8", errors="surrogateescape")
         return generated
 
-    @staticmethod
-    def _find_hatari():
-        """Locate the Hatari executable on PATH or in common install locations; None if not found."""
+    def _find_hatari(self):
+        """Locate the Hatari executable in the Hatari folder, on PATH or in common install locations; None if not found."""
+        candidates = [self.hatari_directory / "hatari"]
+        if sys.platform == "darwin":
+            candidates.extend(
+                app / "Contents" / "MacOS" / "hatari"
+                for app in (self.hatari_directory, *self._app_bundles(self.hatari_directory))
+                if app.suffix.casefold() == ".app"
+            )
+        for candidate in candidates:
+            if candidate.is_file():
+                return str(candidate)
         executable = shutil.which("hatari")
         if executable:
             return executable
@@ -64,6 +77,14 @@ class EmulatorLauncher:
             if candidate.is_file():
                 return str(candidate)
         return None
+
+    @staticmethod
+    def _app_bundles(directory):
+        """Return the .app bundles directly inside `directory`."""
+        try:
+            return [entry for entry in directory.iterdir() if entry.suffix.casefold() == ".app"]
+        except OSError:
+            return []
 
     def command(self, controller, floppy_path):
         """Return the Hatari argument list for `floppy_path`.
