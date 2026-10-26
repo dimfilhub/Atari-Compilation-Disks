@@ -14,7 +14,7 @@ from settings_store import (
 )
 
 
-FOLDER_LABELS = (("floppies", "Floppies:"), ("hatari", "Hatari:"))
+FOLDER_LABELS = (("floppies", "Floppies:"), ("hatari", "Hatari:"), ("screenshots", "Menu screenshots:"))
 KEY_NAMES = {
     "space": "Space", "control_l": "Left Ctrl", "control_r": "Right Ctrl",
     "shift_l": "Left Shift", "shift_r": "Right Shift", "alt_l": "Left Alt", "alt_r": "Right Alt",
@@ -70,11 +70,11 @@ class CompilationDisksPlayer(tk.Tk):
         super().__init__()
         self.app_directory = application_directory()
         self.default_data_directory = self.app_directory / "data"
-        self.screenshots_directory = self.default_data_directory / "menu_screenshots"
         self.preview_image = None
         self.default_folders = {
             "floppies": self.default_data_directory / "floppies",
             "hatari": self.default_data_directory / "hatari",
+            "screenshots": self.default_data_directory / "menu_screenshots",
         }
         self.roms_directory = self.default_data_directory / "roms"
         self._create_default_folders()
@@ -98,6 +98,7 @@ class CompilationDisksPlayer(tk.Tk):
         for directory in (
             self.default_folders["floppies"],
             self.default_folders["hatari"],
+            self.default_folders["screenshots"],
             self.roms_directory,
         ):
             try:
@@ -399,6 +400,7 @@ class CompilationDisksPlayer(tk.Tk):
             try:
                 self._use_folders(new_folders)
                 self._reload_disks()
+                self._show_screenshot()
                 self.settings.save_keys(self.joystick_keys)
                 self.settings.save(
                     self.controller_choice.get(), self.custom_folders,
@@ -590,6 +592,7 @@ class CompilationDisksPlayer(tk.Tk):
     def _use_folders(self, folders):
         """Make `folders` current by recreating the disk library and emulator launcher."""
         self.folders = dict(folders)
+        self.screenshots_directory = folders["screenshots"]
         self.library = DiskLibrary(folders["floppies"], self.catalogue_path)
         self.emulator_launcher = EmulatorLauncher(
             folders["hatari"], folders["tos"],
