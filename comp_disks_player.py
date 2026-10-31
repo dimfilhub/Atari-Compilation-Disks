@@ -1,6 +1,7 @@
 """Atari ST Compilation Disks Player: disk browser, search, settings and emulator start."""
 
 import sys
+import threading
 import tkinter as tk
 from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
@@ -8,6 +9,8 @@ from tkinter import font as tkfont
 
 from disk_library import DiskLibrary
 from emulator_launcher import EmulatorLauncher
+from supergau_import import CATALOGUE_NAME, find_source, import_collection
+from supergau_iso import import_iso
 from hatari_defaults import DEFAULT_HATARI_CONFIG
 from settings_store import (
     APP_NAME, APP_VERSION, DEFAULT_JOYSTICK_KEYS, FOLDER_NAMES, JOYSTICK_ACTIONS, SettingsStore, settings_file_path,
@@ -49,6 +52,7 @@ HELP_TEXT = (
     "Ctrl+F  Search the disk catalogue for a game title\n"
     "Ctrl+S  Start the selected disk\n\n"
     "Options > Controller  Choose keyboard or joystick control\n"
+    "Options > Import SuperGAU Collection  Add the SuperGAU games and demos\n"
     "Options > Settings  Set the TOS image, disk folders and joystick keys"
 )
 
@@ -79,6 +83,7 @@ class CompilationDisksPlayer(tk.Tk):
         self.roms_directory = self.default_data_directory / "roms"
         self._create_default_folders()
         self.catalogue_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "CompDisks.json"
+        self.supergau_catalogue_path = self.default_data_directory / CATALOGUE_NAME
         self.settings = SettingsStore(settings_file_path())
         self.controller_choice = tk.StringVar(self)
         self.search_text = tk.StringVar(self)
@@ -188,6 +193,10 @@ class CompilationDisksPlayer(tk.Tk):
         options_menu.add_cascade(label="Controller", menu=controller_menu)
 
         options_menu.add_separator()
+        import_menu = tk.Menu(options_menu, tearoff=False)
+        import_menu.add_command(label="From ISO...", command=self._import_supergau_iso)
+        import_menu.add_command(label="From Data Folder...", command=self._import_supergau_folder)
+        options_menu.add_cascade(label="Import SuperGAU Collection", menu=import_menu)
         options_menu.add_command(label="Settings...", command=self._open_settings)
         menu_bar.add_cascade(label="Options", menu=options_menu)
 
@@ -199,6 +208,90 @@ class CompilationDisksPlayer(tk.Tk):
         self.configure(menu=menu_bar)
         self.bind_all("<Control-f>", lambda _event: self._clear_and_focus_search())
         self.bind_all("<Control-s>", lambda _event: self._play_selected_disk())
+
+    def _import_supergau_iso(self):
+        """Ask for the SuperGAU ISO and import its games and demos."""
+        selected = filedialog.askopenfilename(
+            parent=self, title="Select the SuperGAU ISO", filetypes=(("ISO images", "*.iso"), ("All files", "*")),
+        )
+        if selected:
+            self._run_supergau_import(
+                f"Copy the games and demos of\n{selected}\ninto:\n{self.folders['floppies']}\n\nThis can take a while.",
+                lambda progress: import_iso(
+                    selected, self.folders["floppies"], self.supergau_catalogue_path, progress,
+                ),
+            )
+
+    def _import_supergau_folder(self):
+        """Ask for an already extracted SuperGAU data folder and import its games and demos."""
+        selected = filedialog.askdirectory(
+            parent=self, title=f"Select the SuperGAU data folder (contains {CATALOGUE_NAME})",
+        )
+        if not selected:
+            return
+        source = find_source(selected)
+        if source is None:
+            messagebox.showerror(
+                "Import SuperGAU Collection", f"{CATALOGUE_NAME} was not found in:\n{selected}", parent=self,
+            )
+            return
+        self._run_supergau_import(
+            f"Copy the games and demos of\n{source}\ninto:\n{self.folders['floppies']}\n\nThis can take a while.",
+            lambda progress: import_collection(
+                source, self.folders["floppies"], self.supergau_catalogue_path, progress,
+            ),
+        )
+
+    def _run_supergau_import(self, question, job):
+        """Confirm, run `job(progress)` in a thread with a progress window, then report and reload the tree.
+
+        `job` returns `(copied, skipped)` or `(copied, skipped, missing)`.
+        """
+        if not messagebox.askokcancel("Import SuperGAU Collection", question, parent=self):
+            return
+        dialog = tk.Toplevel(self)
+        dialog.title("Importing SuperGAU")
+        dialog.transient(self)
+        dialog.resizable(False, False)
+        dialog.protocol("WM_DELETE_WINDOW", lambda: None)
+        label = tk.Label(dialog, text="Reading...", padx=20, pady=10)
+        label.pack()
+        bar = ttk.Progressbar(dialog, length=300, maximum=1)
+        bar.pack(padx=20, pady=(0, 15))
+        dialog.grab_set()
+
+        state = {"done": 0, "total": 0, "result": None, "error": None}
+
+        def work():
+            try:
+                state["result"] = job(lambda done, total: state.update(done=done, total=total))
+            except (OSError, ValueError) as error:
+                state["error"] = error
+
+        worker = threading.Thread(target=work, daemon=True)
+        worker.start()
+
+        def poll():
+            if state["total"]:
+                bar.configure(maximum=state["total"], value=state["done"])
+                label.configure(text=f"Copying disks... {state['done']} / {state['total']}")
+            if worker.is_alive():
+                self.after(100, poll)
+                return
+            dialog.grab_release()
+            dialog.destroy()
+            if state["error"] is not None:
+                messagebox.showerror("Import SuperGAU Collection", f"Import failed:\n{state['error']}", parent=self)
+            else:
+                copied, skipped, *rest = state["result"]
+                message = f"Copied {copied} disks, {skipped} were already present."
+                if rest and rest[0]:
+                    message += f"\n{len(rest[0])} listed files were not found in the source folder."
+                messagebox.showinfo("Import SuperGAU Collection", message, parent=self)
+            self._use_folders(self.folders)
+            self._reload_disks()
+
+        poll()
 
     def _open_help(self):
         """Show the modal How to Use dialog."""
@@ -593,7 +686,7 @@ class CompilationDisksPlayer(tk.Tk):
         """Make `folders` current by recreating the disk library and emulator launcher."""
         self.folders = dict(folders)
         self.screenshots_directory = folders["screenshots"]
-        self.library = DiskLibrary(folders["floppies"], self.catalogue_path)
+        self.library = DiskLibrary(folders["floppies"], self.catalogue_path, [self.supergau_catalogue_path])
         self.emulator_launcher = EmulatorLauncher(
             folders["hatari"], folders["tos"],
         )

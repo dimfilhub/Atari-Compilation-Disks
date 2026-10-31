@@ -115,6 +115,12 @@ Open **Settings** from the main window (or **Options > Settings...**). Everythin
 | **Hatari** | The folder that holds Hatari (default `data/hatari`). On macOS and Linux Hatari is looked up here first (`hatari` or a `Hatari.app`), then in `PATH` and the usual install folders. `atari_keys` is optional; built-in defaults are used if it is missing. |
 | **TOS** | *EmuTOS* (default, built into Hatari) or *My own TOS image*: pick a TOS ROM file. |
 
+## Importing the SuperGAU collection
+
+Use **Options > Import SuperGAU Collection > From ISO...** and select the *SuperGAU ARCHIVE-CD* ISO image. The app reads the game and demo disks (STDEMOS and STGAMES0..9) and their titles directly from the ISO (this needs `pycdlib`, installed from `requirements.txt`), copies the ZIPs into your floppies folder (identical existing files are skipped) and saves the catalogue as `data/SuperGAU.json`, which is merged with `CompDisks.json` at start-up. The *SuperGAU Games* and *SuperGAU Demos* teams then appear in the tree. `CompDisks.json` itself is not modified.
+
+If you already extracted the data with SuperGAU's `build_data.py`, use **From Data Folder...** and select the folder that contains `SuperGAU.json`.
+
 ## Building a standalone app
 
 ```sh

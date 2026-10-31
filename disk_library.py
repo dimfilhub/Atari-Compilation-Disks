@@ -7,14 +7,41 @@ from pathlib import Path
 DISK_EXTENSIONS = {".msa", ".st", ".zip"}
 
 
+REQUIRED_KEYS = ("Games", "File", "Team", "Folder")
+
+
+def valid_entries(entries):
+    """Return the catalogue entries that have all required keys and a plain folder and file name."""
+    if not isinstance(entries, dict):
+        return {}
+    return {
+        name: details for name, details in entries.items()
+        if isinstance(details, dict)
+        and all(isinstance(details.get(key), str) and details[key] for key in REQUIRED_KEYS)
+        and Path(details["Folder"]).name == details["Folder"]
+        and Path(details["File"]).name == details["File"]
+    }
+
+
 class DiskLibrary:
     """Maps catalogue disk names to image files in the per-team floppies folders."""
-    def __init__(self, floppies_directory, catalogue_path):
-        """Load the JSON catalogue and map each disk to its team folder."""
+    def __init__(self, floppies_directory, catalogue_path, extra_catalogue_paths=()):
+        """Load the JSON catalogue, plus any imported catalogues, and map each disk to its team folder.
+
+        Extra catalogues (for example the imported SuperGAU one) are merged in when they exist and are
+        valid; an unreadable one is ignored.
+        """
         self.floppies_directory = Path(floppies_directory)
         self.index_cache = {}
         with Path(catalogue_path).open(encoding="utf-8") as catalogue:
             self.catalogue = json.load(catalogue)
+        for extra_path in extra_catalogue_paths:
+            try:
+                with Path(extra_path).open(encoding="utf-8") as extra:
+                    extra_entries = json.load(extra)
+            except (OSError, ValueError):
+                continue
+            self.catalogue.update(valid_entries(extra_entries))
 
         self.team_names = {}
         self.disk_teams = {}
