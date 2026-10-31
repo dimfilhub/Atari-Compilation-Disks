@@ -8,3 +8,4 @@ dist/
 venv/
 .idea/
 .github/
+data/SuperGAU.json

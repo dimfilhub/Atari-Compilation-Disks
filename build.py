@@ -12,6 +12,7 @@ args = [
     "--noconfirm",
     "--add-data", f"CompDisks.json{separator}.",
     "--add-data", f"atari.ico{separator}.",
+    "--add-data", f"no_screenshot.png{separator}.",
     "--icon", "atari.ico",
 ]
 if sys.platform == "win32":

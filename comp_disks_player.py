@@ -81,7 +81,10 @@ class CompilationDisksPlayer(tk.Tk):
         }
         self.roms_directory = self.default_data_directory / "roms"
         self._create_default_folders()
-        self.catalogue_path = Path(getattr(sys, "_MEIPASS", self.app_directory)) / "CompDisks.json"
+        resource_directory = Path(getattr(sys, "_MEIPASS", self.app_directory))
+        self.catalogue_path = resource_directory / "CompDisks.json"
+        self.logo_path = resource_directory / "no_screenshot.png"
+        self.logo_image = None
         self.supergau_catalogue_path = self.default_data_directory / CATALOGUE_NAME
         self.settings = SettingsStore(settings_file_path())
         self.controller_choice = tk.StringVar(self)
@@ -96,6 +99,7 @@ class CompilationDisksPlayer(tk.Tk):
         self._build_interface()
         self._build_menu()
         self._populate_tree()
+        self._show_screenshot()
 
     def _create_default_folders(self):
         """Create the default `data` folders (floppies, hatari, roms) and the default Hatari config if missing."""
@@ -652,21 +656,24 @@ class CompilationDisksPlayer(tk.Tk):
         selected_items = self.disk_tree.selection()
         values = self.disk_tree.item(selected_items[0]).get("values", []) if selected_items else []
         details = self.library.catalogue.get(str(values[0])) if values and values[0] else None
-        self.preview_image = self._load_screenshot(details.get("Screenshot") if details else None)
+        filename = details.get("Screenshot") if details else None
+        self.preview_image = self._load_image(self.screenshots_directory / filename) if filename else None
+        if self.preview_image is None:
+            if self.logo_image is None:
+                self.logo_image = self._load_image(self.logo_path)
+            self.preview_image = self.logo_image
         self.preview_label.configure(image=self.preview_image or "")
 
-    def _load_screenshot(self, filename):
-        """Return the screenshot `filename` from the screenshots folder as a Tk image, or None."""
-        if not filename:
-            return None
-        path = self.screenshots_directory / filename
+    @staticmethod
+    def _load_image(path):
+        """Return the image file at `path`, scaled to fit the preview, as a Tk image, or None."""
         try:
             if Image is None:
                 return tk.PhotoImage(file=str(path))
-            with Image.open(path) as screenshot:
-                screenshot = screenshot.convert("RGB")
-                screenshot.thumbnail(PREVIEW_SIZE, Image.LANCZOS)
-                return ImageTk.PhotoImage(screenshot)
+            with Image.open(path) as picture:
+                picture = picture.convert("RGB")
+                picture.thumbnail(PREVIEW_SIZE, Image.LANCZOS)
+                return ImageTk.PhotoImage(picture)
         except (OSError, tk.TclError):
             return None
 
