@@ -117,9 +117,7 @@ Open **Settings** from the main window (or **Options > Settings...**). Everythin
 
 ## Importing the SuperGAU collection
 
-Use **Options > Import SuperGAU Collection > From ISO...** and select the *SuperGAU ARCHIVE-CD* ISO image. The app reads the game and demo disks (STDEMOS and STGAMES0..9) and their titles directly from the ISO (this needs `pycdlib`, installed from `requirements.txt`), copies the ZIPs into your floppies folder (identical existing files are skipped) and saves the catalogue as `data/SuperGAU.json`, which is merged with `CompDisks.json` at start-up. The *SuperGAU Games* and *SuperGAU Demos* teams then appear in the tree. `CompDisks.json` itself is not modified.
-
-If you already extracted the data with SuperGAU's `build_data.py`, use **From Data Folder...** and select the folder that contains `SuperGAU.json`.
+Use **Options > Import SuperGAU Collection from ISO...**, then browse for the *SuperGAU ARCHIVE-CD* ISO image. The app checks that it is the right ISO and shows how many games and demos it holds (this needs `pycdlib`, installed from `requirements.txt`). Choose games, demos or both and click **Import**: a progress bar shows the copy into your floppies folder (identical existing files are skipped), and the catalogue is saved as `data/SuperGAU.json`, which is merged with `CompDisks.json` at start-up. When the import completes, the window closes and the *SuperGAU Games* and *SuperGAU Demos* teams appear in the tree. `CompDisks.json` itself is not modified.
 
 ## Building a standalone app
 

@@ -9,8 +9,7 @@ from tkinter import font as tkfont
 
 from disk_library import DiskLibrary
 from emulator_launcher import EmulatorLauncher
-from supergau_import import CATALOGUE_NAME, find_source, import_collection
-from supergau_iso import import_iso
+from supergau_iso import CATALOGUE_NAME, import_iso, scan_iso
 from hatari_defaults import DEFAULT_HATARI_CONFIG
 from settings_store import (
     APP_NAME, APP_VERSION, DEFAULT_JOYSTICK_KEYS, FOLDER_NAMES, JOYSTICK_ACTIONS, SettingsStore, settings_file_path,
@@ -52,7 +51,7 @@ HELP_TEXT = (
     "Ctrl+F  Search the disk catalogue for a game title\n"
     "Ctrl+S  Start the selected disk\n\n"
     "Options > Controller  Choose keyboard or joystick control\n"
-    "Options > Import SuperGAU Collection  Add the SuperGAU games and demos\n"
+    "Options > Import SuperGAU Collection from ISO  Add the SuperGAU games and demos\n"
     "Options > Settings  Set the TOS image, disk folders and joystick keys"
 )
 
@@ -150,6 +149,10 @@ class CompilationDisksPlayer(tk.Tk):
         style.configure("TLabelframe", background=BACKGROUND_COLOR)
         style.configure("TLabelframe.Label", background=BACKGROUND_COLOR, foreground="black")
         style.configure("TRadiobutton", background=BACKGROUND_COLOR, foreground="black")
+        style.configure("TCheckbutton", background=BACKGROUND_COLOR, foreground="black")
+        style.map(
+            "TCheckbutton", background=[("active", BACKGROUND_COLOR)], foreground=[("disabled", "gray40")],
+        )
         style.configure("TLabel", background=BACKGROUND_COLOR, foreground="black")
         style.configure("TButton", background="#e0e0e0", foreground="black")
         self.configure(background=BACKGROUND_COLOR)
@@ -193,10 +196,7 @@ class CompilationDisksPlayer(tk.Tk):
         options_menu.add_cascade(label="Controller", menu=controller_menu)
 
         options_menu.add_separator()
-        import_menu = tk.Menu(options_menu, tearoff=False)
-        import_menu.add_command(label="From ISO...", command=self._import_supergau_iso)
-        import_menu.add_command(label="From Data Folder...", command=self._import_supergau_folder)
-        options_menu.add_cascade(label="Import SuperGAU Collection", menu=import_menu)
+        options_menu.add_command(label="Import SuperGAU Collection from ISO...", command=self._import_supergau_iso)
         options_menu.add_command(label="Settings...", command=self._open_settings)
         menu_bar.add_cascade(label="Options", menu=options_menu)
 
@@ -210,88 +210,195 @@ class CompilationDisksPlayer(tk.Tk):
         self.bind_all("<Control-s>", lambda _event: self._play_selected_disk())
 
     def _import_supergau_iso(self):
-        """Ask for the SuperGAU ISO and import its games and demos."""
-        selected = filedialog.askopenfilename(
-            parent=self, title="Select the SuperGAU ISO", filetypes=(("ISO images", "*.iso"), ("All files", "*")),
-        )
-        if selected:
-            self._run_supergau_import(
-                f"Copy the games and demos of\n{selected}\ninto:\n{self.folders['floppies']}\n\nThis can take a while.",
-                lambda progress: import_iso(
-                    selected, self.folders["floppies"], self.supergau_catalogue_path, progress,
-                ),
-            )
+        """Open the modal SuperGAU import window.
 
-    def _import_supergau_folder(self):
-        """Ask for an already extracted SuperGAU data folder and import its games and demos."""
-        selected = filedialog.askdirectory(
-            parent=self, title=f"Select the SuperGAU data folder (contains {CATALOGUE_NAME})",
-        )
-        if not selected:
-            return
-        source = find_source(selected)
-        if source is None:
-            messagebox.showerror(
-                "Import SuperGAU Collection", f"{CATALOGUE_NAME} was not found in:\n{selected}", parent=self,
-            )
-            return
-        self._run_supergau_import(
-            f"Copy the games and demos of\n{source}\ninto:\n{self.folders['floppies']}\n\nThis can take a while.",
-            lambda progress: import_collection(
-                source, self.folders["floppies"], self.supergau_catalogue_path, progress,
-            ),
-        )
-
-    def _run_supergau_import(self, question, job):
-        """Confirm, run `job(progress)` in a thread with a progress window, then report and reload the tree.
-
-        `job` returns `(copied, skipped)` or `(copied, skipped, missing)`.
+        Choosing an ISO checks it and shows how many games and demos it holds; Import then copies the
+        chosen disks with a progress bar, reports the result, closes the window and refreshes the list.
         """
-        if not messagebox.askokcancel("Import SuperGAU Collection", question, parent=self):
-            return
-        dialog = tk.Toplevel(self)
-        dialog.title("Importing SuperGAU")
-        dialog.transient(self)
-        dialog.resizable(False, False)
-        dialog.protocol("WM_DELETE_WINDOW", lambda: None)
-        label = tk.Label(dialog, text="Reading...", padx=20, pady=10)
-        label.pack()
-        bar = ttk.Progressbar(dialog, length=300, maximum=1)
-        bar.pack(padx=20, pady=(0, 15))
-        dialog.grab_set()
+        window = tk.Toplevel(self)
+        window.title("Import SuperGAU Collection")
+        window.configure(background=BACKGROUND_COLOR)
+        window.transient(self)
+        window.resizable(False, False)
+        window.grab_set()
 
-        state = {"done": 0, "total": 0, "result": None, "error": None}
+        iso_frame = ttk.LabelFrame(window, text="SuperGAU ISO", padding=10)
+        iso_frame.pack(fill="x", padx=10, pady=10)
+        iso_var = tk.StringVar(window)
+        iso_entry = ttk.Entry(iso_frame, textvariable=iso_var, width=60)
+        iso_entry.grid(row=0, column=0, sticky="ew", padx=(0, 5))
+        browse_button = ttk.Button(iso_frame, text="Browse...")
+        browse_button.grid(row=0, column=1)
+        status_label = tk.Label(
+            iso_frame, text="Select the SuperGAU ISO file.", anchor="w", justify="left", wraplength=480,
+            background=BACKGROUND_COLOR,
+        )
+        status_label.grid(row=1, column=0, columnspan=2, sticky="w", pady=(6, 0))
+        iso_frame.columnconfigure(0, weight=1)
 
-        def work():
-            try:
-                state["result"] = job(lambda done, total: state.update(done=done, total=total))
-            except (OSError, ValueError) as error:
-                state["error"] = error
+        choice_frame = ttk.LabelFrame(window, text="Import", padding=10)
+        choice_frame.pack(fill="x", padx=10, pady=(0, 10))
+        games_var, demos_var = tk.BooleanVar(window, value=True), tk.BooleanVar(window, value=True)
+        games_check = ttk.Checkbutton(choice_frame, text="Games", variable=games_var, state="disabled")
+        demos_check = ttk.Checkbutton(choice_frame, text="Demos", variable=demos_var, state="disabled")
+        games_check.pack(anchor="w")
+        demos_check.pack(anchor="w")
+        ttk.Label(choice_frame, text=f"Into: {self.folders['floppies']}").pack(anchor="w", pady=(6, 0))
 
-        worker = threading.Thread(target=work, daemon=True)
-        worker.start()
+        progress_frame = ttk.LabelFrame(window, text="Progress", padding=10)
+        progress_frame.pack(fill="x", padx=10, pady=(0, 10))
+        progress_bar = ttk.Progressbar(progress_frame, length=300, maximum=1)
+        progress_bar.pack(fill="x")
+        progress_label = ttk.Label(progress_frame, text="Not started.")
+        progress_label.pack(anchor="w", pady=(4, 0))
 
-        def poll():
-            if state["total"]:
-                bar.configure(maximum=state["total"], value=state["done"])
-                label.configure(text=f"Copying disks... {state['done']} / {state['total']}")
-            if worker.is_alive():
-                self.after(100, poll)
+        buttons = ttk.Frame(window)
+        buttons.pack(fill="x", padx=10, pady=(0, 10))
+        cancel_button = ttk.Button(buttons, text="Cancel", command=window.destroy)
+        cancel_button.pack(side="right")
+        import_button = ttk.Button(buttons, text="Import", state="disabled")
+        import_button.pack(side="right", padx=(0, 5))
+
+        state = {"counts": None, "checked": None, "scan_id": 0, "busy": False, "check_after": None}
+
+        def show_status(text, error=False):
+            status_label.configure(text=text, fg="red" if error else "black")
+
+        def update_import_button(*_args):
+            chosen = (games_var.get() and state["counts"]["game"]) or (demos_var.get() and state["counts"]["demo"]) \
+                if state["counts"] else False
+            import_button.configure(state="normal" if chosen and not state["busy"] else "disabled")
+
+        def set_counts(counts):
+            state["counts"] = counts
+            for check, kind, label in ((games_check, "game", "Games"), (demos_check, "demo", "Demos")):
+                check.configure(
+                    text=f"{label} ({counts[kind]} disks)" if counts else label,
+                    state="normal" if counts and counts[kind] else "disabled",
+                )
+            update_import_button()
+
+        def start_check(_event=None):
+            """Check the entered ISO in a thread and show the number of games and demos it holds."""
+            path_text = iso_var.get().strip()
+            if path_text == state["checked"] or state["busy"]:
                 return
-            dialog.grab_release()
-            dialog.destroy()
-            if state["error"] is not None:
-                messagebox.showerror("Import SuperGAU Collection", f"Import failed:\n{state['error']}", parent=self)
-            else:
-                copied, skipped, *rest = state["result"]
-                message = f"Copied {copied} disks, {skipped} were already present."
-                if rest and rest[0]:
-                    message += f"\n{len(rest[0])} listed files were not found in the source folder."
-                messagebox.showinfo("Import SuperGAU Collection", message, parent=self)
-            self._use_folders(self.folders)
-            self._reload_disks()
+            state["checked"] = path_text
+            state["scan_id"] += 1
+            scan_id = state["scan_id"]
+            set_counts(None)
+            progress_label.configure(text="Not started.")
+            progress_bar.configure(value=0)
+            if not path_text:
+                show_status("Select the SuperGAU ISO file.")
+                return
+            path = Path(path_text).expanduser()
+            if not path.is_file():
+                show_status("File not found.", error=True)
+                return
+            show_status("Checking the ISO...")
+            result = {}
 
-        poll()
+            def scan():
+                try:
+                    result["counts"] = scan_iso(path)
+                except (OSError, ValueError) as error:
+                    result["error"] = error
+
+            scanner = threading.Thread(target=scan, daemon=True)
+            scanner.start()
+
+            def finish_check():
+                if not window.winfo_exists() or scan_id != state["scan_id"]:
+                    return
+                if scanner.is_alive():
+                    window.after(100, finish_check)
+                elif "error" in result:
+                    show_status(str(result["error"]), error=True)
+                else:
+                    counts = result["counts"]
+                    show_status(f"Valid SuperGAU ISO: {counts['game']} games and {counts['demo']} demos can be imported.")
+                    set_counts(counts)
+
+            finish_check()
+
+        def schedule_check(*_args):
+            """Check the path shortly after typing stops."""
+            if state["check_after"]:
+                window.after_cancel(state["check_after"])
+            state["check_after"] = window.after(500, start_check)
+
+        def browse():
+            chosen = filedialog.askopenfilename(
+                parent=window, title="Select the SuperGAU ISO",
+                filetypes=(("ISO images", "*.iso"), ("All files", "*")),
+            )
+            if chosen:
+                iso_var.set(str(Path(chosen)))
+                start_check()
+
+        def run_import():
+            """Copy the chosen disks in a thread, driving the progress bar from the window's own timer."""
+            kinds = tuple(
+                kind for kind, var in (("game", games_var), ("demo", demos_var))
+                if var.get() and state["counts"][kind]
+            )
+            if not kinds:
+                return
+            state["busy"] = True
+            for widget in (iso_entry, browse_button, games_check, demos_check, import_button, cancel_button):
+                widget.configure(state="disabled")
+            window.protocol("WM_DELETE_WINDOW", lambda: None)
+            progress = {"done": 0, "total": sum(state["counts"][kind] for kind in kinds)}
+            result = {}
+            progress_bar.configure(maximum=progress["total"], value=0)
+
+            def work():
+                try:
+                    result["value"] = import_iso(
+                        iso_var.get().strip(), self.folders["floppies"], self.supergau_catalogue_path,
+                        lambda done, total: progress.update(done=done, total=total), kinds,
+                    )
+                except (OSError, ValueError) as error:
+                    result["error"] = error
+
+            worker = threading.Thread(target=work, daemon=True)
+            worker.start()
+
+            def poll():
+                progress_bar.configure(maximum=progress["total"], value=progress["done"])
+                progress_label.configure(text=f"Importing... {progress['done']} / {progress['total']}")
+                if worker.is_alive():
+                    window.after(100, poll)
+                    return
+                if "error" in result:
+                    messagebox.showerror("Import SuperGAU Collection", f"Import failed:\n{result['error']}", parent=window)
+                    state["busy"] = False
+                    window.protocol("WM_DELETE_WINDOW", window.destroy)
+                    for widget in (iso_entry, browse_button, cancel_button):
+                        widget.configure(state="normal")
+                    set_counts(state["counts"])
+                    progress_label.configure(text="Import failed.")
+                    return
+                copied, skipped = result["value"]
+                messagebox.showinfo(
+                    "Import SuperGAU Collection",
+                    f"Import completed: {copied} disks copied, {skipped} were already present.",
+                    parent=window,
+                )
+                window.destroy()
+                self._use_folders(self.folders)
+                self._reload_disks()
+
+            poll()
+
+        browse_button.configure(command=browse)
+        import_button.configure(command=run_import)
+        iso_var.trace_add("write", schedule_check)
+        games_var.trace_add("write", update_import_button)
+        demos_var.trace_add("write", update_import_button)
+        iso_entry.bind("<Return>", start_check)
+        window.protocol("WM_DELETE_WINDOW", window.destroy)
 
     def _open_help(self):
         """Show the modal How to Use dialog."""

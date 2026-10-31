@@ -11,6 +11,7 @@ import re
 from pathlib import Path
 
 
+CATALOGUE_NAME = "SuperGAU.json"
 TEAMS = {"game": ("SuperGAU Games", "SuperGAU_Games"), "demo": ("SuperGAU Demos", "SuperGAU_Demos")}
 
 # disks whose file names do not match FILES.BBS
@@ -103,40 +104,74 @@ def disk_titles(zip_name, folder, lines):
         or ["Unknown (no description in FILES.BBS)"]
 
 
-def import_iso(iso_path, floppies_directory, catalogue_target, progress=None):
-    """Copy the SuperGAU disks from the ISO into the floppies folder and write their catalogue.
+def kind_of(folder):
+    """Return "demo" for the STDEMOS folder, else "game"."""
+    return "demo" if folder.upper() == "STDEMOS" else "game"
 
-    `progress(done, total)` is called after each disk. Files already present with the same size are skipped.
-    Returns `(copied, skipped)`; raises ValueError if the file is not a SuperGAU ISO.
+
+def open_iso(iso_path):
+    """Open the ISO with pycdlib and return `(iso, folders, use_joliet)`; raises ValueError if it is not SuperGAU.
+
+    The caller must close `iso`.
     """
     try:
         import pycdlib
     except ImportError as error:
         raise ValueError("Importing from an ISO needs pycdlib: pip install pycdlib") from error
-
-    floppies_directory = Path(floppies_directory)
     iso = pycdlib.PyCdlib()
     try:
         iso.open(str(iso_path))
     except Exception as error:  # pycdlib raises its own exception types for non-ISO files
-        raise ValueError(f"Cannot open the ISO: {error}") from error
+        raise ValueError(f"This is not a valid ISO image ({error}).") from error
     try:
         use_joliet = iso.has_joliet()
-        key = "joliet_path" if use_joliet else "iso_path"
         folders = disk_folders(iso, use_joliet)
+        if not any(f.lower().endswith(".zip") for files in folders.values() for f in files):
+            raise ValueError("This ISO has no STDEMOS or STGAMES folders with ZIP disks, so it is not the SuperGAU ISO.")
+    except Exception:
+        iso.close()
+        raise
+    return iso, folders, use_joliet
+
+
+def scan_iso(iso_path):
+    """Return `{"game": n, "demo": n}`, the number of disks the ISO holds; raises ValueError if it is not SuperGAU."""
+    iso, folders, _use_joliet = open_iso(iso_path)
+    try:
+        counts = {"game": 0, "demo": 0}
+        for folder, files in folders.items():
+            counts[kind_of(folder)] += sum(1 for f in files if f.lower().endswith(".zip"))
+        return counts
+    finally:
+        iso.close()
+
+
+def import_iso(iso_path, floppies_directory, catalogue_target, progress=None, kinds=("game", "demo")):
+    """Copy the SuperGAU disks from the ISO into the floppies folder and write their catalogue.
+
+    `progress(done, total)` is called after each disk. Files already present with the same size are skipped.
+    `kinds` selects "game" and/or "demo" disks. The catalogue is merged into an existing one, so importing
+    games and demos in separate runs keeps both. Returns `(copied, skipped)`; raises ValueError if the file
+    is not a SuperGAU ISO or no disks of the chosen kinds were found.
+    """
+    floppies_directory = Path(floppies_directory)
+    iso, folders, use_joliet = open_iso(iso_path)
+    try:
+        key = "joliet_path" if use_joliet else "iso_path"
         jobs = [
             (folder, folders[folder], zip_name)
             for folder in sorted(folders, key=str.lower)
             for zip_name in sorted(f for f in folders[folder] if f.lower().endswith(".zip"))
+            if kind_of(folder) in kinds
         ]
         if not jobs:
-            raise ValueError("No STDEMOS or STGAMES folders with ZIP disks were found. Is this the SuperGAU ISO?")
+            raise ValueError("No SuperGAU disks of the chosen kind were found. Is this the SuperGAU ISO?")
         catalogue, copied, skipped = {}, 0, 0
         listings = {}
         for done, (folder, files, zip_name) in enumerate(jobs, 1):
             if folder not in listings:
                 listings[folder] = read_bbs(iso, use_joliet, files)
-            team, team_folder = TEAMS["demo" if folder.upper() == "STDEMOS" else "game"]
+            team, team_folder = TEAMS[kind_of(folder)]
             target = floppies_directory / team_folder / zip_name
             size = iso.get_record(**{key: files[zip_name]}).data_length
             if target.is_file() and target.stat().st_size == size:
@@ -161,6 +196,13 @@ def import_iso(iso_path, floppies_directory, catalogue_target, progress=None):
     finally:
         iso.close()
     catalogue_target = Path(catalogue_target)
+    try:
+        with catalogue_target.open(encoding="utf-8") as existing:
+            previous = json.load(existing)
+        if isinstance(previous, dict):
+            catalogue = {**previous, **catalogue}
+    except (OSError, ValueError):
+        pass
     catalogue_target.parent.mkdir(parents=True, exist_ok=True)
     with catalogue_target.open("w", encoding="utf-8") as output:
         json.dump(catalogue, output, indent=1, ensure_ascii=False)
